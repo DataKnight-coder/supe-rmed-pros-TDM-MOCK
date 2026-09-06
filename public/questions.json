@@ -45,7 +45,7 @@
       "D": "New major gastrointestinal bleeding",
       "E": "Creatinine 145 micromol/L",
       "F": "Weight 58 kg",
-      "G": "A1c 7.1%\nTDM Detailed Mock  |  Page 4"
+      "G": "A1c 7.1%"
     },
     "correctAnswers": [
       "D",
@@ -81,7 +81,7 @@
       "B": "Nitrofurantoin 100 mg PO twice daily",
       "C": "No antibiotic because she is pregnant",
       "D": "Fluconazole 150 mg once",
-      "E": "Doxycycline 100 mg PO twice daily\nTDM Detailed Mock  |  Page 5"
+      "E": "Doxycycline 100 mg PO twice daily"
     },
     "correctAnswers": [
       "A"
@@ -134,7 +134,7 @@
       "D": "Monitor weight and growth trajectory",
       "E": "Stop effective treatment automatically",
       "F": "Start an antipsychotic for appetite",
-      "G": "Move the stimulant to bedtime\nTDM Detailed Mock  |  Page 6"
+      "G": "Move the stimulant to bedtime"
     },
     "correctAnswers": [
       "B",
@@ -169,7 +169,7 @@
       "B": "Topical prednisone to the eye",
       "C": "Prednisone 5 mg once",
       "D": "No steroid because eye closure is impaired",
-      "E": "Prednisone about 50-60 mg PO daily for 5 days followed by a short taper or equivalent course\nTDM Detailed Mock  |  Page 7"
+      "E": "Prednisone about 50-60 mg PO daily for 5 days followed by a short taper or equivalent course"
     },
     "correctAnswers": [
       "E"
@@ -222,7 +222,7 @@
       "D": "Bicarbonate/anion gap or ketone resolution",
       "E": "TSH",
       "F": "Ferritin",
-      "G": "Vitamin B12\nTDM Detailed Mock  |  Page 8"
+      "G": "Vitamin B12"
     },
     "correctAnswers": [
       "B",
@@ -258,7 +258,7 @@
       "B": "Cyclophosphamide as routine maintenance",
       "C": "Methotrexate continued through pregnancy",
       "D": "Leflunomide",
-      "E": "Use a pregnancy-compatible agent such as hydroxychloroquine or sulfasalazine under \nrheumatology guidance\nTDM Detailed Mock  |  Page 9"
+      "E": "Use a pregnancy-compatible agent such as hydroxychloroquine or sulfasalazine under \nrheumatology guidance"
     },
     "correctAnswers": [
       "E"
@@ -311,7 +311,7 @@
       "D": "Ignore blood gas changes",
       "E": "Antibiotic therapy because of purulent sputum plus increased dyspnea/volume",
       "F": "Start chronic theophylline immediately",
-      "G": "Give long-term prednisone indefinitely\nTDM Detailed Mock  |  Page 10"
+      "G": "Give long-term prednisone indefinitely"
     },
     "correctAnswers": [
       "B",
@@ -346,7 +346,7 @@
       "B": "No antibiotic dose because fever is present",
       "C": "Amoxicillin 5 mg/kg once",
       "D": "Amoxicillin 1 mg once weekly",
-      "E": "Amoxicillin 80-90 mg/kg/day PO divided twice daily\nTDM Detailed Mock  |  Page 11"
+      "E": "Amoxicillin 80-90 mg/kg/day PO divided twice daily"
     },
     "correctAnswers": [
       "E"
@@ -399,7 +399,7 @@
       "D": "Use shared decision-making and the lowest effective regimen",
       "E": "All SSRIs are absolutely contraindicated",
       "F": "Replace treatment with chronic benzodiazepines",
-      "G": "Balance fetal exposure against risks of untreated severe anxiety\nTDM Detailed Mock  |  Page 12"
+      "G": "Balance fetal exposure against risks of untreated severe anxiety"
     },
     "correctAnswers": [
       "D",
@@ -434,7 +434,7 @@
       "B": "Mark/monitor progression of erythema",
       "C": "Use antifungal therapy",
       "D": "Ignore rapidly progressive pain",
-      "E": "Assume diabetes alone requires admission\nTDM Detailed Mock  |  Page 13"
+      "E": "Assume diabetes alone requires admission"
     },
     "correctAnswers": [
       "B"
@@ -487,7 +487,7 @@
       "D": "Continue established allopurinol during future acute flares",
       "E": "Stop allopurinol whenever a flare occurs",
       "F": "Avoid all fluid intake",
-      "G": "Start low-dose allopurinol and titrate to serum urate target\nTDM Detailed Mock  |  Page 14"
+      "G": "Start low-dose allopurinol and titrate to serum urate target"
     },
     "correctAnswers": [
       "D",
@@ -522,7 +522,7 @@
       "B": "Levonorgestrel intrauterine system",
       "C": "Combined vaginal ring",
       "D": "High-dose estrogen therapy",
-      "E": "Combined oral contraceptive\nTDM Detailed Mock  |  Page 15"
+      "E": "Combined oral contraceptive"
     },
     "correctAnswers": [
       "B"
@@ -575,7 +575,7 @@
       "D": "Stop all therapy once euvolemic",
       "E": "Use diltiazem in decompensated HFrEF",
       "F": "Assess eligibility for an MRA with potassium and renal monitoring",
-      "G": "Use chronic NSAIDs\nTDM Detailed Mock  |  Page 16"
+      "G": "Use chronic NSAIDs"
     },
     "correctAnswers": [
       "C",
@@ -610,7 +610,7 @@
       "B": "Prednisone 1 mg once weekly",
       "C": "Dexamethasone 10 mg/kg every hour",
       "D": "No steroid because oxygen is normal",
-      "E": "Dexamethasone 0.6 mg/kg PO once (about 7.8 mg for 13 kg)\nTDM Detailed Mock  |  Page 17"
+      "E": "Dexamethasone 0.6 mg/kg PO once (about 7.8 mg for 13 kg)"
     },
     "correctAnswers": [
       "E"
@@ -663,7 +663,7 @@
       "D": "Age 23 years",
       "E": "Mild dyspareunia",
       "F": "Negative pregnancy test",
-      "G": "Tubo-ovarian abscess\nTDM Detailed Mock  |  Page 18"
+      "G": "Tubo-ovarian abscess"
     },
     "correctAnswers": [
       "G",
@@ -699,7 +699,7 @@
       "B": "Limit daytime naps",
       "C": "Start chronic benzodiazepine therapy",
       "D": "Spend more time awake in bed",
-      "E": "Use alcohol nightly\nTDM Detailed Mock  |  Page 19"
+      "E": "Use alcohol nightly"
     },
     "correctAnswers": [
       "B"
@@ -752,7 +752,7 @@
       "D": "Dyskinesia",
       "E": "Severe neutropenia in most patients",
       "F": "Orthostatic hypotension",
-      "G": "Nausea\nTDM Detailed Mock  |  Page 20"
+      "G": "Nausea"
     },
     "correctAnswers": [
       "G",
@@ -788,7 +788,7 @@
       "B": "Ferrous sulfate every hour",
       "C": "Stop iron after one dose",
       "D": "Use iron once monthly",
-      "E": "A ferrous salt providing about 40-65 mg elemental iron once daily or on alternate days\nTDM Detailed Mock  |  Page 21"
+      "E": "A ferrous salt providing about 40-65 mg elemental iron once daily or on alternate days"
     },
     "correctAnswers": [
       "E"
@@ -841,7 +841,7 @@
       "D": "Normal hemoglobin",
       "E": "Frequent reliever use",
       "F": "Previous systemic-steroid exacerbation",
-      "G": "No smoking history\nTDM Detailed Mock  |  Page 22"
+      "G": "No smoking history"
     },
     "correctAnswers": [
       "E",
@@ -877,7 +877,7 @@
       "B": "Sumatriptan 50-100 mg PO at onset; may repeat once after at least 2 hours; max 200 mg/day orally",
       "C": "Use an unlimited daily dose",
       "D": "Sumatriptan 100 mg every hour",
-      "E": "Sumatriptan 500 mg once\nTDM Detailed Mock  |  Page 23"
+      "E": "Sumatriptan 500 mg once"
     },
     "correctAnswers": [
       "B"
@@ -930,7 +930,7 @@
       "D": "INR must be checked weekly",
       "E": "There are no drug interactions",
       "F": "Double every late dose",
-      "G": "Tell clinicians and dentists about anticoagulation\nTDM Detailed Mock  |  Page 24"
+      "G": "Tell clinicians and dentists about anticoagulation"
     },
     "correctAnswers": [
       "B",
@@ -965,7 +965,7 @@
       "B": "Cyanocobalamin 1 mcg once monthly",
       "C": "No replacement",
       "D": "Folic acid 5 mg alone",
-      "E": "Cyanocobalamin 1000 mcg PO daily\nTDM Detailed Mock  |  Page 25"
+      "E": "Cyanocobalamin 1000 mcg PO daily"
     },
     "correctAnswers": [
       "E"
@@ -1018,7 +1018,7 @@
       "D": "Relapse-prevention follow-up",
       "E": "Ignore housing/social stressors",
       "F": "Psychosocial or mutual-support options",
-      "G": "Shame-based counselling\nTDM Detailed Mock  |  Page 26"
+      "G": "Shame-based counselling"
     },
     "correctAnswers": [
       "B",
@@ -1054,7 +1054,7 @@
       "B": "Varenicline 5 mg twice daily from day 1",
       "C": "Varenicline 10 mg once",
       "D": "Varenicline 0.5 mg daily days 1-3, then 0.5 mg twice daily days 4-7, then 1 mg twice daily",
-      "E": "Varenicline 1 mg once monthly\nTDM Detailed Mock  |  Page 27"
+      "E": "Varenicline 1 mg once monthly"
     },
     "correctAnswers": [
       "D"
@@ -1107,7 +1107,7 @@
       "D": "Randomize dosing time daily",
       "E": "Check TSH every 2 hours",
       "F": "Take with calcium to improve absorption",
-      "G": "Separate levothyroxine from iron\nTDM Detailed Mock  |  Page 28"
+      "G": "Separate levothyroxine from iron"
     },
     "correctAnswers": [
       "C",
@@ -1142,7 +1142,7 @@
       "B": "No renal-dose consideration ever",
       "C": "Amoxicillin 1 g three times daily",
       "D": "Valacyclovir 1 g once monthly",
-      "E": "Valacyclovir 1 g PO three times daily for 7 days\nTDM Detailed Mock  |  Page 29"
+      "E": "Valacyclovir 1 g PO three times daily for 7 days"
     },
     "correctAnswers": [
       "E"
@@ -1195,7 +1195,7 @@
       "D": "Use fall-prevention and weight-bearing/resistance exercise as appropriate",
       "E": "Use chronic bed rest",
       "F": "Start smoking",
-      "G": "Lie down immediately after dosing\nTDM Detailed Mock  |  Page 30"
+      "G": "Lie down immediately after dosing"
     },
     "correctAnswers": [
       "C",
@@ -1230,7 +1230,7 @@
       "B": "Propranolol only after the presentation",
       "C": "Propranolol 10 mg once monthly",
       "D": "Propranolol 200 mg every hour",
-      "E": "No need for a test dose in any patient\nTDM Detailed Mock  |  Page 31\nSection 2\nCases 29-55  |  70 questions  |  Suggested time: 90 minutes"
+      "E": "No need for a test dose in any patient"
     },
     "correctAnswers": [
       "A"
@@ -1283,7 +1283,7 @@
       "D": "Send home when hives fade",
       "E": "Position supine with legs elevated if tolerated and airway allows",
       "F": "Delay epinephrine until antihistamine works",
-      "G": "Call for emergency/resuscitation support\nTDM Detailed Mock  |  Page 32"
+      "G": "Call for emergency/resuscitation support"
     },
     "correctAnswers": [
       "B",
@@ -1337,7 +1337,7 @@
       "D": "Review refill timing/diversion concerns",
       "E": "No cardiovascular monitoring",
       "F": "Automatic dose escalation",
-      "G": "Issue a one-year supply at initiation\nTDM Detailed Mock  |  Page 33"
+      "G": "Issue a one-year supply at initiation"
     },
     "correctAnswers": [
       "B",
@@ -1392,7 +1392,7 @@
       "D": "Ignore symptoms of ketoacidosis if glucose is normal",
       "E": "Increase the dose during vomiting",
       "F": "Discuss genital mycotic infection symptoms and hygiene",
-      "G": "Use the drug to treat type 1 diabetes routinely\nTDM Detailed Mock  |  Page 34"
+      "G": "Use the drug to treat type 1 diabetes routinely"
     },
     "correctAnswers": [
       "A"
@@ -1426,7 +1426,7 @@
       "B": "Metronidazole 500 mg PO twice daily for 7 days",
       "C": "Doxycycline 100 mg PO twice daily for 14 days",
       "D": "Metronidazole 500 mg once only",
-      "E": "Metronidazole 5 g PO every hour\nTDM Detailed Mock  |  Page 35"
+      "E": "Metronidazole 5 g PO every hour"
     },
     "correctAnswers": [
       "B"
@@ -1479,7 +1479,7 @@
       "D": "Deep tendon reflexes",
       "E": "Daily stool culture",
       "F": "Urine output",
-      "G": "LDL cholesterol\nTDM Detailed Mock  |  Page 36"
+      "G": "LDL cholesterol"
     },
     "correctAnswers": [
       "B",
@@ -1515,7 +1515,7 @@
       "B": "Double the dose every week",
       "C": "Reduce the total daily lorazepam dose gradually over weeks to months rather than stopping \nabruptly",
       "D": "Take the entire dose once monthly",
-      "E": "Stop all 3 mg/day tonight\nTDM Detailed Mock  |  Page 37"
+      "E": "Stop all 3 mg/day tonight"
     },
     "correctAnswers": [
       "C"
@@ -1568,7 +1568,7 @@
       "D": "Assess hepatitis B and hepatitis C status",
       "E": "Delay first PEP dose until all results return",
       "F": "Review renal function and drug interactions",
-      "G": "Advise unprotected blood donation during follow-up\nTDM Detailed Mock  |  Page 38"
+      "G": "Advise unprotected blood donation during follow-up"
     },
     "correctAnswers": [
       "D",
@@ -1604,7 +1604,7 @@
       "B": "Nitrofurantoin monohydrate/macrocrystals 100 mg PO twice daily for 5 days",
       "C": "Nitrofurantoin 1 g PO every hour",
       "D": "Nitrofurantoin 100 mg IV twice daily",
-      "E": "Nitrofurantoin 100 mg once\nTDM Detailed Mock  |  Page 39"
+      "E": "Nitrofurantoin 100 mg once"
     },
     "correctAnswers": [
       "B"
@@ -1657,7 +1657,7 @@
       "D": "Give potassium supplements",
       "E": "Nebulized salbutamol as an adjunct potassium-shifting therapy",
       "F": "Stop cardiac monitoring",
-      "G": "Arrange definitive potassium removal such as urgent dialysis when indicated\nTDM Detailed Mock  |  Page 40"
+      "G": "Arrange definitive potassium removal such as urgent dialysis when indicated"
     },
     "correctAnswers": [
       "B"
@@ -1691,7 +1691,7 @@
       "B": "Estradiol 5 mg IV daily with no progesterone",
       "C": "Transdermal estradiol 50 mcg/day plus micronized progesterone 100 mg PO nightly continuously",
       "D": "Micronized progesterone alone 5 mg once monthly",
-      "E": "Estradiol patch plus no endometrial protection\nTDM Detailed Mock  |  Page 41"
+      "E": "Estradiol patch plus no endometrial protection"
     },
     "correctAnswers": [
       "C"
@@ -1744,7 +1744,7 @@
       "D": "Ignore oxygen saturation",
       "E": "Reassess promptly if dyspnea, confusion or hypotension develops",
       "F": "Continue antibiotics indefinitely",
-      "G": "Review QT-prolonging drugs and arrhythmia risk before macrolide use\nTDM Detailed Mock  |  Page 42"
+      "G": "Review QT-prolonging drugs and arrhythmia risk before macrolide use"
     },
     "correctAnswers": [
       "E",
@@ -1798,7 +1798,7 @@
       "D": "Take-home naloxone and overdose education",
       "E": "Punitive discharge after any lapse",
       "F": "Psychosocial and recovery supports matched to patient goals",
-      "G": "Advise using fentanyl alone to test tolerance\nTDM Detailed Mock  |  Page 43"
+      "G": "Advise using fentanyl alone to test tolerance"
     },
     "correctAnswers": [
       "D",
@@ -1852,7 +1852,7 @@
       "D": "Treat hypoglycemia with IV dextrose as needed",
       "E": "Stop glucose monitoring",
       "F": "Give rapid 0.9% saline resuscitation",
-      "G": "Restrict all fluids\nTDM Detailed Mock  |  Page 44"
+      "G": "Restrict all fluids"
     },
     "correctAnswers": [
       "D",
@@ -1887,7 +1887,7 @@
       "B": "Take donepezil only when dizzy",
       "C": "Do not give the next donepezil dose until the bradycardia has been clinically assessed",
       "D": "Add propranolol before the dose",
-      "E": "Double donepezil tonight\nTDM Detailed Mock  |  Page 45"
+      "E": "Double donepezil tonight"
     },
     "correctAnswers": [
       "C"
@@ -1940,7 +1940,7 @@
       "D": "Assess stroke risk and need for anticoagulation",
       "E": "Review reversible precipitants such as thyroid disease or infection",
       "F": "Assume every episode requires immediate ablation",
-      "G": "Use aspirin automatically instead of anticoagulation assessment\nTDM Detailed Mock  |  Page 46"
+      "G": "Use aspirin automatically instead of anticoagulation assessment"
     },
     "correctAnswers": [
       "D",
@@ -1975,7 +1975,7 @@
       "B": "Adapalene 0.3% nightly throughout pregnancy",
       "C": "Isotretinoin 1 mg/kg/day",
       "D": "Spironolactone 100 mg daily",
-      "E": "Doxycycline 100 mg twice daily until delivery\nTDM Detailed Mock  |  Page 47"
+      "E": "Doxycycline 100 mg twice daily until delivery"
     },
     "correctAnswers": [
       "A"
@@ -2028,7 +2028,7 @@
       "D": "Continue antibiotics until the breath test is negative",
       "E": "Assume eradication from symptom improvement alone",
       "F": "Skip retesting because an ulcer healed",
-      "G": "Review adherence and antibiotic exposure if eradication fails\nTDM Detailed Mock  |  Page 48"
+      "G": "Review adherence and antibiotic exposure if eradication fails"
     },
     "correctAnswers": [
       "A"
@@ -2062,7 +2062,7 @@
       "B": "Ketorolac 60 mg IM daily for 2 weeks",
       "C": "Acetaminophen 650-1000 mg PO every 6-8 hours as needed, keeping within the patient-specific \nmaximum daily dose",
       "D": "Naproxen 1 g every 6 hours",
-      "E": "Ibuprofen 800 mg every 4 hours despite apixaban\nTDM Detailed Mock  |  Page 49"
+      "E": "Ibuprofen 800 mg every 4 hours despite apixaban"
     },
     "correctAnswers": [
       "C"
@@ -2115,7 +2115,7 @@
       "D": "Review gastrointestinal tolerance during titration",
       "E": "Use it despite severe acute hypoxia without reassessment",
       "F": "Stop lifestyle intervention once medication starts",
-      "G": "Consider vitamin B12 assessment with long-term therapy or compatible symptoms\nTDM Detailed Mock  |  Page 50"
+      "G": "Consider vitamin B12 assessment with long-term therapy or compatible symptoms"
     },
     "correctAnswers": [
       "B",
@@ -2150,7 +2150,7 @@
       "B": "Benzathine penicillin G 2.4 million units IM once",
       "C": "Benzathine penicillin G 2.4 million units IV every hour",
       "D": "Penicillin V 250 mg once",
-      "E": "Benzathine penicillin G 24 million units IM daily for 1 month\nTDM Detailed Mock  |  Page 51"
+      "E": "Benzathine penicillin G 24 million units IM daily for 1 month"
     },
     "correctAnswers": [
       "B"
@@ -2203,7 +2203,7 @@
       "D": "Avoid prenatal care",
       "E": "Start appropriate folic acid supplementation before conception",
       "F": "Document shared decision-making about seizure and fetal risks",
-      "G": "Use effective contraception until the medication plan is optimized\nTDM Detailed Mock  |  Page 52"
+      "G": "Use effective contraception until the medication plan is optimized"
     },
     "correctAnswers": [
       "E",
@@ -2238,7 +2238,7 @@
       "B": "Prednisone 50 mg daily all spring",
       "C": "Oxymetazoline 2 sprays each nostril continuously for 2 months",
       "D": "Fluticasone 20 sprays in each nostril every hour",
-      "E": "Fluticasone propionate 50 mcg/spray: 2 sprays in each nostril once daily initially\nTDM Detailed Mock  |  Page 53"
+      "E": "Fluticasone propionate 50 mcg/spray: 2 sprays in each nostril once daily initially"
     },
     "correctAnswers": [
       "E"
@@ -2291,7 +2291,7 @@
       "D": "Whether a long-term indication for maintenance PPI has emerged",
       "E": "Daily chest radiographs",
       "F": "Avoid all dietary intake after noon",
-      "G": "Recurrence frequency and severity\nTDM Detailed Mock  |  Page 54"
+      "G": "Recurrence frequency and severity"
     },
     "correctAnswers": [
       "B",
@@ -2326,7 +2326,7 @@
       "B": "Fluticasone 5000 mcg twice daily",
       "C": "Salbutamol 20 puffs every hour as maintenance",
       "D": "Fluticasone propionate 50 mcg: 2 puffs inhaled twice daily through a spacer as an initial low-dose \ncontroller regimen",
-      "E": "No spacer in a child with poor technique\nTDM Detailed Mock  |  Page 55"
+      "E": "No spacer in a child with poor technique"
     },
     "correctAnswers": [
       "D"
@@ -2379,7 +2379,7 @@
       "D": "Ignore fever while taking methimazole",
       "E": "Double the dose for palpitations without testing",
       "F": "Stop the drug and obtain urgent CBC assessment for fever or sore throat suggestive of \nagranulocytosis",
-      "G": "Use TSH alone in the first few days to titrate\nTDM Detailed Mock  |  Page 56"
+      "G": "Use TSH alone in the first few days to titrate"
     },
     "correctAnswers": [
       "C",
@@ -2414,7 +2414,7 @@
       "B": "Sertraline 25 mg PO daily for 1 week, then increase to 50 mg PO daily if tolerated",
       "C": "Stop breastfeeding automatically",
       "D": "Sertraline 200 mg PO four times daily from day 1",
-      "E": "Sertraline 5 mg once monthly\nTDM Detailed Mock  |  Page 57"
+      "E": "Sertraline 5 mg once monthly"
     },
     "correctAnswers": [
       "B"
@@ -2467,7 +2467,7 @@
       "D": "Recurrent falls and sedation",
       "E": "Remote appendectomy",
       "F": "Seasonal allergies",
-      "G": "Concurrent benzodiazepine use\nTDM Detailed Mock  |  Page 58\nQuick Answer Key\nUse this page only after completing both sections. Detailed reasoning follows case by case.\nQuestion\nCase\nType\nCorrect answer(s)\n1\n1\nMCQ\nB\n2\n1\nMCQ\nE\n3\n1\nSMQ\nF, E, D\n4\n2\nMCQ\nD\n5\n2\nMCQ\nA\n6\n3\nMCQ\nD\n7\n3\nMCQ\nE\n8\n3\nSMQ\nB, D, A\n9\n4\nMCQ\nC\n10\n4\nMCQ\nE\n11\n5\nMCQ\nB\n12\n5\nMCQ\nD\n13\n5\nSMQ\nA, B, D\n14\n6\nMCQ\nB\n15\n6\nMCQ\nE\n16\n7\nMCQ\nC\n17\n7\nMCQ\nC\n18\n7\nSMQ\nB, E, A\n19\n8\nMCQ\nA\n20\n8\nMCQ\nE\n21\n9\nMCQ\nE\n22\n9\nMCQ\nB\n23\n9\nSMQ\nA, G, D\n24\n10\nMCQ\nE\n25\n10\nMCQ\nB\n26\n11\nMCQ\nE\n27\n11\nMCQ\nB\n28\n11\nSMQ\nG, C, D\n29\n12\nMCQ\nC\n30\n12\nMCQ\nB\n31\n13\nMCQ\nB\n32\n13\nMCQ\nA\n33\n13\nSMQ\nC, A, F\n34\n14\nMCQ\nB\n35\n14\nMCQ\nE\n36\n15\nMCQ\nD\n37\n15\nMCQ\nA\nTDM Detailed Mock  |  Page 59\nQuestion\nCase\nType\nCorrect answer(s)\n38\n15\nSMQ\nC, G, A\n39\n16\nMCQ\nC\n40\n16\nMCQ\nB\n41\n17\nMCQ\nC\n42\n17\nMCQ\nB\n43\n17\nSMQ\nG, F, D\n44\n18\nMCQ\nB\n45\n18\nMCQ\nE\n46\n19\nMCQ\nE\n47\n19\nMCQ\nA\n48\n19\nSMQ\nE, C, F\n49\n20\nMCQ\nE\n50\n20\nMCQ\nB\n51\n21\nMCQ\nE\n52\n21\nMCQ\nC\n53\n21\nSMQ\nB, G, C\n54\n22\nMCQ\nB\n55\n22\nMCQ\nE\n56\n23\nMCQ\nC\n57\n23\nMCQ\nA\n58\n23\nSMQ\nB, F, D\n59\n24\nMCQ\nC\n60\n24\nMCQ\nD\n61\n25\nMCQ\nD\n62\n25\nMCQ\nD\n63\n25\nSMQ\nC, G, A\n64\n26\nMCQ\nC\n65\n26\nMCQ\nE\n66\n27\nMCQ\nA\n67\n27\nMCQ\nC\n68\n27\nSMQ\nC, A, D\n69\n28\nMCQ\nD\n70\n28\nMCQ\nA\n71\n29\nMCQ\nE\n72\n29\nMCQ\nE\n73\n29\nSMQ\nG, B, E\n74\n30\nMCQ\nA\n75\n30\nMCQ\nD\nTDM Detailed Mock  |  Page 60\nQuestion\nCase\nType\nCorrect answer(s)\n76\n30\nSMQ\nB, D, C\n77\n31\nMCQ\nB\n78\n31\nMCQ\nA\n79\n31\nSMQ\nA, F, C\n80\n32\nMCQ\nC\n81\n32\nMCQ\nB\n82\n33\nMCQ\nA\n83\n33\nMCQ\nE\n84\n33\nSMQ\nB, D, F\n85\n34\nMCQ\nC\n86\n34\nMCQ\nC\n87\n35\nMCQ\nB\n88\n35\nMCQ\nE\n89\n35\nSMQ\nA, D, F\n90\n36\nMCQ\nE\n91\n36\nMCQ\nB\n92\n37\nMCQ\nE\n93\n37\nMCQ\nB\n94\n37\nSMQ\nB, E, G\n95\n38\nMCQ\nA\n96\n38\nMCQ\nC\n97\n39\nMCQ\nD\n98\n39\nMCQ\nC\n99\n39\nSMQ\nE, G, C\n100\n40\nMCQ\nD\n101\n40\nMCQ\nA\n102\n40\nSMQ\nD, F, A\n103\n41\nMCQ\nA\n104\n41\nMCQ\nA\n105\n41\nSMQ\nF, D, A\n106\n42\nMCQ\nD\n107\n42\nMCQ\nC\n108\n43\nMCQ\nA\n109\n43\nMCQ\nC\n110\n43\nSMQ\nD, A, E\n111\n44\nMCQ\nC\n112\n44\nMCQ\nA\n113\n45\nMCQ\nE\n114\n45\nMCQ\nB\nTDM Detailed Mock  |  Page 61\nQuestion\nCase\nType\nCorrect answer(s)\n115\n45\nSMQ\nC, A, G\n116\n46\nMCQ\nA\n117\n46\nMCQ\nC\n118\n47\nMCQ\nE\n119\n47\nMCQ\nC\n120\n47\nSMQ\nD, B, G\n121\n48\nMCQ\nA\n122\n48\nMCQ\nB\n123\n49\nMCQ\nB\n124\n49\nMCQ\nB\n125\n49\nSMQ\nG, E, F\n126\n50\nMCQ\nB\n127\n50\nMCQ\nE\n128\n51\nMCQ\nC\n129\n51\nMCQ\nD\n130\n51\nSMQ\nG, B, D\n131\n52\nMCQ\nE\n132\n52\nMCQ\nD\n133\n53\nMCQ\nD\n134\n53\nMCQ\nB\n135\n53\nSMQ\nF, A, C\n136\n54\nMCQ\nD\n137\n54\nMCQ\nB\n138\n55\nMCQ\nA\n139\n55\nMCQ\nA\n140\n55\nSMQ\nG, B, D\nTDM Detailed Mock  |  Page 62"
+      "G": "Concurrent benzodiazepine use"
     },
     "correctAnswers": [
       "G",
