@@ -67,71 +67,86 @@ export default function Exam({ questions, timeRemaining, setTimeRemaining, onSub
   const isLastQuestion = currentIdx === questions.length - 1;
 
   return (
-    <div className="w-full max-w-4xl bg-white shadow-lg rounded-xl overflow-hidden flex flex-col min-h-[80vh]">
+    <div className="w-full max-w-5xl bg-white shadow-2xl rounded-2xl overflow-hidden flex flex-col min-h-[85vh] border border-gray-100 mt-4 sm:mt-8">
       {/* Header / Timer */}
-      <div className="bg-red-600 text-white p-4 flex justify-between items-center sticky top-0 z-10">
-        <div className="font-bold text-lg">Super Med Pros TDM Mock</div>
-        <div className="flex items-center space-x-2 bg-red-700 px-4 py-2 rounded-full font-mono text-xl shadow-inner">
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div className="bg-gradient-to-r from-gray-900 to-gray-800 text-white p-5 flex justify-between items-center sticky top-0 z-20 shadow-md border-b-4 border-red-600">
+        <div className="font-extrabold text-xl tracking-wide flex items-center">
+          <span className="text-red-500 mr-2">✦</span> Super Med Pros
+        </div>
+        <div className="flex items-center space-x-3 bg-gray-800 border border-gray-700 px-5 py-2 rounded-lg font-mono text-2xl shadow-inner">
+          <svg className="w-6 h-6 text-red-500 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
           </svg>
-          <span>{formatTime(timeRemaining)}</span>
+          <span className={`${timeRemaining < 300 ? 'text-red-400 font-bold' : 'text-gray-100'}`}>{formatTime(timeRemaining)}</span>
         </div>
       </div>
 
       {/* Progress Bar */}
-      <div className="w-full bg-gray-200 h-2">
+      <div className="w-full bg-gray-100 h-2.5 relative">
         <div 
-          className="bg-red-500 h-2 transition-all duration-300" 
+          className="bg-gradient-to-r from-red-500 to-red-600 h-2.5 transition-all duration-500 ease-out absolute left-0 top-0 rounded-r-full shadow-[0_0_10px_rgba(220,38,38,0.5)]" 
           style={{ width: `${((currentIdx + 1) / questions.length) * 100}%` }}
         ></div>
       </div>
 
-      <div className="flex-grow p-6 sm:p-10">
-        <div className="mb-6 flex justify-between items-end border-b pb-4">
-          <span className="text-gray-500 font-semibold uppercase tracking-wider text-sm">
-            Question {currentIdx + 1} of {questions.length}
-          </span>
-          <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-md text-xs font-bold">
+      <div className="flex-grow p-6 sm:p-12 lg:px-16 bg-white relative">
+        <div className="mb-8 flex justify-between items-center border-b border-gray-100 pb-4">
+          <div className="flex items-center space-x-4">
+            <span className="bg-red-50 text-red-700 px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-widest border border-red-100">
+              Question {currentIdx + 1} <span className="text-red-400 mx-1">/</span> {questions.length}
+            </span>
+          </div>
+          <span className="bg-gray-800 text-white px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest shadow-sm">
             {currentQ.type}
           </span>
         </div>
 
         {/* Case Context */}
         {currentQ.caseContext && (
-          <div className="bg-blue-50 border-l-4 border-blue-500 p-5 mb-8 rounded-r-lg text-gray-800 leading-relaxed">
-            {currentQ.caseContext}
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-l-4 border-blue-500 p-6 sm:p-8 mb-10 rounded-r-2xl shadow-sm">
+            <h4 className="text-blue-800 font-bold mb-3 flex items-center text-sm uppercase tracking-wider">
+              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              Clinical Case
+            </h4>
+            <p className="text-gray-800 leading-relaxed text-lg">{currentQ.caseContext}</p>
           </div>
         )}
 
         {/* Question */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-6 leading-snug">
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-8 leading-tight">
           {currentQ.question}
         </h2>
 
         {/* Options */}
-        <div className="space-y-3">
+        <div className="space-y-4">
           {Object.entries(currentQ.options).map(([key, text]) => {
             const isSelected = (answers[currentQ.id] || []).includes(key);
             return (
               <label 
                 key={key} 
-                className={`flex items-start p-4 border-2 rounded-lg cursor-pointer transition-all duration-200 
-                  ${isSelected ? 'border-red-500 bg-red-50' : 'border-gray-200 hover:border-red-200 hover:bg-gray-50'}`}
+                className={`group flex items-start p-5 sm:p-6 border-2 rounded-xl cursor-pointer transition-all duration-200 transform 
+                  ${isSelected 
+                    ? 'border-red-600 bg-red-50 shadow-md scale-[1.01]' 
+                    : 'border-gray-200 hover:border-red-300 hover:bg-gray-50 hover:shadow-sm'}`}
               >
-                <div className="flex items-center h-5">
+                <div className="flex items-center h-6 mt-0.5">
                   <input
                     type={isSMQ ? "checkbox" : "radio"}
                     name={`q-${currentQ.id}`}
                     value={key}
                     checked={isSelected}
                     onChange={() => handleOptionToggle(key)}
-                    className={`w-5 h-5 text-red-600 focus:ring-red-500 ${isSMQ ? 'rounded' : 'border-gray-300'}`}
+                    className={`w-6 h-6 text-red-600 focus:ring-red-500 transition-colors ${isSMQ ? 'rounded cursor-pointer' : 'border-gray-300 cursor-pointer'}`}
                   />
                 </div>
-                <div className="ml-4 flex flex-col">
-                  <span className={`font-bold ${isSelected ? 'text-red-700' : 'text-gray-700'}`}>{key}.</span>
-                  <span className={`text-lg ${isSelected ? 'text-red-900 font-medium' : 'text-gray-800'}`}>{text}</span>
+                <div className="ml-5 flex items-start">
+                  <span className={`flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg font-bold text-sm mr-4 transition-colors
+                    ${isSelected ? 'bg-red-600 text-white' : 'bg-gray-200 text-gray-600 group-hover:bg-red-100 group-hover:text-red-600'}`}>
+                    {key}
+                  </span>
+                  <span className={`text-lg sm:text-xl pt-0.5 ${isSelected ? 'text-red-900 font-bold' : 'text-gray-700 font-medium'}`}>
+                    {text}
+                  </span>
                 </div>
               </label>
             );
@@ -140,26 +155,26 @@ export default function Exam({ questions, timeRemaining, setTimeRemaining, onSub
       </div>
 
       {/* Footer Navigation */}
-      <div className="bg-gray-50 p-6 flex justify-between items-center border-t border-gray-200">
+      <div className="bg-gray-50 p-6 sm:px-12 sm:py-8 flex justify-between items-center border-t border-gray-200">
         <button
           onClick={() => setCurrentIdx((prev) => Math.max(0, prev - 1))}
           disabled={currentIdx === 0}
-          className="px-6 py-2 rounded-lg font-semibold text-gray-600 hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition"
+          className="px-6 py-3 rounded-xl font-bold text-gray-600 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-900 disabled:opacity-40 disabled:cursor-not-allowed transition shadow-sm"
         >
-          Previous
+          &larr; Previous
         </button>
 
         {!isLastQuestion ? (
           <button
             onClick={() => setCurrentIdx((prev) => Math.min(questions.length - 1, prev + 1))}
-            className="px-8 py-3 rounded-lg font-bold bg-red-600 hover:bg-red-700 text-white shadow-md transition transform hover:-translate-y-0.5"
+            className="px-8 py-3 rounded-xl font-bold bg-gray-900 hover:bg-black text-white shadow-lg transition transform hover:-translate-y-0.5 flex items-center"
           >
-            Next Question
+            Next <span className="ml-2">&rarr;</span>
           </button>
         ) : (
           <button
             onClick={() => onSubmit(answers)}
-            className="px-8 py-3 rounded-lg font-bold bg-green-600 hover:bg-green-700 text-white shadow-md transition transform hover:-translate-y-0.5"
+            className="px-10 py-4 rounded-xl font-extrabold bg-red-600 hover:bg-red-700 text-white shadow-xl transition transform hover:-translate-y-1 animate-bounce"
           >
             Submit Exam
           </button>
