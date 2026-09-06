@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "caseContext": "A 79-year-old woman presents with 3 days of intermittent palpitations and fatigue. History includes hypertension and type 2 diabetes Current medications: ramipril 10 mg daily, amlodipine 5 mg daily, metformin 500 mg twice daily. On assessment, BP 134/76 mmHg, pulse 112/min and irregular, oxygen saturation 97%. Relevant investigations: ECG: atrial fibrillation; hemoglobin 126 g/L; platelets 244 x10^9/L; creatinine 118 micromol/L; eGFR 41 mL/min/1.73 m2; weight 68 kg. There is no mechanical valve, moderate-severe mitral stenosis, recent major bleeding or interacting medication.",
+    "question": "Which ONE of the following is the most appropriate therapeutic or management option now?",
+    "type": "MCQ",
+    "options": {
+      "A": "No antithrombotic therapy",
+      "B": "Apixaban for stroke prevention",
+      "C": "Aspirin alone",
+      "D": "Warfarin only because eGFR is 41",
+      "E": "Clopidogrel alone"
+    },
+    "correctAnswers": ["B"],
+    "explanation": "Her stroke risk is high and oral anticoagulation is indicated. In nonvalvular atrial fibrillation, a DOAC is generally preferred when kidney function permits; aspirin or clopidogrel alone does not provide equivalent stroke prevention."
+  },
+  {
+    "id": 2,
+    "caseContext": "A 79-year-old woman presents with 3 days of intermittent palpitations and fatigue. History includes hypertension and type 2 diabetes Current medications: ramipril 10 mg daily, amlodipine 5 mg daily, metformin 500 mg twice daily. On assessment, BP 134/76 mmHg, pulse 112/min and irregular, oxygen saturation 97%. Relevant investigations: ECG: atrial fibrillation; hemoglobin 126 g/L; platelets 244 x10^9/L; creatinine 118 micromol/L; eGFR 41 mL/min/1.73 m2; weight 68 kg. There is no mechanical valve, moderate-severe mitral stenosis, recent major bleeding or interacting medication.",
+    "question": "Which ONE prescription or dosing instruction is most appropriate?",
+    "type": "MCQ",
+    "options": {
+      "A": "Apixaban 2.5 mg once daily",
+      "B": "Apixaban 5 mg once daily",
+      "C": "Apixaban 10 mg twice daily for 7 days then 5 mg twice daily",
+      "D": "Apixaban 2.5 mg twice daily despite not meeting reduction criteria",
+      "E": "Apixaban 5 mg PO twice daily"
+    },
+    "correctAnswers": ["E"],
+    "explanation": "The usual AF dose is 5 mg twice daily. Dose reduction to 2.5 mg twice daily is used when at least two standard reduction criteria are present; the VTE loading regimen does not apply to AF."
+  },
+  {
+    "id": 3,
+    "caseContext": "A 79-year-old woman presents with 3 days of intermittent palpitations and fatigue. History includes hypertension and type 2 diabetes Current medications: ramipril 10 mg daily, amlodipine 5 mg daily, metformin 500 mg twice daily. On assessment, BP 134/76 mmHg, pulse 112/min and irregular, oxygen saturation 97%. Relevant investigations: ECG: atrial fibrillation; hemoglobin 126 g/L; platelets 244 x10^9/L; creatinine 118 micromol/L; eGFR 41 mL/min/1.73 m2; weight 68 kg. There is no mechanical valve, moderate-severe mitral stenosis, recent major bleeding or interacting medication.",
+    "question": "Which THREE findings would most strongly require reassessment of the anticoagulant dose or agent? Select 3.",
+    "type": "SMQ",
+    "options": {
+      "A": "Seasonal rhinitis",
+      "B": "Heart rate 78/min",
+      "C": "LDL 2.6 mmol/L",
+      "D": "New major gastrointestinal bleeding",
+      "E": "Creatinine 145 micromol/L",
+      "F": "Weight 58 kg",
+      "G": "A1c 7.1%"
+    },
+    "correctAnswers": ["D", "E", "F"],
+    "explanation": "Low body weight and elevated creatinine are key apixaban dose variables, while major bleeding requires urgent reassessment regardless of dose criteria."
+  }
+]
