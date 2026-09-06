@@ -51,7 +51,7 @@ export default function Home() {
 
       {appState === "exam" && (
         <Exam 
-          questions={questionsData} 
+          questions={questionsData as any} 
           timeRemaining={timeRemaining}
           setTimeRemaining={setTimeRemaining}
           onSubmit={handleSubmitExam} 
@@ -60,7 +60,7 @@ export default function Home() {
 
       {appState === "results" && (
         <Results 
-          questions={questionsData} 
+          questions={questionsData as any} 
           userAnswers={userAnswers}
           onRetake={() => setAppState("landing")}
         />
