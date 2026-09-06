@@ -14,20 +14,21 @@ type Question = {
 
 interface ResultsProps {
   questions: Question[];
-  userAnswers: Record<number, string[]>;
+  userAnswers: Record<number, { answers: string[], flagged: boolean }>;
   onRetake: () => void;
 }
 
 export default function Results({ questions, userAnswers, onRetake }: ResultsProps) {
-  const [filter, setFilter] = useState<"all" | "incorrect">("all");
+  const [filter, setFilter] = useState<"all" | "incorrect" | "flagged">("all");
+  const [scoreSaved, setScoreSaved] = useState(false);
 
   const calculateScore = () => {
     let correctCount = 0;
     questions.forEach((q) => {
-      const uAns = userAnswers[q.id] || [];
+      const uAns = userAnswers[q.id]?.answers || [];
       const isCorrect = 
         uAns.length === q.correctAnswers.length && 
-        uAns.every(val => q.correctAnswers.includes(val));
+        uAns.every((val: string) => q.correctAnswers.includes(val));
       if (isCorrect) correctCount++;
     });
     return correctCount;
@@ -35,6 +36,20 @@ export default function Results({ questions, userAnswers, onRetake }: ResultsPro
 
   const score = calculateScore();
   const percentage = Math.round((score / questions.length) * 100);
+
+  useEffect(() => {
+    if (!scoreSaved) {
+      const savedScores = JSON.parse(localStorage.getItem("supermedpros_scores") || "[]");
+      savedScores.push({
+        date: new Date().toISOString(),
+        score,
+        total: questions.length,
+        percentage
+      });
+      localStorage.setItem("supermedpros_scores", JSON.stringify(savedScores));
+      setScoreSaved(true);
+    }
+  }, [score, questions.length, percentage, scoreSaved]);
 
   return (
     <div className="w-full max-w-5xl bg-white shadow-2xl rounded-3xl overflow-hidden flex flex-col my-8 sm:my-12 font-sans border border-gray-100">
@@ -55,33 +70,51 @@ export default function Results({ questions, userAnswers, onRetake }: ResultsPro
           onClick={() => setFilter("all")}
           className={`px-8 py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-200 w-full sm:w-auto ${filter === 'all' ? 'bg-gray-900 text-white shadow-lg transform -translate-y-0.5' : 'bg-white text-gray-600 hover:bg-gray-200 border border-gray-300 shadow-sm'}`}
         >
-          Review All Questions
+          Review All
         </button>
         <button 
           onClick={() => setFilter("incorrect")}
           className={`px-8 py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-200 w-full sm:w-auto flex items-center justify-center ${filter === 'incorrect' ? 'bg-red-600 text-white shadow-lg transform -translate-y-0.5' : 'bg-white text-red-600 hover:bg-red-50 border border-red-200 shadow-sm'}`}
         >
           <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-          Review Incorrect Only
+          Incorrect Only
+        </button>
+        <button 
+          onClick={() => setFilter("flagged")}
+          className={`px-8 py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-200 w-full sm:w-auto flex items-center justify-center ${filter === 'flagged' ? 'bg-yellow-500 text-white shadow-lg transform -translate-y-0.5' : 'bg-white text-yellow-600 hover:bg-yellow-50 border border-yellow-300 shadow-sm'}`}
+        >
+          <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path></svg>
+          Flagged Only
         </button>
       </div>
 
       {/* Review Section */}
       <div className="p-6 sm:p-12 space-y-12 bg-gray-50">
         {questions.map((q, index) => {
-          const uAns = userAnswers[q.id] || [];
+          const uState = userAnswers[q.id] || { answers: [], flagged: false };
+          const uAns = uState.answers;
+          const isFlagged = uState.flagged;
           const isCorrect = 
             uAns.length === q.correctAnswers.length && 
             uAns.every(val => q.correctAnswers.includes(val));
 
           if (filter === "incorrect" && isCorrect) return null;
+          if (filter === "flagged" && !isFlagged) return null;
 
           return (
             <div key={q.id} className={`p-8 rounded-2xl border border-gray-200 shadow-lg bg-white relative overflow-hidden`}>
               <div className={`absolute top-0 left-0 w-2 h-full ${isCorrect ? 'bg-green-500' : 'bg-red-500'}`}></div>
               
               <div className="flex justify-between items-center mb-6 pl-4">
-                <h3 className="font-extrabold text-xl text-gray-400 tracking-wider">QUESTION {index + 1}</h3>
+                <div className="flex items-center space-x-3">
+                  <h3 className="font-extrabold text-xl text-gray-400 tracking-wider">QUESTION {index + 1}</h3>
+                  {isFlagged && (
+                    <span className="bg-yellow-100 text-yellow-800 border border-yellow-300 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest flex items-center">
+                      <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path></svg>
+                      Flagged
+                    </span>
+                  )}
+                </div>
                 <span className={`px-4 py-1.5 rounded-lg text-sm font-bold uppercase tracking-widest shadow-sm ${isCorrect ? 'bg-green-100 text-green-800 border border-green-200' : 'bg-red-100 text-red-800 border border-red-200'}`}>
                   {isCorrect ? "Correct" : "Incorrect"}
                 </span>

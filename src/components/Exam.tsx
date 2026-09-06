@@ -16,12 +16,31 @@ interface ExamProps {
   questions: Question[];
   timeRemaining: number;
   setTimeRemaining: (time: number | ((prev: number) => number)) => void;
-  onSubmit: (answers: Record<number, string[]>) => void;
+  onSubmit: (answers: Record<number, { answers: string[], flagged: boolean }>) => void;
 }
 
 export default function Exam({ questions, timeRemaining, setTimeRemaining, onSubmit }: ExamProps) {
   const [currentIdx, setCurrentIdx] = useState(0);
-  const [answers, setAnswers] = useState<Record<number, string[]>>({});
+  const [answers, setAnswers] = useState<Record<number, { answers: string[], flagged: boolean }>>({});
+
+  useEffect(() => {
+    const saved = localStorage.getItem("supermedpros_active_exam");
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      if (parsed.answers) setAnswers(parsed.answers);
+      if (parsed.timeRemaining) setTimeRemaining(parsed.timeRemaining);
+      if (parsed.currentIdx) setCurrentIdx(parsed.currentIdx);
+    }
+  }, [setTimeRemaining]);
+
+  useEffect(() => {
+    const session = {
+      answers,
+      timeRemaining,
+      currentIdx
+    };
+    localStorage.setItem("supermedpros_active_exam", JSON.stringify(session));
+  }, [answers, timeRemaining, currentIdx]);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -48,7 +67,8 @@ export default function Exam({ questions, timeRemaining, setTimeRemaining, onSub
   };
 
   const handleOptionToggle = (optKey: string) => {
-    const currentAnswers = answers[currentQ.id] || [];
+    const currentState = answers[currentQ.id] || { answers: [], flagged: false };
+    const currentAnswers = currentState.answers;
     let newAnswers: string[];
 
     if (isSMQ) {
@@ -61,7 +81,12 @@ export default function Exam({ questions, timeRemaining, setTimeRemaining, onSub
       newAnswers = [optKey]; // MCQ
     }
 
-    setAnswers({ ...answers, [currentQ.id]: newAnswers });
+    setAnswers({ ...answers, [currentQ.id]: { ...currentState, answers: newAnswers } });
+  };
+
+  const toggleFlag = () => {
+    const currentState = answers[currentQ.id] || { answers: [], flagged: false };
+    setAnswers({ ...answers, [currentQ.id]: { ...currentState, flagged: !currentState.flagged } });
   };
 
   const isLastQuestion = currentIdx === questions.length - 1;
@@ -96,9 +121,18 @@ export default function Exam({ questions, timeRemaining, setTimeRemaining, onSub
               Question {currentIdx + 1} <span className="text-red-400 mx-1">/</span> {questions.length}
             </span>
           </div>
-          <span className="bg-gray-800 text-white px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest shadow-sm">
-            {currentQ.type}
-          </span>
+          <div className="flex items-center space-x-3">
+            <button 
+              onClick={toggleFlag}
+              className={`flex items-center space-x-1 px-3 py-1.5 rounded-full text-sm font-bold tracking-widest transition-colors ${answers[currentQ.id]?.flagged ? 'bg-yellow-100 text-yellow-800 border border-yellow-300' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}
+            >
+              <svg className="w-4 h-4" fill={answers[currentQ.id]?.flagged ? "currentColor" : "none"} stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path></svg>
+              <span>{answers[currentQ.id]?.flagged ? "Flagged" : "Flag"}</span>
+            </button>
+            <span className="bg-gray-800 text-white px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest shadow-sm">
+              {currentQ.type}
+            </span>
+          </div>
         </div>
 
         {/* Case Context */}
@@ -120,7 +154,7 @@ export default function Exam({ questions, timeRemaining, setTimeRemaining, onSub
         {/* Options */}
         <div className="space-y-4">
           {Object.entries(currentQ.options).map(([key, text]) => {
-            const isSelected = (answers[currentQ.id] || []).includes(key);
+            const isSelected = (answers[currentQ.id]?.answers || []).includes(key);
             return (
               <label 
                 key={key} 
