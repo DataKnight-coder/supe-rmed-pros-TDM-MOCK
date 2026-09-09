@@ -13,7 +13,7 @@ type Question = {
 };
 
 interface ResultsProps {
-  examId: "A" | "B";
+  examId: "A" | "B" | "C";
   questions: Question[];
   userAnswers: Record<number, { answers: string[], flagged: boolean }>;
   onRetake: () => void;

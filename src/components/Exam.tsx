@@ -13,7 +13,7 @@ type Question = {
 };
 
 interface ExamProps {
-  examId: "A" | "B";
+  examId: "A" | "B" | "C";
   questions: Question[];
   timeRemaining: number;
   setTimeRemaining: (time: number | ((prev: number) => number)) => void;
