@@ -3,33 +3,38 @@
 import { useState, useEffect } from "react";
 import Exam from "@/components/Exam";
 import Results from "@/components/Results";
-import questionsData from "../../public/questions.json";
+import questionsDataA from "../../public/questions.json";
+import questionsDataB from "../../public/questions-b.json";
 
 export default function Home() {
   const [appState, setAppState] = useState<"landing" | "exam" | "results">("landing");
+  const [currentExamId, setCurrentExamId] = useState<"A" | "B">("A");
   const [userAnswers, setUserAnswers] = useState<Record<number, { answers: string[], flagged: boolean }>>({});
-  const [timeRemaining, setTimeRemaining] = useState(180 * 60); // 180 minutes in seconds
+  const [timeRemaining, setTimeRemaining] = useState(180 * 60);
 
-  const [historicalScores, setHistoricalScores] = useState<{date: string, score: number, total: number, percentage: number}[]>([]);
-  const [hasSavedSession, setHasSavedSession] = useState(false);
+  const [historicalScoresA, setHistoricalScoresA] = useState<{date: string, score: number, total: number, percentage: number}[]>([]);
+  const [historicalScoresB, setHistoricalScoresB] = useState<{date: string, score: number, total: number, percentage: number}[]>([]);
+  const [hasSavedSessionA, setHasSavedSessionA] = useState(false);
+  const [hasSavedSessionB, setHasSavedSessionB] = useState(false);
 
   useEffect(() => {
-    // Load historical scores
-    const savedScores = localStorage.getItem("supermedpros_scores");
-    if (savedScores) {
-      setHistoricalScores(JSON.parse(savedScores));
-    }
+    const savedScoresA = localStorage.getItem("supermedpros_scores_A");
+    if (savedScoresA) setHistoricalScoresA(JSON.parse(savedScoresA));
     
-    // Check for active session
-    const activeSession = localStorage.getItem("supermedpros_active_exam");
-    if (activeSession) {
-      setHasSavedSession(true);
-    }
+    const savedScoresB = localStorage.getItem("supermedpros_scores_B");
+    if (savedScoresB) setHistoricalScoresB(JSON.parse(savedScoresB));
+    
+    const activeSessionA = localStorage.getItem("supermedpros_active_exam_A");
+    if (activeSessionA) setHasSavedSessionA(true);
+    
+    const activeSessionB = localStorage.getItem("supermedpros_active_exam_B");
+    if (activeSessionB) setHasSavedSessionB(true);
   }, [appState]);
 
-  const handleStartExam = (resume: boolean = false) => {
+  const handleStartExam = (examId: "A" | "B", resume: boolean = false) => {
+    setCurrentExamId(examId);
     if (!resume) {
-      localStorage.removeItem("supermedpros_active_exam");
+      localStorage.removeItem("supermedpros_active_exam_" + examId);
       setUserAnswers({});
       setTimeRemaining(180 * 60);
     }
@@ -39,8 +44,12 @@ export default function Home() {
   const handleSubmitExam = (answers: Record<number, { answers: string[], flagged: boolean }>) => {
     setUserAnswers(answers);
     setAppState("results");
-    localStorage.removeItem("supermedpros_active_exam");
+    localStorage.removeItem("supermedpros_active_exam_" + currentExamId);
+    if (currentExamId === "A") setHasSavedSessionA(false);
+    if (currentExamId === "B") setHasSavedSessionB(false);
   };
+
+  const questions = currentExamId === "A" ? (questionsDataA as any) : (questionsDataB as any);
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-200 flex flex-col items-center justify-center p-4 sm:p-8 font-sans">
@@ -57,95 +66,94 @@ export default function Home() {
           </div>
 
           <div className="p-8 sm:p-12 text-center">
-            <h2 className="text-3xl font-bold text-gray-800 mb-8">TDM Full Mock Exam Simulation</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-8">TDM Full Mock Exam Simulations</h2>
             
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10 text-left">
-              <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm flex flex-col items-center text-center hover:shadow-md transition">
-                <div className="bg-red-100 text-red-600 p-3 rounded-full mb-4">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+              <div className="border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow bg-gray-50">
+                <h3 className="text-2xl font-bold text-red-700 mb-2">Mock Exam 1</h3>
+                <p className="text-gray-600 mb-6">140 Questions (MCQ & SMQ) | 180 Minutes</p>
+                <div className="flex flex-col gap-3">
+                  <button onClick={() => handleStartExam("A", false)} className="w-full bg-red-600 text-white font-bold py-3 px-8 rounded-full hover:bg-red-700 hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5">
+                    Start New Exam 1
+                  </button>
+                  {hasSavedSessionA && (
+                    <button onClick={() => handleStartExam("A", true)} className="w-full bg-white text-red-600 border border-red-600 font-bold py-3 px-8 rounded-full hover:bg-red-50 hover:shadow-md transition-all duration-200">
+                      Resume Saved Exam 1
+                    </button>
+                  )}
                 </div>
-                <h3 className="font-bold text-gray-900">{questionsData.length} Questions</h3>
-                <p className="text-sm text-gray-500 mt-2">Comprehensive mix of MCQs and SMQs.</p>
               </div>
 
-              <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm flex flex-col items-center text-center hover:shadow-md transition">
-                <div className="bg-red-100 text-red-600 p-3 rounded-full mb-4">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <div className="border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow bg-gray-50">
+                <h3 className="text-2xl font-bold text-red-700 mb-2">Mock Exam 2</h3>
+                <p className="text-gray-600 mb-6">140 Questions (MCQ & SMQ) | 180 Minutes</p>
+                <div className="flex flex-col gap-3">
+                  <button onClick={() => handleStartExam("B", false)} className="w-full bg-red-600 text-white font-bold py-3 px-8 rounded-full hover:bg-red-700 hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5">
+                    Start New Exam 2
+                  </button>
+                  {hasSavedSessionB && (
+                    <button onClick={() => handleStartExam("B", true)} className="w-full bg-white text-red-600 border border-red-600 font-bold py-3 px-8 rounded-full hover:bg-red-50 hover:shadow-md transition-all duration-200">
+                      Resume Saved Exam 2
+                    </button>
+                  )}
                 </div>
-                <h3 className="font-bold text-gray-900">180 Minutes</h3>
-                <p className="text-sm text-gray-500 mt-2">Strictly timed to simulate real exam pressure.</p>
-              </div>
-
-              <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm flex flex-col items-center text-center hover:shadow-md transition">
-                <div className="bg-red-100 text-red-600 p-3 rounded-full mb-4">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                </div>
-                <h3 className="font-bold text-gray-900">Deep Feedback</h3>
-                <p className="text-sm text-gray-500 mt-2">Detailed clinical pearls revealed upon completion.</p>
               </div>
             </div>
-            
-            <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6 mb-12">
-              <button 
-                onClick={() => handleStartExam(false)}
-                className="w-full sm:w-auto group relative inline-flex items-center justify-center px-10 py-4 text-lg font-bold text-white transition-all duration-200 bg-red-600 rounded-full hover:bg-red-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-600 overflow-hidden"
-              >
-                <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-black"></span>
-                <span className="relative flex items-center">
-                  {hasSavedSession ? "Start New Exam" : "Begin Simulation"}
-                  <svg className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
-                </span>
-              </button>
 
-              {hasSavedSession && (
-                <button 
-                  onClick={() => handleStartExam(true)}
-                  className="w-full sm:w-auto px-10 py-4 text-lg font-bold text-red-700 bg-red-50 border-2 border-red-200 rounded-full hover:bg-red-100 transition-colors shadow-sm"
-                >
-                  Resume Saved Exam
-                </button>
-              )}
-            </div>
-
-            {historicalScores.length > 0 && (
-              <div className="mt-8 border-t border-gray-100 pt-8 text-left">
-                <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
-                  Your Past Scores
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {historicalScores.slice().reverse().map((score, i) => (
-                    <div key={i} className="bg-gray-50 p-4 rounded-xl border border-gray-200 flex justify-between items-center">
-                      <div>
-                        <div className="text-sm text-gray-500 font-medium">{new Date(score.date).toLocaleDateString()}</div>
-                        <div className="text-gray-900 font-bold">{score.score} / {score.total} Correct</div>
-                      </div>
-                      <div className={`text-xl font-black ${score.percentage >= 70 ? 'text-green-600' : 'text-red-600'}`}>
-                        {score.percentage}%
-                      </div>
+            <div className="mt-12 text-left bg-gray-50 p-8 rounded-xl border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                Your Past Scores
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="font-bold text-gray-600 mb-3">Mock 1 History</h4>
+                  {historicalScoresA.length > 0 ? (
+                    <div className="space-y-3">
+                      {historicalScoresA.slice().reverse().map((score, i) => (
+                        <div key={i} className="flex justify-between items-center bg-white p-3 rounded-lg border border-gray-200 shadow-sm">
+                          <span className="text-gray-600 text-sm">{new Date(score.date).toLocaleDateString()}</span>
+                          <span className="font-bold text-gray-900">{score.score} / {score.total} <span className={`ml-2 px-2 py-0.5 rounded text-xs text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                        </div>
+                      ))}
                     </div>
-                  ))}
+                  ) : <p className="text-gray-500 italic text-sm">No scores yet.</p>}
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-600 mb-3">Mock 2 History</h4>
+                  {historicalScoresB.length > 0 ? (
+                    <div className="space-y-3">
+                      {historicalScoresB.slice().reverse().map((score, i) => (
+                        <div key={i} className="flex justify-between items-center bg-white p-3 rounded-lg border border-gray-200 shadow-sm">
+                          <span className="text-gray-600 text-sm">{new Date(score.date).toLocaleDateString()}</span>
+                          <span className="font-bold text-gray-900">{score.score} / {score.total} <span className={`ml-2 px-2 py-0.5 rounded text-xs text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                        </div>
+                      ))}
+                    </div>
+                  ) : <p className="text-gray-500 italic text-sm">No scores yet.</p>}
                 </div>
               </div>
-            )}
+            </div>
+            
           </div>
         </div>
       )}
 
       {appState === "exam" && (
         <Exam 
-          questions={questionsData as any} 
+          examId={currentExamId}
+          questions={questions}
           timeRemaining={timeRemaining}
           setTimeRemaining={setTimeRemaining}
-          onSubmit={handleSubmitExam} 
+          onSubmit={handleSubmitExam}
         />
       )}
 
       {appState === "results" && (
         <Results 
-          questions={questionsData as any} 
-          userAnswers={userAnswers}
-          onRetake={() => setAppState("landing")}
+          examId={currentExamId}
+          questions={questions} 
+          userAnswers={userAnswers} 
+          onRetake={() => handleStartExam(currentExamId, false)} 
         />
       )}
     </main>

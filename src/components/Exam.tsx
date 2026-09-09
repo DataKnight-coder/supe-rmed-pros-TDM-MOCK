@@ -13,18 +13,19 @@ type Question = {
 };
 
 interface ExamProps {
+  examId: "A" | "B";
   questions: Question[];
   timeRemaining: number;
   setTimeRemaining: (time: number | ((prev: number) => number)) => void;
   onSubmit: (answers: Record<number, { answers: string[], flagged: boolean }>) => void;
 }
 
-export default function Exam({ questions, timeRemaining, setTimeRemaining, onSubmit }: ExamProps) {
+export default function Exam({ examId, questions, timeRemaining, setTimeRemaining, onSubmit }: ExamProps) {
   const [currentIdx, setCurrentIdx] = useState(0);
   const [answers, setAnswers] = useState<Record<number, { answers: string[], flagged: boolean }>>({});
 
   useEffect(() => {
-    const saved = localStorage.getItem("supermedpros_active_exam");
+    const saved = localStorage.getItem("supermedpros_active_exam_" + examId);
     if (saved) {
       const parsed = JSON.parse(saved);
       if (parsed.answers) setAnswers(parsed.answers);
@@ -39,8 +40,8 @@ export default function Exam({ questions, timeRemaining, setTimeRemaining, onSub
       timeRemaining,
       currentIdx
     };
-    localStorage.setItem("supermedpros_active_exam", JSON.stringify(session));
-  }, [answers, timeRemaining, currentIdx]);
+    localStorage.setItem("supermedpros_active_exam_" + examId, JSON.stringify(session));
+  }, [answers, timeRemaining, currentIdx, examId]);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -54,7 +55,7 @@ export default function Exam({ questions, timeRemaining, setTimeRemaining, onSub
       });
     }, 1000);
     return () => clearInterval(timer);
-  }, [onSubmit, answers, setTimeRemaining]);
+  }, [onSubmit, answers, setTimeRemaining, examId]);
 
   const currentQ = questions[currentIdx];
   const isSMQ = currentQ.type.includes("SMQ");

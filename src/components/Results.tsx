@@ -13,12 +13,13 @@ type Question = {
 };
 
 interface ResultsProps {
+  examId: "A" | "B";
   questions: Question[];
   userAnswers: Record<number, { answers: string[], flagged: boolean }>;
   onRetake: () => void;
 }
 
-export default function Results({ questions, userAnswers, onRetake }: ResultsProps) {
+export default function Results({ examId, questions, userAnswers, onRetake }: ResultsProps) {
   const [filter, setFilter] = useState<"all" | "incorrect" | "flagged">("all");
   const [scoreSaved, setScoreSaved] = useState(false);
 
@@ -39,14 +40,14 @@ export default function Results({ questions, userAnswers, onRetake }: ResultsPro
 
   useEffect(() => {
     if (!scoreSaved) {
-      const savedScores = JSON.parse(localStorage.getItem("supermedpros_scores") || "[]");
+      const savedScores = JSON.parse(localStorage.getItem("supermedpros_scores_" + examId) || "[]");
       savedScores.push({
         date: new Date().toISOString(),
         score,
         total: questions.length,
         percentage
       });
-      localStorage.setItem("supermedpros_scores", JSON.stringify(savedScores));
+      localStorage.setItem("supermedpros_scores_" + examId, JSON.stringify(savedScores));
       setScoreSaved(true);
     }
   }, [score, questions.length, percentage, scoreSaved]);
