@@ -1,0 +1,2382 @@
+[
+  {
+    "id": 1,
+    "caseContext": "",
+    "question": "A 67-year-old with HFrEF (EF 30%) remains symptomatic on ramipril, carvedilol and spironolactone. eGFR is 58 and potassium 4.5. Which addition reduces heart-failure hospitalization and cardiovascular death?",
+    "type": "MCQ",
+    "options": {
+      "A": "Digoxin as mandatory fourth-line therapy",
+      "B": "Verapamil",
+      "C": "Pioglitazone",
+      "D": "Routine ibuprofen",
+      "E": "Dapagliflozin"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "SGLT2 inhibitors improve HFrEF outcomes even without diabetes.\nClinical/Prescribing Pearl: The four foundational HFrEF drug classes should be introduced early when tolerated.\nSafety Alert: Review volume status and counsel about genital infection and sick-day interruption."
+  },
+  {
+    "id": 2,
+    "caseContext": "",
+    "question": "A patient with HFrEF taking ramipril will switch to sacubitril/valsartan. What is the minimum washout after the last ACE inhibitor dose?",
+    "type": "MCQ",
+    "options": {
+      "A": "6 hours",
+      "B": "7 days",
+      "C": "No washout is needed",
+      "D": "36 hours",
+      "E": "12 hours"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "A 36-hour washout lowers the risk of angioedema when changing from an ACE inhibitor to an ARNI.\nClinical/Prescribing Pearl: An ARB does not require the same washout before ARNI initiation.\nSafety Alert: Never combine an ACE inhibitor with sacubitril/valsartan."
+  },
+  {
+    "id": 3,
+    "caseContext": "",
+    "question": "A 76-year-old with nonvalvular atrial fibrillation has hypertension, diabetes and a prior TIA. Renal function is adequate and there is no mechanical valve. Best stroke-prevention therapy?",
+    "type": "MCQ",
+    "options": {
+      "A": "A direct oral anticoagulant",
+      "B": "Clopidogrel alone",
+      "C": "Warfarin plus aspirin routinely",
+      "D": "No therapy because rhythm is controlled",
+      "E": "Aspirin alone"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "A DOAC is generally preferred for eligible nonvalvular AF patients with high thromboembolic risk.\nClinical/Prescribing Pearl: Stroke risk persists despite apparent rhythm control.\nSafety Alert: Check renal function, interactions, adherence and bleeding risk."
+  },
+  {
+    "id": 4,
+    "caseContext": "",
+    "question": "A patient on apixaban for atrial fibrillation develops life-threatening bleeding with the last dose 3 hours ago. Which reversal approach is most appropriate when available?",
+    "type": "MCQ",
+    "options": {
+      "A": "Andexanet alfa or protocol-directed 4-factor PCC",
+      "B": "Protamine alone",
+      "C": "Idarucizumab",
+      "D": "Fresh frozen plasma only",
+      "E": "Vitamin K alone"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Factor Xa inhibitor-associated life-threatening bleeding requires specific or protocol-directed reversal.\nClinical/Prescribing Pearl: Idarucizumab reverses dabigatran, not apixaban.\nSafety Alert: Stop anticoagulant, resuscitate, control the source and involve specialists urgently."
+  },
+  {
+    "id": 5,
+    "caseContext": "",
+    "question": "A 61-year-old with acute STEMI presents 90 minutes after symptom onset to a PCI-capable centre. Preferred reperfusion strategy?",
+    "type": "MCQ",
+    "options": {
+      "A": "Elective stress test",
+      "B": "Thrombolysis after 24 hours",
+      "C": "Primary PCI as rapidly as possible",
+      "D": "Wait for troponin trend",
+      "E": "Oral anticoagulation alone"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Timely primary PCI is preferred when it can be delivered within the recommended system delay.\nClinical/Prescribing Pearl: Reperfusion decisions are time-critical and should not await serial biomarkers in diagnostic\nSTEMI.\nSafety Alert: Give guideline-directed antiplatelet and anticoagulant therapy while screening for contraindications."
+  },
+  {
+    "id": 6,
+    "caseContext": "",
+    "question": "A patient taking sublingual nitroglycerin for angina used sildenafil 4 hours ago. What should be done?",
+    "type": "MCQ",
+    "options": {
+      "A": "Add tadalafil",
+      "B": "Withhold nitrates and use alternative acute assessment/management",
+      "C": "Reassure and send home despite ongoing pain",
+      "D": "Give double-dose nitroglycerin",
+      "E": "Give verapamil and nitroglycerin together without monitoring"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "PDE5 inhibitors and nitrates can cause profound hypotension.\nClinical/Prescribing Pearl: Ask directly about erectile-dysfunction drugs before administering nitrates.\nSafety Alert: Ongoing chest pain requires urgent assessment; do not let nitrate avoidance delay emergency care."
+  },
+  {
+    "id": 7,
+    "caseContext": "",
+    "question": "A 44-year-old has BP 168/104 mmHg on repeated visits, hypokalemia and an adrenal adenoma. Which medication is useful while confirming/treating primary aldosteronism?",
+    "type": "MCQ",
+    "options": {
+      "A": "Hydrochlorothiazide alone",
+      "B": "Propranolol alone",
+      "C": "Spironolactone",
+      "D": "Aliskiren plus ACE inhibitor",
+      "E": "Clonidine as definitive therapy"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Mineralocorticoid receptor antagonists block aldosterone effects.\nClinical/Prescribing Pearl: Screen resistant hypertension with hypokalemia for primary aldosteronism.\nSafety Alert: Monitor potassium and renal function, especially with other RAAS blockers."
+  },
+  {
+    "id": 8,
+    "caseContext": "",
+    "question": "A 29-year-old at 10 weeks' gestation has chronic hypertension requiring treatment. Which drug is an appropriate option?",
+    "type": "MCQ",
+    "options": {
+      "A": "Candesartan",
+      "B": "Aliskiren",
+      "C": "Spironolactone",
+      "D": "Ramipril",
+      "E": "Labetalol"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Labetalol is commonly used for hypertension in pregnancy.\nClinical/Prescribing Pearl: Nifedipine ER and methyldopa are other established options in selected patients.\nSafety Alert: ACE inhibitors and ARBs are contraindicated in pregnancy."
+  },
+  {
+    "id": 9,
+    "caseContext": "",
+    "question": "A 58-year-old has LDL-C 5.4 mmol/L and tendon xanthomas. Which initial pharmacologic strategy is appropriate?",
+    "type": "MCQ",
+    "options": {
+      "A": "Niacin monotherapy",
+      "B": "High-intensity statin therapy",
+      "C": "No treatment until an event occurs",
+      "D": "Ezetimibe only regardless of response",
+      "E": "Omega-3 alone"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Severe hypercholesterolemia and suspected familial hypercholesterolemia warrant intensive LDL lowering.\nClinical/Prescribing Pearl: Assess family history and cascade screening; add ezetimibe or a PCSK9-directed drug if targets\nare not met.\nSafety Alert: Check secondary causes, interactions and baseline liver enzymes when indicated."
+  },
+  {
+    "id": 10,
+    "caseContext": "",
+    "question": "A patient on simvastatin develops muscle pain, weakness and dark urine; CK is markedly elevated. Immediate step?",
+    "type": "MCQ",
+    "options": {
+      "A": "Exercise through the pain",
+      "B": "Add gemfibrozil",
+      "C": "Switch immediately without laboratory assessment",
+      "D": "Continue the same dose",
+      "E": "Stop the statin and assess for rhabdomyolysis and kidney injury"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Marked CK elevation with dark urine suggests rhabdomyolysis and requires prompt drug cessation and evaluation.\nClinical/Prescribing Pearl: Most mild statin symptoms do not represent rhabdomyolysis; severity guides management.\nSafety Alert: Avoid interacting drugs and ensure hydration/urgent care when rhabdomyolysis is suspected."
+  },
+  {
+    "id": 11,
+    "caseContext": "",
+    "question": "A 56-year-old with type 2 diabetes and established atherosclerotic cardiovascular disease has A1C 8.1% on metformin. Which add-on has cardiovascular benefit?",
+    "type": "MCQ",
+    "options": {
+      "A": "A GLP-1 receptor agonist with proven cardiovascular benefit",
+      "B": "Glyburide because it prevents all CV events",
+      "C": "NPH insulin only",
+      "D": "No escalation",
+      "E": "Acarbose as the only acceptable choice"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "A proven GLP-1 receptor agonist is appropriate when ASCVD predominates.\nClinical/Prescribing Pearl: Choice should follow comorbidity, efficacy, weight, hypoglycemia risk, cost and preference.\nSafety Alert: Counsel about GI effects; avoid in relevant medullary thyroid carcinoma/MEN2 history."
+  },
+  {
+    "id": 12,
+    "caseContext": "",
+    "question": "A patient taking empagliflozin has vomiting, abdominal pain, tachypnea, glucose 10.8 mmol/L and elevated ketones. What is the best response?",
+    "type": "MCQ",
+    "options": {
+      "A": "Give a sulfonylurea",
+      "B": "Reassure because glucose is below 14",
+      "C": "Take an extra dose",
+      "D": "Use metformin only at home",
+      "E": "Stop the SGLT2 inhibitor and treat suspected euglycemic DKA urgently"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "SGLT2 inhibitors can cause DKA with only modest glucose elevation.\nClinical/Prescribing Pearl: Check ketones and acid-base status when symptoms suggest DKA regardless of glucose.\nSafety Alert: Hold SGLT2 inhibitors during acute illness, prolonged fasting and before major surgery according to protocol."
+  },
+  {
+    "id": 13,
+    "caseContext": "",
+    "question": "A 72-year-old with type 2 diabetes has recurrent nocturnal hypoglycemia on glyburide. Best medication action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Increase glyburide at bedtime",
+      "B": "Add alcohol with dinner",
+      "C": "Skip all meals after 6 PM",
+      "D": "Stop glyburide and choose a lower-hypoglycemia-risk regimen",
+      "E": "Set a lower glucose target"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Long-acting sulfonylureas can cause prolonged hypoglycemia, especially in older adults.\nClinical/Prescribing Pearl: Individualize A1C targets and simplify regimens when frailty or hypoglycemia is present.\nSafety Alert: Renal impairment increases risk; severe episodes may recur after initial correction."
+  },
+  {
+    "id": 14,
+    "caseContext": "",
+    "question": "A patient with DKA has potassium 2.9 mmol/L before insulin. What is the priority?",
+    "type": "MCQ",
+    "options": {
+      "A": "Replace potassium and delay insulin until potassium is safely above the protocol threshold",
+      "B": "Start an insulin bolus immediately",
+      "C": "Restrict all fluids",
+      "D": "Give bicarbonate routinely",
+      "E": "Give sodium polystyrene sulfonate"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "the protocol threshold\nInsulin drives potassium intracellularly and can precipitate fatal arrhythmia when potassium is very low.\nClinical/Prescribing Pearl: Potassium management is central to DKA treatment, not an optional add-on.\nSafety Alert: Use frequent ECG and electrolyte monitoring in severe abnormalities."
+  },
+  {
+    "id": 15,
+    "caseContext": "",
+    "question": "A 34-year-old with Graves disease develops fever, sore throat and mouth ulcers while taking methimazole. What should she do?",
+    "type": "MCQ",
+    "options": {
+      "A": "Take aspirin only",
+      "B": "Stop methimazole and obtain an urgent CBC",
+      "C": "Add iron",
+      "D": "Continue and review in one month",
+      "E": "Double the dose"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Fever and sore throat may signal antithyroid-drug agranulocytosis.\nClinical/Prescribing Pearl: Patients should receive this warning when therapy starts.\nSafety Alert: Do not restart until urgent evaluation and specialist direction."
+  },
+  {
+    "id": 16,
+    "caseContext": "",
+    "question": "A 62-year-old with hypothyroidism takes levothyroxine with calcium and coffee every morning; TSH remains high. Best counselling?",
+    "type": "MCQ",
+    "options": {
+      "A": "Take levothyroxine consistently on an empty stomach and separate calcium/iron by several hours",
+      "B": "Add liothyronine automatically",
+      "C": "Take varying doses based on symptoms",
+      "D": "Crush it into calcium tablets",
+      "E": "Stop levothyroxine"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "calcium/iron by several hours\nFood, coffee, calcium and iron can reduce levothyroxine absorption.\nClinical/Prescribing Pearl: Consistency matters; recheck TSH after an appropriate interval following a dose or\nadministration change.\nSafety Alert: Avoid rapid dose escalation before correcting adherence and interactions."
+  },
+  {
+    "id": 17,
+    "caseContext": "",
+    "question": "A 38-year-old with a 2-cm adrenal mass has episodic headache, sweating, palpitations and severe hypertension. Before surgery for confirmed pheochromocytoma, what sequence is required?",
+    "type": "MCQ",
+    "options": {
+      "A": "ACE inhibitor only",
+      "B": "Digoxin first",
+      "C": "Alpha blockade before any beta blockade",
+      "D": "No preoperative medication",
+      "E": "Beta blockade before alpha blockade"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Alpha blockade controls catecholamine-mediated vasoconstriction before beta blockade is considered.\nClinical/Prescribing Pearl: Adequate salt/fluid preparation may be required after alpha blockade under specialist care.\nSafety Alert: Unopposed alpha stimulation from beta blockade first can trigger hypertensive crisis."
+  },
+  {
+    "id": 18,
+    "caseContext": "",
+    "question": "A patient with symptomatic hypercalcemia from malignancy is dehydrated. Initial pharmacologic approach?",
+    "type": "MCQ",
+    "options": {
+      "A": "Thiazide diuretic",
+      "B": "Vitamin D loading",
+      "C": "IV isotonic saline, then an antiresorptive such as IV bisphosphonate as indicated",
+      "D": "Calcium carbonate",
+      "E": "Fluid restriction"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "indicated\nVolume restoration improves renal calcium clearance; antiresorptive therapy gives sustained control.\nClinical/Prescribing Pearl: Calcitonin may give faster short-term reduction while awaiting bisphosphonate effect.\nSafety Alert: Assess cardiac/renal status and avoid routine thiazides in hypercalcemia."
+  },
+  {
+    "id": 19,
+    "caseContext": "",
+    "question": "A 70-year-old with COPD has increased dyspnea, sputum volume and purulence. Which statement about antibiotics is correct?",
+    "type": "MCQ",
+    "options": {
+      "A": "Give indefinite azithromycin to everyone",
+      "B": "Use antifungal therapy first",
+      "C": "Sputum colour alone mandates IV meropenem",
+      "D": "Antibiotics are reasonable when cardinal bacterial features are present",
+      "E": "Antibiotics are never used in COPD exacerbations"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Antibiotics benefit selected COPD exacerbations with increased purulence plus other cardinal symptoms or ventilation\nneeds.\nClinical/Prescribing Pearl: Also optimize bronchodilators and use a short systemic steroid course when indicated.\nSafety Alert: Choose agent and duration by severity, local resistance and recent antibiotics."
+  },
+  {
+    "id": 20,
+    "caseContext": "",
+    "question": "A patient with severe asthma remains poorly controlled despite high-dose ICS/LABA, good technique and adherence; eosinophils are elevated. Best next step?",
+    "type": "MCQ",
+    "options": {
+      "A": "Begin indefinite oral prednisone without assessment",
+      "B": "Add a nonselective beta-blocker",
+      "C": "Specialist phenotype assessment for add-on biologic therapy",
+      "D": "Use salbutamol alone",
+      "E": "Stop inhaled corticosteroid"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Severe eosinophilic asthma may respond to phenotype-directed biologic therapy.\nClinical/Prescribing Pearl: Confirm diagnosis, triggers, adherence and comorbidities before labelling asthma severe.\nSafety Alert: Biologics do not replace an action plan or appropriate controller therapy."
+  },
+  {
+    "id": 21,
+    "caseContext": "",
+    "question": "A 24-year-old with acute asthma has silent chest, exhaustion and rising PaCO2 despite initial bronchodilators. What is the priority?",
+    "type": "MCQ",
+    "options": {
+      "A": "Discharge with antibiotics",
+      "B": "Immediate critical-care escalation with controlled oxygen, repeated bronchodilators, systemic steroid and airway planning",
+      "C": "Wait for chest radiograph before treatment",
+      "D": "Sedate with benzodiazepine",
+      "E": "Use a cough suppressant"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "bronchodilators, systemic steroid and airway planning\nSilent chest and rising CO2 signal impending respiratory failure.\nClinical/Prescribing Pearl: In life-threatening asthma, treatment and escalation occur simultaneously.\nSafety Alert: Avoid sedatives; prepare for expert airway management."
+  },
+  {
+    "id": 22,
+    "caseContext": "",
+    "question": "A 66-year-old with COPD and chronic CO2 retention is hypoxemic during an exacerbation. Appropriate oxygen strategy?",
+    "type": "MCQ",
+    "options": {
+      "A": "Give maximal oxygen without monitoring",
+      "B": "Use room air despite saturation 78%",
+      "C": "Withhold oxygen entirely",
+      "D": "Target 100% in every case",
+      "E": "Titrate controlled oxygen to a target commonly 88%-92% while reassessing gases"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "reassessing gases\nControlled oxygen corrects dangerous hypoxemia while limiting oxygen-induced hypercapnia risk.\nClinical/Prescribing Pearl: The target should be individualized using blood gases and clinical response.\nSafety Alert: Never withhold oxygen from severe hypoxemia."
+  },
+  {
+    "id": 23,
+    "caseContext": "",
+    "question": "A 40-year-old develops profuse watery diarrhea after clindamycin; stool testing confirms initial non-severe C. difficile infection. Preferred treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "Loperamide alone",
+      "B": "Metronidazole gel",
+      "C": "Continue clindamycin",
+      "D": "Oral fidaxomicin or oral vancomycin according to local guidance",
+      "E": "IV vancomycin"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Oral fidaxomicin or vancomycin is preferred for most initial CDI episodes.\nClinical/Prescribing Pearl: Stop the inciting antibiotic when feasible and use contact precautions.\nSafety Alert: Fulminant disease requires urgent escalation and a different regimen."
+  },
+  {
+    "id": 24,
+    "caseContext": "",
+    "question": "A patient with suspected bacterial meningitis has fever, neck stiffness, altered consciousness and focal deficit. What should happen?",
+    "type": "MCQ",
+    "options": {
+      "A": "Use steroids alone",
+      "B": "Obtain blood cultures and start empiric antibiotics promptly; do not delay for CT or lumbar puncture",
+      "C": "Perform LP before stabilizing",
+      "D": "Give oral amoxicillin and discharge",
+      "E": "Wait for MRI before antibiotics"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "delay for CT or lumbar puncture\nEmpiric therapy must not be delayed when imaging or LP will take time.\nClinical/Prescribing Pearl: Dexamethasone should be given before or with the first antibiotic dose when indicated.\nSafety Alert: Use age/risk-appropriate coverage including Listeria coverage when required."
+  },
+  {
+    "id": 25,
+    "caseContext": "",
+    "question": "A 68-year-old with community-acquired pneumonia has confusion, RR 34, BP 86/54 and lactate elevation. Best disposition and therapy?",
+    "type": "MCQ",
+    "options": {
+      "A": "No fluids because pneumonia causes edema",
+      "B": "Wait for sputum culture",
+      "C": "Urgent hospital resuscitation and empiric IV antibiotics for severe CAP/sepsis",
+      "D": "Topical antibiotic",
+      "E": "Home with delayed prescription"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "CAP/sepsis\nShock physiology and severe CAP require immediate hospital care.\nClinical/Prescribing Pearl: Cultures should not cause meaningful antibiotic delay in sepsis.\nSafety Alert: Use cautious reassessment of fluids and early vasopressors if hypotension persists."
+  },
+  {
+    "id": 26,
+    "caseContext": "",
+    "question": "A patient with influenza symptoms for 24 hours is pregnant. Which treatment is appropriate?",
+    "type": "MCQ",
+    "options": {
+      "A": "Use aspirin for fever",
+      "B": "Use doxycycline",
+      "C": "Start oseltamivir promptly without waiting for test confirmation",
+      "D": "Wait five days",
+      "E": "Avoid antivirals in pregnancy"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Pregnancy increases influenza complication risk, and early oseltamivir is recommended.\nClinical/Prescribing Pearl: Treatment benefit is greatest early but may remain worthwhile later in high-risk illness.\nSafety Alert: Do not delay therapy for testing when clinical suspicion is high."
+  },
+  {
+    "id": 27,
+    "caseContext": "",
+    "question": "A 28-year-old with pelvic inflammatory disease is stable for outpatient treatment. Which regimen concept is appropriate?",
+    "type": "MCQ",
+    "options": {
+      "A": "Ceftriaxone plus doxycycline with metronidazole",
+      "B": "Nitrofurantoin alone",
+      "C": "Fluconazole alone",
+      "D": "No partner management",
+      "E": "Amoxicillin for one day"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Outpatient PID requires broad coverage for gonorrhea, chlamydia and anaerobes.\nClinical/Prescribing Pearl: Treat empirically when clinical criteria are met to reduce reproductive complications.\nSafety Alert: Arrange STI testing, partner management and reassessment if not improving within 72 hours."
+  },
+  {
+    "id": 28,
+    "caseContext": "",
+    "question": "A patient with gonorrhea has a documented immediate anaphylactic reaction to cephalosporins. What is the best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Give ceftriaxone without discussion",
+      "B": "Seek guideline-directed expert alternative therapy and ensure test-of-cure where indicated",
+      "C": "Do not treat",
+      "D": "Use nitrofurantoin",
+      "E": "Use metronidazole only"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "test-of-cure where indicated\nSevere beta-lactam allergy requires an evidence-based alternative selected with current guidance/expert input.\nClinical/Prescribing Pearl: Obtain cultures and susceptibility when possible in complex cases.\nSafety Alert: Resistance is common; avoid improvised regimens."
+  },
+  {
+    "id": 29,
+    "caseContext": "",
+    "question": "A 45-year-old with fever, RUQ pain, jaundice and hypotension has acute cholangitis. Definitive management?",
+    "type": "MCQ",
+    "options": {
+      "A": "IV antibiotics, resuscitation and urgent biliary drainage",
+      "B": "Elective colonoscopy",
+      "C": "Loperamide",
+      "D": "Oral antacid only",
+      "E": "High-dose NSAID"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Severe cholangitis requires source control by urgent biliary decompression plus antimicrobials.\nClinical/Prescribing Pearl: Charcot triad plus organ dysfunction is a medical emergency.\nSafety Alert: Do not delay drainage when sepsis persists."
+  },
+  {
+    "id": 30,
+    "caseContext": "",
+    "question": "A patient with cirrhosis and ascites has abdominal pain; ascitic neutrophils are 420 cells/mm3. Treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "Wait for culture positivity",
+      "B": "Start empiric third-generation cephalosporin and consider albumin per criteria",
+      "C": "Start loperamide",
+      "D": "Use a proton-pump inhibitor only",
+      "E": "Give NSAIDs"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "criteria\nPMN count at least 250 cells/mm3 establishes presumptive spontaneous bacterial peritonitis.\nClinical/Prescribing Pearl: Albumin lowers renal failure risk in selected SBP patients.\nSafety Alert: Avoid nephrotoxins and assess for secondary peritonitis when features are atypical."
+  },
+  {
+    "id": 31,
+    "caseContext": "",
+    "question": "A 59-year-old with cirrhosis is confused and has asterixis after a GI bleed. First-line therapy for overt hepatic encephalopathy?",
+    "type": "MCQ",
+    "options": {
+      "A": "Benzodiazepine",
+      "B": "Diphenhydramine",
+      "C": "High-protein fasting",
+      "D": "Lactulose titrated to regular soft stools while treating precipitants",
+      "E": "Codeine"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Lactulose reduces intestinal ammonia absorption and is first-line for overt encephalopathy.\nClinical/Prescribing Pearl: Search for bleeding, infection, constipation, dehydration and medication triggers.\nSafety Alert: Overtreatment can cause diarrhea, dehydration and electrolyte loss."
+  },
+  {
+    "id": 32,
+    "caseContext": "",
+    "question": "A patient with acute variceal hemorrhage is being resuscitated. Which early drug combination is appropriate?",
+    "type": "MCQ",
+    "options": {
+      "A": "A vasoactive agent such as octreotide plus prophylactic antibiotics",
+      "B": "NSAID plus warfarin",
+      "C": "Loperamide plus metoclopramide",
+      "D": "Aspirin plus clopidogrel",
+      "E": "Oral iron only"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Vasoactive therapy and antibiotic prophylaxis improve outcomes while arranging urgent endoscopy.\nClinical/Prescribing Pearl: Use restrictive transfusion in most patients unless individualized factors dictate otherwise.\nSafety Alert: Protect the airway when encephalopathy or massive hematemesis threatens aspiration."
+  },
+  {
+    "id": 33,
+    "caseContext": "",
+    "question": "A patient has severe ulcerative colitis with frequent bloody stools, fever, tachycardia and anemia. Initial inpatient drug therapy?",
+    "type": "MCQ",
+    "options": {
+      "A": "IV corticosteroids after excluding/treating infection and arranging specialist care",
+      "B": "NSAID",
+      "C": "Routine opioid escalation",
+      "D": "Oral loperamide",
+      "E": "Mesalamine suppository alone"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "specialist care\nAcute severe UC requires admission and IV corticosteroids with early rescue/surgical planning.\nClinical/Prescribing Pearl: Assess response within days, not weeks.\nSafety Alert: Avoid antimotility drugs in severe colitis due to toxic megacolon risk."
+  },
+  {
+    "id": 34,
+    "caseContext": "",
+    "question": "A 31-year-old has perianal fistulizing Crohn disease. Which treatment principle is most appropriate?",
+    "type": "MCQ",
+    "options": {
+      "A": "No imaging or drainage",
+      "B": "Mesalamine alone cures fistulas",
+      "C": "NSAID indefinitely",
+      "D": "Combined specialist medical and surgical assessment, often with biologic therapy after controlling sepsis",
+      "E": "Loperamide alone"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "biologic therapy after controlling sepsis\nFistulizing Crohn disease often needs drainage/seton management and effective biologic therapy.\nClinical/Prescribing Pearl: Control abscess/sepsis before immunosuppression.\nSafety Alert: Screen for TB/hepatitis and update vaccines before biologic therapy."
+  },
+  {
+    "id": 35,
+    "caseContext": "",
+    "question": "A 63-year-old with eGFR 24 has painful diabetic neuropathy. Which prescribing principle applies to gabapentin?",
+    "type": "MCQ",
+    "options": {
+      "A": "Double the usual dose",
+      "B": "Reduce the dose for renal impairment",
+      "C": "Use only PRN once monthly",
+      "D": "Combine with opioids automatically",
+      "E": "No dose adjustment is ever needed"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Gabapentin is renally cleared and accumulates when kidney function declines.\nClinical/Prescribing Pearl: Start low and titrate to function and tolerability.\nSafety Alert: Monitor sedation, dizziness, falls and respiratory depression with other CNS depressants."
+  },
+  {
+    "id": 36,
+    "caseContext": "",
+    "question": "A patient with CKD and albuminuria starts an ACE inhibitor. Creatinine rises 18% and potassium is 4.8 after two weeks. Best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Stop permanently for any creatinine rise",
+      "B": "Start NSAID",
+      "C": "Add an ARB routinely",
+      "D": "Continue with monitoring if clinically stable",
+      "E": "Add potassium supplement"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "A modest creatinine increase after RAAS blockade is expected and may be acceptable.\nClinical/Prescribing Pearl: Recheck renal function and potassium after initiation and dose changes.\nSafety Alert: Investigate volume depletion, NSAIDs or renal artery stenosis if creatinine rises substantially."
+  },
+  {
+    "id": 37,
+    "caseContext": "",
+    "question": "A 70-year-old with potassium 6.4 mmol/L has no ECG changes. Which therapy shifts potassium intracellularly while definitive removal is arranged?",
+    "type": "MCQ",
+    "options": {
+      "A": "IV calcium alone",
+      "B": "Normal saline only",
+      "C": "IV insulin with glucose",
+      "D": "Spironolactone",
+      "E": "Oral potassium"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Insulin lowers serum potassium temporarily by intracellular shift; glucose prevents hypoglycemia.\nClinical/Prescribing Pearl: Calcium stabilizes myocardium but does not lower potassium.\nSafety Alert: Monitor glucose closely and arrange potassium removal/repeat measurements."
+  },
+  {
+    "id": 38,
+    "caseContext": "",
+    "question": "A hemodialysis patient has refractory hyperkalemia, pulmonary edema and severe acidosis. Definitive treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "Fluid bolus",
+      "B": "Diet advice next month",
+      "C": "Thiazide alone",
+      "D": "Urgent dialysis",
+      "E": "Oral calcium carbonate only"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Refractory electrolyte, volume and acid-base emergencies are classic dialysis indications.\nClinical/Prescribing Pearl: Use temporizing measures while dialysis is mobilized.\nSafety Alert: Do not delay nephrology/critical-care escalation."
+  },
+  {
+    "id": 39,
+    "caseContext": "",
+    "question": "A 78-year-old has a painful red first MTP joint and eGFR 20. Which acute gout option is reasonable?",
+    "type": "MCQ",
+    "options": {
+      "A": "High-dose indomethacin",
+      "B": "Aspirin",
+      "C": "Start high-dose allopurinol as sole acute analgesic",
+      "D": "A short course of corticosteroid after assessing infection risk",
+      "E": "Probenecid"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Corticosteroids avoid NSAID nephrotoxicity in advanced CKD and can treat an acute flare.\nClinical/Prescribing Pearl: Urate-lowering therapy prevents future attacks but is not adequate acute anti-inflammatory\ntreatment.\nSafety Alert: Exclude septic arthritis when presentation is atypical or systemic illness is present."
+  },
+  {
+    "id": 40,
+    "caseContext": "",
+    "question": "A patient taking allopurinol develops fever, facial edema, eosinophilia, hepatitis and a diffuse rash. Immediate action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Stop allopurinol permanently and provide urgent care for severe hypersensitivity",
+      "B": "Restart after two days",
+      "C": "Continue at half dose",
+      "D": "Add colchicine and continue",
+      "E": "Apply moisturizer only"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "hypersensitivity\nThis pattern suggests allopurinol hypersensitivity/DRESS, a potentially fatal reaction.\nClinical/Prescribing Pearl: Start allopurinol low and titrate, especially in CKD; consider HLA testing in high-risk ancestry.\nSafety Alert: Never rechallenge after severe allopurinol hypersensitivity."
+  },
+  {
+    "id": 41,
+    "caseContext": "",
+    "question": "A 71-year-old on long-term prednisone has high fracture risk. Appropriate prevention strategy?",
+    "type": "MCQ",
+    "options": {
+      "A": "Stop weight-bearing activity",
+      "B": "Calcium/vitamin D adequacy plus antiresorptive therapy such as a bisphosphonate when indicated",
+      "C": "Wait for a fracture",
+      "D": "Use calcitonin only in everyone",
+      "E": "Give estrogen to all patients"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "bisphosphonate when indicated\nHigh-risk glucocorticoid users need prompt fracture prevention, commonly including a bisphosphonate.\nClinical/Prescribing Pearl: Risk assessment should occur when prolonged glucocorticoid therapy starts.\nSafety Alert: Review renal function, dental issues and administration technique."
+  },
+  {
+    "id": 42,
+    "caseContext": "",
+    "question": "A woman on denosumab for osteoporosis wants to stop because her BMD improved. Best plan?",
+    "type": "MCQ",
+    "options": {
+      "A": "Use raloxifene for one week",
+      "B": "Take a two-year drug holiday",
+      "C": "Stop immediately with no follow-up",
+      "D": "Replace with calcium alone",
+      "E": "Arrange sequential antiresorptive therapy; do not stop without a transition plan"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "transition plan\nDenosumab cessation can cause rebound bone turnover and vertebral fractures.\nClinical/Prescribing Pearl: Unlike bisphosphonates, denosumab has no routine drug holiday.\nSafety Alert: Keep injections on schedule and plan transition with an osteoporosis clinician."
+  },
+  {
+    "id": 43,
+    "caseContext": "",
+    "question": "A 48-year-old with rheumatoid arthritis remains active on maximally tolerated methotrexate. Next principle?",
+    "type": "MCQ",
+    "options": {
+      "A": "Add long-term antibiotics",
+      "B": "Use chronic prednisone alone",
+      "C": "Use opioids as disease-modifying therapy",
+      "D": "Stop all DMARDs",
+      "E": "Treat to target and add/switch a DMARD with rheumatology input"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Persistent active RA requires DMARD escalation to prevent structural damage.\nClinical/Prescribing Pearl: Assess adherence, diagnosis, disease activity and prognostic factors.\nSafety Alert: Screen infection risk and vaccination status before biologic/targeted therapy."
+  },
+  {
+    "id": 44,
+    "caseContext": "",
+    "question": "A patient on methotrexate develops mouth ulcers, bruising and pancytopenia after trimethoprim-sulfamethoxazole. What should happen?",
+    "type": "MCQ",
+    "options": {
+      "A": "Continue both",
+      "B": "Increase methotrexate",
+      "C": "Add folic acid next month only",
+      "D": "Give live vaccine",
+      "E": "Stop interacting drugs and obtain urgent toxicity management"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "TMP-SMX can markedly increase methotrexate marrow toxicity.\nClinical/Prescribing Pearl: Medication reconciliation prevents dangerous antifolate interactions.\nSafety Alert: Severe cytopenia requires urgent assessment, possible folinic acid rescue and specialist care."
+  },
+  {
+    "id": 45,
+    "caseContext": "",
+    "question": "A 22-year-old has a hot swollen knee, fever and inability to bear weight. Best initial management?",
+    "type": "MCQ",
+    "options": {
+      "A": "Physiotherapy only",
+      "B": "Urgent joint aspiration, cultures and empiric IV antibiotics after sampling",
+      "C": "Intra-articular steroid before aspiration",
+      "D": "Observe for a week",
+      "E": "Allopurinol"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "sampling\nSeptic arthritis can rapidly destroy cartilage and requires drainage plus antibiotics.\nClinical/Prescribing Pearl: Crystals do not exclude concomitant infection.\nSafety Alert: Do not delay treatment in a toxic patient if aspiration is not immediately possible."
+  },
+  {
+    "id": 46,
+    "caseContext": "",
+    "question": "A 65-year-old with polymyalgia rheumatica develops new headache, jaw claudication and visual symptoms. Best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Wait for biopsy result",
+      "B": "Start antibiotics",
+      "C": "Use a triptan",
+      "D": "Start high-dose corticosteroids immediately for suspected giant cell arteritis",
+      "E": "Increase acetaminophen only"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "arteritis\nVisual symptoms with GCA features require immediate steroids to prevent blindness.\nClinical/Prescribing Pearl: Diagnostic testing should follow quickly but not delay treatment.\nSafety Alert: Arrange urgent ophthalmology/rheumatology assessment."
+  },
+  {
+    "id": 47,
+    "caseContext": "",
+    "question": "A 35-year-old with bipolar I disorder is acutely manic with psychosis and dangerous behavior. Appropriate acute regimen?",
+    "type": "MCQ",
+    "options": {
+      "A": "No medication despite danger",
+      "B": "An antipsychotic, often with lithium or valproate, plus urgent safety management",
+      "C": "Stimulant",
+      "D": "Antidepressant monotherapy",
+      "E": "Buspirone alone"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "management\nAcute severe mania usually requires an antipsychotic and a mood stabilizer.\nClinical/Prescribing Pearl: Hospital care may be needed when safety or judgment is impaired.\nSafety Alert: Avoid antidepressant monotherapy in bipolar I mania."
+  },
+  {
+    "id": 48,
+    "caseContext": "",
+    "question": "A stable patient taking lithium starts hydrochlorothiazide and develops tremor, ataxia and vomiting. Best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Continue all medications",
+      "B": "Increase lithium",
+      "C": "Add an NSAID",
+      "D": "Hold lithium and obtain urgent lithium level, renal/electrolyte assessment and toxicity care",
+      "E": "Reassure"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "assessment and toxicity care\nThiazides reduce lithium clearance and can precipitate toxicity.\nClinical/Prescribing Pearl: ACE inhibitors, ARBs, NSAIDs, dehydration and renal decline also increase lithium levels.\nSafety Alert: Neurologic symptoms require urgent evaluation; severe toxicity may need dialysis."
+  },
+  {
+    "id": 49,
+    "caseContext": "",
+    "question": "A patient taking clozapine reports fever and sore throat. What is required?",
+    "type": "MCQ",
+    "options": {
+      "A": "Routine visit in six months",
+      "B": "Urgent CBC/absolute neutrophil count and clozapine protocol action",
+      "C": "Ignore it",
+      "D": "Add carbamazepine",
+      "E": "Increase clozapine"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Clozapine can cause severe neutropenia; infection symptoms require immediate blood count assessment.\nClinical/Prescribing Pearl: Clozapine also requires metabolic, myocarditis and bowel-function monitoring.\nSafety Alert: Severe constipation can progress to ileus and is an emergency warning."
+  },
+  {
+    "id": 50,
+    "caseContext": "",
+    "question": "A 27-year-old started sertraline one week ago and has increased agitation, insomnia and suicidal thoughts. Best response?",
+    "type": "MCQ",
+    "options": {
+      "A": "Stop all care",
+      "B": "Urgent suicide-risk assessment, safety plan and close treatment review",
+      "C": "Tell the patient to wait three months without contact",
+      "D": "Add alcohol",
+      "E": "Double the dose automatically"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Early activation and suicidal thinking require prompt reassessment, particularly in younger patients.\nClinical/Prescribing Pearl: Antidepressants need early follow-up after initiation or dose changes.\nSafety Alert: Emergency intervention is required for imminent intent, plan or inability to stay safe."
+  },
+  {
+    "id": 51,
+    "caseContext": "",
+    "question": "A patient taking phenelzine develops severe headache and hypertension after aged cheese. Treatment principle?",
+    "type": "MCQ",
+    "options": {
+      "A": "Treat hypertensive crisis urgently and stop tyramine exposure/MAOI pending specialist direction",
+      "B": "Eat more cheese",
+      "C": "Observe at home",
+      "D": "Add an SSRI immediately",
+      "E": "Give pseudoephedrine"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "pending specialist direction\nTyramine with an irreversible MAOI can provoke catecholamine-mediated hypertensive crisis.\nClinical/Prescribing Pearl: Provide written food and interaction counselling with MAOIs.\nSafety Alert: Combining MAOIs with serotonergic drugs can cause serotonin syndrome."
+  },
+  {
+    "id": 52,
+    "caseContext": "",
+    "question": "A 42-year-old on serotonergic drugs has agitation, clonus, hyperreflexia, diaphoresis and fever. First steps?",
+    "type": "MCQ",
+    "options": {
+      "A": "Use haloperidol as the only treatment",
+      "B": "Discharge",
+      "C": "Stop serotonergic agents, provide supportive care and benzodiazepines; escalate severe cases",
+      "D": "Give bromocriptine",
+      "E": "Give more SSRI"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "benzodiazepines; escalate severe cases\nClonus and hyperreflexia support serotonin toxicity; withdrawal and supportive care are central.\nClinical/Prescribing Pearl: Cyproheptadine may be used in selected moderate/severe cases.\nSafety Alert: Severe hyperthermia requires aggressive critical care; antipyretics alone do not work."
+  },
+  {
+    "id": 53,
+    "caseContext": "",
+    "question": "A patient with alcohol withdrawal has tremor, autonomic hyperactivity and prior withdrawal seizure. First-line drug class?",
+    "type": "MCQ",
+    "options": {
+      "A": "Beta-blocker alone",
+      "B": "Antipsychotic monotherapy",
+      "C": "Benzodiazepines",
+      "D": "Disulfiram",
+      "E": "SSRI"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Benzodiazepines prevent seizures and delirium in alcohol withdrawal.\nClinical/Prescribing Pearl: Give thiamine early and correct fluids/electrolytes while using a validated protocol.\nSafety Alert: Antipsychotics do not protect against withdrawal seizures."
+  },
+  {
+    "id": 54,
+    "caseContext": "",
+    "question": "A patient with opioid use disorder wants office-based maintenance treatment. Appropriate option?",
+    "type": "MCQ",
+    "options": {
+      "A": "Abrupt detoxification only",
+      "B": "Buprenorphine/naloxone",
+      "C": "PRN codeine",
+      "D": "Diazepam monotherapy",
+      "E": "Naloxone alone as maintenance"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Buprenorphine/naloxone reduces illicit opioid use and mortality.\nClinical/Prescribing Pearl: Induction timing matters to avoid precipitated withdrawal.\nSafety Alert: Provide take-home naloxone and screen for sedative co-use."
+  },
+  {
+    "id": 55,
+    "caseContext": "",
+    "question": "A patient receiving methadone has syncope and QTc 540 ms. Best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Urgent assessment and methadone/QT-prolonging drug review with correction of electrolytes",
+      "B": "Give loperamide",
+      "C": "Ignore QTc",
+      "D": "Increase methadone",
+      "E": "Add macrolide"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "correction of electrolytes\nMarked QT prolongation with syncope creates torsades risk.\nClinical/Prescribing Pearl: Consider dose reduction or transition under addiction/cardiology guidance.\nSafety Alert: Correct potassium and magnesium and avoid interacting QT-prolonging drugs."
+  },
+  {
+    "id": 56,
+    "caseContext": "",
+    "question": "A 79-year-old develops acute fluctuating inattention after surgery. Which drug should be avoided as routine delirium treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "Low-dose haloperidol in severe dangerous agitation",
+      "B": "Treatment of urinary retention",
+      "C": "Analgesia optimization",
+      "D": "Melatonin for sleep-wake support",
+      "E": "Lorazepam"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Benzodiazepines commonly worsen non-withdrawal delirium.\nClinical/Prescribing Pearl: Nonpharmacologic care and treatment of causes are first-line.\nSafety Alert: Use antipsychotics only when severe distress or danger outweighs risk."
+  },
+  {
+    "id": 57,
+    "caseContext": "",
+    "question": "A patient with Parkinson disease develops hallucinations but motor therapy is necessary. Which antipsychotic is least likely to worsen motor symptoms?",
+    "type": "MCQ",
+    "options": {
+      "A": "Quetiapine",
+      "B": "Risperidone",
+      "C": "Metoclopramide",
+      "D": "Fluphenazine",
+      "E": "Haloperidol"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Quetiapine is commonly chosen because it has lower risk of worsening parkinsonism; pimavanserin or clozapine may be\noptions.\nClinical/Prescribing Pearl: First review infection, cognition and dopaminergic drug burden.\nSafety Alert: Typical dopamine blockers can markedly worsen Parkinson symptoms."
+  },
+  {
+    "id": 58,
+    "caseContext": "",
+    "question": "A patient has a generalized tonic-clonic seizure lasting 7 minutes. First-line medication?",
+    "type": "MCQ",
+    "options": {
+      "A": "Wait 30 minutes",
+      "B": "Haloperidol",
+      "C": "IV/IM/intranasal benzodiazepine according to access",
+      "D": "Oral carbamazepine",
+      "E": "Ethosuximide"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "A seizure lasting at least 5 minutes should be treated as status epilepticus with a rapid benzodiazepine.\nClinical/Prescribing Pearl: Follow promptly with an appropriate longer-acting antiseizure drug if seizures continue.\nSafety Alert: Support airway, oxygenation and glucose assessment simultaneously."
+  },
+  {
+    "id": 59,
+    "caseContext": "",
+    "question": "A woman taking lamotrigine develops a spreading painful rash with oral ulcers. Best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Double the dose",
+      "B": "Continue and add moisturizer",
+      "C": "Stop lamotrigine and seek urgent assessment for severe cutaneous reaction",
+      "D": "Take amoxicillin only",
+      "E": "Restart after one day"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "reaction\nMucosal involvement and painful rash suggest SJS/TEN risk.\nClinical/Prescribing Pearl: Slow titration reduces rash risk, especially with valproate coadministration.\nSafety Alert: Do not rechallenge after a serious lamotrigine rash."
+  },
+  {
+    "id": 60,
+    "caseContext": "",
+    "question": "A patient with focal seizures takes carbamazepine and starts a combined oral contraceptive. What interaction is expected?",
+    "type": "MCQ",
+    "options": {
+      "A": "Permanent infertility",
+      "B": "Reduced contraceptive effectiveness from enzyme induction",
+      "C": "No interaction",
+      "D": "Carbamazepine levels always fall to zero",
+      "E": "Higher contraceptive effectiveness"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Carbamazepine induces hepatic enzymes and can lower hormonal contraceptive concentrations.\nClinical/Prescribing Pearl: Offer a method not compromised by enzyme induction.\nSafety Alert: Review interactions whenever antiseizure therapy or contraception changes."
+  },
+  {
+    "id": 61,
+    "caseContext": "",
+    "question": "A 36-year-old has migraine with aura and smokes. Which contraceptive should generally be avoided?",
+    "type": "MCQ",
+    "options": {
+      "A": "Copper IUD",
+      "B": "Combined estrogen-containing contraception",
+      "C": "Etonogestrel implant",
+      "D": "Levonorgestrel IUD",
+      "E": "Progestin-only pill"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Estrogen-containing contraception increases ischemic stroke risk in migraine with aura.\nClinical/Prescribing Pearl: Long-acting reversible contraceptives provide highly effective alternatives.\nSafety Alert: Smoking adds vascular risk and strengthens avoidance."
+  },
+  {
+    "id": 62,
+    "caseContext": "",
+    "question": "A breastfeeding patient 10 days postpartum has fever, wedge-shaped breast erythema and pain without abscess. Treatment principle?",
+    "type": "MCQ",
+    "options": {
+      "A": "Give estrogen",
+      "B": "Stop all milk removal",
+      "C": "Use antifungal therapy only",
+      "D": "Incise immediately without imaging",
+      "E": "Continue breastfeeding/emptying and use an appropriate anti-staphylococcal antibiotic"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "anti-staphylococcal antibiotic\nLactational mastitis improves with effective milk drainage and suitable antibiotics when bacterial disease is likely.\nClinical/Prescribing Pearl: Correct latch and avoid aggressive breast massage.\nSafety Alert: Ultrasound and drainage are needed if abscess is suspected or response is poor."
+  },
+  {
+    "id": 63,
+    "caseContext": "",
+    "question": "A 32-week pregnant patient has BP 170/112, headache and visual symptoms. Immediate management?",
+    "type": "MCQ",
+    "options": {
+      "A": "Send home with routine follow-up",
+      "B": "Hospitalize, urgently treat severe BP and give magnesium sulfate for seizure prophylaxis",
+      "C": "Use aspirin as sole acute therapy",
+      "D": "Give ACE inhibitor",
+      "E": "Wait for proteinuria"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "seizure prophylaxis\nSevere preeclampsia features require urgent maternal stabilization and delivery planning.\nClinical/Prescribing Pearl: Proteinuria is not required when severe end-organ features are present.\nSafety Alert: Avoid ACE inhibitors and monitor for magnesium toxicity."
+  },
+  {
+    "id": 64,
+    "caseContext": "",
+    "question": "A 30-year-old has postpartum hemorrhage from uterine atony. She has severe asthma. Which uterotonic should be avoided?",
+    "type": "MCQ",
+    "options": {
+      "A": "Misoprostol",
+      "B": "Tranexamic acid when indicated",
+      "C": "Carboprost",
+      "D": "Uterine massage",
+      "E": "Oxytocin"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Carboprost can cause bronchospasm and is relatively contraindicated in asthma.\nClinical/Prescribing Pearl: Oxytocin and uterine massage are first-line for atony.\nSafety Alert: Resuscitation, cause assessment and escalation must occur simultaneously."
+  },
+  {
+    "id": 65,
+    "caseContext": "",
+    "question": "A hemodynamically stable patient has early pregnancy loss and prefers medication management. Appropriate regimen?",
+    "type": "MCQ",
+    "options": {
+      "A": "Methotrexate for every intrauterine loss",
+      "B": "No follow-up",
+      "C": "Estrogen",
+      "D": "Oxytocin infusion at home",
+      "E": "Mifepristone followed by misoprostol where available"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Mifepristone pretreatment improves success of misoprostol for early pregnancy loss.\nClinical/Prescribing Pearl: Confirm diagnosis and exclude ectopic pregnancy before treatment.\nSafety Alert: Give clear bleeding, pain and emergency-return instructions."
+  },
+  {
+    "id": 66,
+    "caseContext": "",
+    "question": "A 6-year-old with acute otitis media has mild unilateral symptoms for 24 hours and reliable follow-up. Appropriate approach?",
+    "type": "MCQ",
+    "options": {
+      "A": "Long-term azithromycin",
+      "B": "Topical antifungal",
+      "C": "Shared decision-making for observation with analgesia or antibiotics based on criteria",
+      "D": "No analgesia",
+      "E": "Immediate IV vancomycin"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "based on criteria\nSelected children with mild AOM can undergo watchful waiting with good follow-up.\nClinical/Prescribing Pearl: Pain control is important whether or not antibiotics are used.\nSafety Alert: Treat promptly when severe, bilateral in younger children, perforated, or follow-up is unreliable."
+  },
+  {
+    "id": 67,
+    "caseContext": "",
+    "question": "A 3-year-old has barking cough and stridor only when agitated. Best medication?",
+    "type": "MCQ",
+    "options": {
+      "A": "Inhaled steroid for six months",
+      "B": "Codeine",
+      "C": "Aspirin",
+      "D": "Antibiotic",
+      "E": "Single-dose dexamethasone"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Corticosteroid improves croup symptoms at all severity levels.\nClinical/Prescribing Pearl: Nebulized epinephrine is added for moderate/severe stridor at rest.\nSafety Alert: Observe after epinephrine for recurrence and escalate impending airway failure."
+  },
+  {
+    "id": 68,
+    "caseContext": "",
+    "question": "A 9-month-old with bronchiolitis has mild retractions, good hydration and oxygen saturation 95%. Management?",
+    "type": "MCQ",
+    "options": {
+      "A": "Routine antibiotics",
+      "B": "Routine salbutamol for every infant",
+      "C": "Supportive care with nasal suction and hydration",
+      "D": "Codeine",
+      "E": "Routine systemic steroids"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Typical bronchiolitis treatment is supportive; routine bronchodilators, steroids and antibiotics do not improve outcomes.\nClinical/Prescribing Pearl: Assess feeding, work of breathing, apnea risk and oxygenation.\nSafety Alert: Avoid cough/cold medicines in infants."
+  },
+  {
+    "id": 69,
+    "caseContext": "",
+    "question": "A 4-year-old with fever, drooling, muffled voice and tripod positioning is suspected of epiglottitis. Best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Use a tongue depressor repeatedly",
+      "B": "Force a throat examination",
+      "C": "Keep the child calm and arrange controlled airway management urgently",
+      "D": "Send home with oral antibiotics",
+      "E": "Obtain a throat swab first"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "urgently\nAgitation or pharyngeal manipulation can precipitate complete obstruction.\nClinical/Prescribing Pearl: Airway control by an experienced team precedes nonessential testing.\nSafety Alert: Start IV antibiotics after airway priorities are addressed."
+  },
+  {
+    "id": 70,
+    "caseContext": "",
+    "question": "A child with Kawasaki disease has 6 days of fever, conjunctivitis, oral changes, rash and swollen hands. Treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "IV immunoglobulin plus aspirin under pediatric guidance",
+      "B": "Ibuprofen alone",
+      "C": "Live vaccine immediately",
+      "D": "No therapy",
+      "E": "Penicillin only Topics are deliberately mixed. No domain labels are shown in the exam section."
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "IVIG reduces coronary aneurysm risk; aspirin is part of standard treatment.\nClinical/Prescribing Pearl: Echocardiographic follow-up is essential.\nSafety Alert: Delay certain live vaccines after IVIG according to immunization guidance."
+  },
+  {
+    "id": 71,
+    "caseContext": "",
+    "question": "A 7-year-old has nephrotic syndrome with generalized edema and heavy proteinuria. Initial pharmacologic therapy for likely minimal change disease?",
+    "type": "MCQ",
+    "options": {
+      "A": "ACE inhibitor alone as curative therapy",
+      "B": "NSAID",
+      "C": "Chemotherapy immediately",
+      "D": "Antibiotic indefinitely",
+      "E": "Corticosteroid under pediatric nephrology guidance"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Childhood idiopathic nephrotic syndrome is commonly steroid-responsive.\nClinical/Prescribing Pearl: Monitor urine protein, weight, blood pressure and infection risk.\nSafety Alert: Fever or abdominal pain can signal serious infection such as spontaneous bacterial peritonitis."
+  },
+  {
+    "id": 72,
+    "caseContext": "",
+    "question": "A 17-year-old has primary dysmenorrhea with normal examination. First-line treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "Antibiotic",
+      "B": "Warfarin",
+      "C": "Opioid monthly",
+      "D": "NSAID started just before or at onset of menses",
+      "E": "GnRH agonist indefinitely"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "NSAIDs reduce prostaglandin-mediated uterine pain.\nClinical/Prescribing Pearl: Hormonal contraception is an effective alternative/add-on when suitable.\nSafety Alert: Investigate secondary causes if pain is new, progressive or associated with abnormal findings."
+  },
+  {
+    "id": 73,
+    "caseContext": "",
+    "question": "A 74-year-old with BPH has bothersome hesitancy and weak stream, prostate not markedly enlarged. Best initial medication?",
+    "type": "MCQ",
+    "options": {
+      "A": "Oxybutynin alone",
+      "B": "Pseudoephedrine",
+      "C": "Testosterone",
+      "D": "An alpha-1 blocker such as tamsulosin",
+      "E": "Finasteride for immediate relief in 24 hours"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Alpha blockers improve dynamic obstruction quickly.\nClinical/Prescribing Pearl: 5-alpha-reductase inhibitors act slowly and help most when the prostate is enlarged.\nSafety Alert: Warn about orthostatic hypotension and possible ejaculatory effects."
+  },
+  {
+    "id": 74,
+    "caseContext": "",
+    "question": "A man using tamsulosin will undergo cataract surgery. Key action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Stop without telling anyone",
+      "B": "Double the dose before surgery",
+      "C": "Cancel all surgery permanently",
+      "D": "Tell the ophthalmologist because of intraoperative floppy iris risk",
+      "E": "Add atropine at home"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Current or prior alpha-1 blocker use can affect iris behavior during cataract surgery.\nClinical/Prescribing Pearl: Medication history should reach the surgical team early.\nSafety Alert: Do not make abrupt changes without prescriber and ophthalmologist input."
+  },
+  {
+    "id": 75,
+    "caseContext": "",
+    "question": "A 68-year-old has overactive bladder and significant cognitive impairment. Which drug choice is preferable if medication is needed?",
+    "type": "MCQ",
+    "options": {
+      "A": "Diphenhydramine",
+      "B": "A beta-3 agonist such as mirabegron after checking blood pressure",
+      "C": "Oxybutynin immediate release",
+      "D": "Amitriptyline",
+      "E": "Benztropine"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "A beta-3 agonist avoids much of the anticholinergic cognitive burden.\nClinical/Prescribing Pearl: Begin with bladder training and address reversible causes.\nSafety Alert: Mirabegron can raise blood pressure and has interaction considerations."
+  },
+  {
+    "id": 76,
+    "caseContext": "",
+    "question": "A 24-year-old with a 5-mm distal ureteric stone has controlled pain, no infection and normal renal function. Reasonable outpatient plan?",
+    "type": "MCQ",
+    "options": {
+      "A": "Immediate antibiotics for all stones",
+      "B": "Opioid indefinitely",
+      "C": "Force excessive fluids",
+      "D": "No return precautions",
+      "E": "NSAID analgesia, hydration to thirst, follow-up, and consider tamsulosin in selected cases"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "tamsulosin in selected cases\nSmall distal stones often pass; NSAIDs are effective for renal colic and medical expulsive therapy may help selected\npatients.\nClinical/Prescribing Pearl: Stone size/location and patient factors guide passage likelihood.\nSafety Alert: Fever, solitary kidney, AKI or uncontrolled pain requires urgent urologic assessment."
+  },
+  {
+    "id": 77,
+    "caseContext": "",
+    "question": "A 30-year-old has anaphylaxis after shellfish. Symptoms improve after IM epinephrine. Next management?",
+    "type": "MCQ",
+    "options": {
+      "A": "Observe for recurrence, provide an epinephrine autoinjector plan and allergy referral",
+      "B": "Recommend deliberate re-exposure",
+      "C": "Discharge immediately without instructions",
+      "D": "Use antihistamine instead of future epinephrine",
+      "E": "Prescribe oral steroid as the only rescue"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "allergy referral\nEpinephrine remains first-line; follow-up reduces harm from future episodes.\nClinical/Prescribing Pearl: Teach device technique and avoidance, and provide a written action plan.\nSafety Alert: Biphasic reactions can occur; observation duration depends on severity and risk."
+  },
+  {
+    "id": 78,
+    "caseContext": "",
+    "question": "A patient taking warfarin starts trimethoprim-sulfamethoxazole. Expected issue?",
+    "type": "MCQ",
+    "options": {
+      "A": "INR always falls",
+      "B": "No interaction",
+      "C": "Vitamin K deficiency is cured",
+      "D": "INR may rise substantially, requiring an alternative or close monitoring/dose adjustment",
+      "E": "Warfarin becomes an antiplatelet"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "monitoring/dose adjustment\nTMP-SMX inhibits warfarin metabolism and alters gut vitamin K, increasing bleeding risk.\nClinical/Prescribing Pearl: New antibiotics should trigger an interaction check and INR plan.\nSafety Alert: Educate about bleeding and avoid empiric co-prescribing when safer alternatives exist."
+  },
+  {
+    "id": 79,
+    "caseContext": "",
+    "question": "A patient on dabigatran has life-threatening bleeding. Specific antidote?",
+    "type": "MCQ",
+    "options": {
+      "A": "Andexanet alfa",
+      "B": "Idarucizumab",
+      "C": "Naloxone",
+      "D": "Protamine",
+      "E": "Vitamin K"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Idarucizumab is a specific reversal agent for dabigatran.\nClinical/Prescribing Pearl: Reversal does not replace resuscitation and source control.\nSafety Alert: Assess renal function because dabigatran accumulation is greater in CKD."
+  },
+  {
+    "id": 80,
+    "caseContext": "",
+    "question": "A patient receiving unfractionated heparin has a platelet fall of 60% on day 7 and new DVT. Best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Use aspirin only",
+      "B": "Continue heparin",
+      "C": "Give platelets routinely",
+      "D": "Start warfarin alone immediately",
+      "E": "Stop all heparin and start a non-heparin anticoagulant while testing for HIT"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "HIT\nThe timing, platelet fall and thrombosis strongly suggest heparin-induced thrombocytopenia.\nClinical/Prescribing Pearl: Clinical probability should guide testing and immediate management.\nSafety Alert: Avoid initial warfarin monotherapy in acute HIT due to limb-gangrene risk."
+  },
+  {
+    "id": 81,
+    "caseContext": "",
+    "question": "A 55-year-old with iron-deficiency anemia has no obvious bleeding. Which treatment principle is correct?",
+    "type": "MCQ",
+    "options": {
+      "A": "Give iron only and never investigate",
+      "B": "Replace iron and investigate the cause, including GI loss as appropriate",
+      "C": "Stop dietary iron",
+      "D": "Use folate alone",
+      "E": "Transfuse regardless of stability"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "appropriate\nAdult iron deficiency requires etiologic evaluation as well as replacement.\nClinical/Prescribing Pearl: Oral iron can often be given once daily or on alternate days to improve tolerance.\nSafety Alert: Do not miss GI malignancy or ongoing blood loss."
+  },
+  {
+    "id": 82,
+    "caseContext": "",
+    "question": "A patient with sickle cell disease has acute chest pain, fever, hypoxemia and a new infiltrate. Management?",
+    "type": "MCQ",
+    "options": {
+      "A": "Avoid antibiotics",
+      "B": "Use diuretic only",
+      "C": "Give iron",
+      "D": "Discharge with NSAID only",
+      "E": "Hospitalize for oxygen as needed, antibiotics, analgesia, incentive spirometry and transfusion assessment"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "spirometry and transfusion assessment\nAcute chest syndrome is a life-threatening sickle complication requiring multimodal inpatient care.\nClinical/Prescribing Pearl: Early incentive spirometry during pain admissions may reduce risk.\nSafety Alert: Escalate rapidly for worsening hypoxemia; exchange transfusion may be required."
+  },
+  {
+    "id": 83,
+    "caseContext": "",
+    "question": "A chemotherapy patient has febrile neutropenia, hypotension and ANC 0.1. Antibiotic timing?",
+    "type": "MCQ",
+    "options": {
+      "A": "Observe for 24 hours",
+      "B": "Wait for neutrophil recovery",
+      "C": "Use oral amoxicillin alone",
+      "D": "Give antifungal monotherapy first",
+      "E": "Give empiric IV antipseudomonal therapy immediately after rapid cultures if this causes no delay"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "cultures if this causes no delay\nHigh-risk febrile neutropenia is an emergency requiring prompt broad-spectrum treatment.\nClinical/Prescribing Pearl: Add gram-positive coverage only for defined indications, not automatically.\nSafety Alert: Sepsis resuscitation and antibiotic administration should occur together."
+  },
+  {
+    "id": 84,
+    "caseContext": "",
+    "question": "A 46-year-old has psoriasis involving 15% body surface area and major quality-of-life impairment despite topical therapy. Next step?",
+    "type": "MCQ",
+    "options": {
+      "A": "Use oral prednisone chronically",
+      "B": "Continue emollient alone forever",
+      "C": "Dermatology assessment for phototherapy or systemic therapy",
+      "D": "Start antibiotics",
+      "E": "Scrub plaques aggressively"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Moderate-to-severe psoriasis warrants escalation beyond topical monotherapy.\nClinical/Prescribing Pearl: Treatment choice reflects comorbid psoriatic arthritis, pregnancy plans and infection risk.\nSafety Alert: Avoid routine systemic corticosteroids because withdrawal may provoke severe flare."
+  },
+  {
+    "id": 85,
+    "caseContext": "",
+    "question": "A patient on isotretinoin can become pregnant. Essential safety requirement?",
+    "type": "MCQ",
+    "options": {
+      "A": "No contraception needed",
+      "B": "Donate blood during therapy",
+      "C": "Use vitamin A supplements",
+      "D": "Share capsules",
+      "E": "Strict pregnancy-prevention program with testing before, during and after treatment per local protocol"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "after treatment per local protocol\nIsotretinoin is highly teratogenic and requires rigorous pregnancy prevention.\nClinical/Prescribing Pearl: Monitor lipids, liver enzymes and mood symptoms as clinically indicated.\nSafety Alert: Avoid vitamin A supplements and blood donation; never share medication."
+  },
+  {
+    "id": 86,
+    "caseContext": "",
+    "question": "A patient has rapidly spreading cellulitis, severe pain out of proportion, bullae and systemic toxicity. Best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Apply compression only",
+      "B": "Topical mupirocin",
+      "C": "Immediate surgical consultation plus broad IV antibiotics for necrotizing infection",
+      "D": "Wait for culture",
+      "E": "Oral antihistamine"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "necrotizing infection\nNecrotizing soft-tissue infection requires urgent operative source control.\nClinical/Prescribing Pearl: Imaging must not delay surgery when clinical suspicion is high.\nSafety Alert: Use broad coverage including toxin-suppressing therapy according to protocol."
+  },
+  {
+    "id": 87,
+    "caseContext": "",
+    "question": "A 52-year-old with diabetes has a plantar ulcer that probes to bone. Best next step?",
+    "type": "MCQ",
+    "options": {
+      "A": "Walk barefoot",
+      "B": "Ignore if painless",
+      "C": "Give one dose of antibiotic only",
+      "D": "Use topical steroid",
+      "E": "Assess urgently for osteomyelitis with imaging/cultures and multidisciplinary foot care"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "multidisciplinary foot care\nProbe-to-bone raises concern for diabetic foot osteomyelitis.\nClinical/Prescribing Pearl: Off-loading, vascular assessment and glycemic optimization accompany infection care.\nSafety Alert: Deep cultures are preferred; avoid treating uninfected ulcers with antibiotics."
+  },
+  {
+    "id": 88,
+    "caseContext": "",
+    "question": "A 68-year-old with shingles has lesions on the forehead and tip of the nose with eye pain. Management?",
+    "type": "MCQ",
+    "options": {
+      "A": "Start systemic antiviral promptly and arrange urgent ophthalmic assessment",
+      "B": "Delay antiviral for culture",
+      "C": "Patch the eye tightly",
+      "D": "Reassure",
+      "E": "Topical antibiotic only"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "assessment\nTrigeminal distribution with ocular symptoms suggests herpes zoster ophthalmicus.\nClinical/Prescribing Pearl: Early antiviral therapy lowers complications.\nSafety Alert: Vision symptoms or Hutchinson sign requires urgent specialist care."
+  },
+  {
+    "id": 89,
+    "caseContext": "",
+    "question": "A 60-year-old with localized neuropathic pain after healed shingles cannot tolerate systemic drugs. Option?",
+    "type": "MCQ",
+    "options": {
+      "A": "High-dose steroid indefinitely",
+      "B": "Topical antibiotic",
+      "C": "Topical lidocaine",
+      "D": "Warfarin",
+      "E": "Oral penicillin"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Topical lidocaine can reduce localized postherpetic neuralgia with limited systemic effects.\nClinical/Prescribing Pearl: Capsaicin is another topical option in selected patients.\nSafety Alert: Apply only to intact skin and follow product limits."
+  },
+  {
+    "id": 90,
+    "caseContext": "",
+    "question": "A 72-year-old with osteoarthritis and CKD has localized knee pain. Preferred initial pharmacologic option?",
+    "type": "MCQ",
+    "options": {
+      "A": "Topical NSAID",
+      "B": "Long-term opioid",
+      "C": "Methotrexate",
+      "D": "Oral prednisone",
+      "E": "Chronic oral indomethacin"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Topical NSAIDs provide local benefit with less systemic exposure than oral NSAIDs.\nClinical/Prescribing Pearl: Exercise, weight management and physiotherapy remain core treatments.\nSafety Alert: Even topical NSAIDs require caution with extensive use or high systemic risk."
+  },
+  {
+    "id": 91,
+    "caseContext": "",
+    "question": "A 43-year-old with chronic low-back pain has no red flags. Best medication strategy?",
+    "type": "MCQ",
+    "options": {
+      "A": "Routine systemic steroid",
+      "B": "Nonpharmacologic therapy first; if needed, short NSAID trial after risk assessment",
+      "C": "Antibiotic",
+      "D": "Bed rest for six weeks",
+      "E": "Long-term opioid first-line"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "assessment\nActivity, exercise and education are first-line; NSAIDs may offer modest short-term relief.\nClinical/Prescribing Pearl: Imaging is not routinely needed without red flags.\nSafety Alert: Avoid chronic opioids and prolonged bed rest."
+  },
+  {
+    "id": 92,
+    "caseContext": "",
+    "question": "A palliative patient with severe dyspnea despite treatment of reversible causes is near end of life. Appropriate medication?",
+    "type": "MCQ",
+    "options": {
+      "A": "Low-dose opioid titrated carefully",
+      "B": "Withhold all symptom therapy",
+      "C": "High-dose stimulant",
+      "D": "Routine antibiotics without infection",
+      "E": "Naloxone maintenance"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Opioids can reduce refractory breathlessness in advanced illness.\nClinical/Prescribing Pearl: Use nonpharmacologic airflow and positioning as adjuncts.\nSafety Alert: Start low, reassess sedation and respiratory status, and match goals of care."
+  },
+  {
+    "id": 93,
+    "caseContext": "",
+    "question": "A patient on chronic morphine develops constipation despite senna and polyethylene glycol. Next option after excluding obstruction?",
+    "type": "MCQ",
+    "options": {
+      "A": "Stop all laxatives",
+      "B": "A peripherally acting mu-opioid receptor antagonist",
+      "C": "Loperamide",
+      "D": "Add fibre only despite impaction",
+      "E": "Use anticholinergic"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "PAMORAs treat opioid-induced constipation refractory to conventional laxatives.\nClinical/Prescribing Pearl: Prevention should begin when chronic opioid therapy starts.\nSafety Alert: Exclude bowel obstruction before use."
+  },
+  {
+    "id": 94,
+    "caseContext": "",
+    "question": "A 58-year-old with major depression and severe neuropathic pain also has uncontrolled hypertension. Which antidepressant requires BP caution?",
+    "type": "MCQ",
+    "options": {
+      "A": "Escitalopram",
+      "B": "Venlafaxine",
+      "C": "Bupropion at all doses is BP-neutral",
+      "D": "Sertraline",
+      "E": "Mirtazapine"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Venlafaxine can raise blood pressure, particularly at higher doses.\nClinical/Prescribing Pearl: Choose antidepressants based on symptom profile, comorbidity, interactions and past\nresponse.\nSafety Alert: Monitor BP and withdrawal risk; taper rather than stop abruptly."
+  },
+  {
+    "id": 95,
+    "caseContext": "",
+    "question": "A patient with depression has poor appetite, insomnia and weight loss. Which antidepressant may fit this profile?",
+    "type": "MCQ",
+    "options": {
+      "A": "Stimulant alone",
+      "B": "Bupropion for sedation",
+      "C": "Fluoxetine because it always increases appetite",
+      "D": "Mirtazapine",
+      "E": "Phenelzine first-line"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Mirtazapine is sedating and can increase appetite/weight.\nClinical/Prescribing Pearl: Match adverse effects to therapeutic needs rather than calling one drug universally best.\nSafety Alert: Counsel about daytime sedation and metabolic/weight effects."
+  },
+  {
+    "id": 96,
+    "caseContext": "",
+    "question": "A 30-year-old with panic disorder wants long-term therapy. First-line plan?",
+    "type": "MCQ",
+    "options": {
+      "A": "CBT and an SSRI/SNRI, started low and titrated",
+      "B": "Stimulant",
+      "C": "Antipsychotic",
+      "D": "Long-term alprazolam alone",
+      "E": "No treatment"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "CBT and serotonergic antidepressants are effective maintenance therapies.\nClinical/Prescribing Pearl: Initial activation can be reduced by starting at a low dose.\nSafety Alert: Benzodiazepines carry dependence, cognitive and driving risks."
+  },
+  {
+    "id": 97,
+    "caseContext": "",
+    "question": "A patient with PTSD has trauma nightmares despite trauma-focused therapy and an SSRI. Which add-on may be considered with BP monitoring?",
+    "type": "MCQ",
+    "options": {
+      "A": "Prazosin",
+      "B": "Pseudoephedrine",
+      "C": "Haloperidol routinely",
+      "D": "Methylphenidate",
+      "E": "Lithium"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Prazosin may reduce trauma-related nightmares in selected patients, though response varies.\nClinical/Prescribing Pearl: Trauma-focused psychotherapy remains foundational.\nSafety Alert: Orthostatic hypotension and syncope can occur; start low at bedtime."
+  },
+  {
+    "id": 98,
+    "caseContext": "",
+    "question": "A 10-year-old with ADHD has tics and significant impairment. Which nonstimulant can help both symptoms?",
+    "type": "MCQ",
+    "options": {
+      "A": "Caffeine",
+      "B": "Haloperidol first-line",
+      "C": "Diphenhydramine",
+      "D": "Guanfacine ER",
+      "E": "Fluoxetine"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Alpha-2 agonists can improve ADHD symptoms and tics.\nClinical/Prescribing Pearl: School and behavioral supports should accompany medication.\nSafety Alert: Monitor sedation, blood pressure and heart rate; taper to avoid rebound hypertension."
+  },
+  {
+    "id": 99,
+    "caseContext": "",
+    "question": "A child taking methylphenidate has appetite suppression and slowed weight gain. Best response?",
+    "type": "MCQ",
+    "options": {
+      "A": "Stop school meals",
+      "B": "Double the dose",
+      "C": "Review dose/timing, nutrition and growth; consider adjustment or planned breaks when appropriate",
+      "D": "Ignore growth",
+      "E": "Add an appetite stimulant automatically"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "planned breaks when appropriate\nGrowth and appetite require longitudinal monitoring and individualized adjustment.\nClinical/Prescribing Pearl: Dose after breakfast and optimize calorie timing when clinically appropriate.\nSafety Alert: Do not institute medication holidays without considering symptom and safety impact."
+  },
+  {
+    "id": 100,
+    "caseContext": "",
+    "question": "A 68-year-old with Alzheimer disease has mild-to-moderate symptoms and no significant bradycardia. Symptomatic option?",
+    "type": "MCQ",
+    "options": {
+      "A": "Diphenhydramine",
+      "B": "Benztropine",
+      "C": "Donepezil",
+      "D": "Haloperidol prophylaxis",
+      "E": "Levodopa"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Cholinesterase inhibitors offer modest symptomatic benefit in mild-to-moderate Alzheimer disease.\nClinical/Prescribing Pearl: Set realistic goals and reassess benefit and adverse effects.\nSafety Alert: Monitor bradycardia, syncope, GI effects and weight loss."
+  },
+  {
+    "id": 101,
+    "caseContext": "",
+    "question": "A patient with dementia becomes agitated during a urinary infection. Best initial approach?",
+    "type": "MCQ",
+    "options": {
+      "A": "Give benzodiazepine nightly",
+      "B": "Start chronic antipsychotic immediately",
+      "C": "Treat the infection/pain and use non-drug behavioral/environmental measures",
+      "D": "Move rooms repeatedly",
+      "E": "Restrain routinely"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "measures\nBehavioral symptoms often reflect an unmet need or acute illness.\nClinical/Prescribing Pearl: Identify triggers and use caregiver-centered strategies.\nSafety Alert: Antipsychotics increase stroke and mortality risk and are reserved for severe danger/distress after careful\ndiscussion."
+  },
+  {
+    "id": 102,
+    "caseContext": "",
+    "question": "A 75-year-old has insomnia, falls and nightly diphenhydramine use. Best medication action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Add benzodiazepine",
+      "B": "Add amitriptyline",
+      "C": "Add zolpidem indefinitely",
+      "D": "Increase dose",
+      "E": "Deprescribe diphenhydramine and use CBT-I/sleep measures"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Strong anticholinergic sedatives worsen falls and cognition in older adults.\nClinical/Prescribing Pearl: CBT-I is first-line for chronic insomnia.\nSafety Alert: Taper or support discontinuation when dependence or rebound symptoms are possible."
+  },
+  {
+    "id": 103,
+    "caseContext": "",
+    "question": "A 76-year-old on many medications has orthostatic dizziness. Which review priority is appropriate?",
+    "type": "MCQ",
+    "options": {
+      "A": "Use diphenhydramine",
+      "B": "Add another alpha blocker",
+      "C": "Restrict all fluids",
+      "D": "Recommend rapid standing",
+      "E": "Identify and reduce contributing antihypertensives, alpha blockers, diuretics and sedatives where feasible"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "diuretics and sedatives where feasible\nMedication review and volume assessment are central in orthostatic hypotension.\nClinical/Prescribing Pearl: Non-drug measures include slow position changes and compression in selected patients.\nSafety Alert: Falls, syncope or neurologic/cardiac symptoms require broader urgent evaluation."
+  },
+  {
+    "id": 104,
+    "caseContext": "",
+    "question": "A patient has suspected acetaminophen overdose 10 hours ago; level plots above the treatment line. Antidote?",
+    "type": "MCQ",
+    "options": {
+      "A": "N-acetylcysteine",
+      "B": "Atropine",
+      "C": "Naloxone",
+      "D": "Fomepizole",
+      "E": "Flumazenil"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "N-acetylcysteine replenishes glutathione and limits hepatic injury.\nClinical/Prescribing Pearl: Start promptly when indicated; do not delay for all results in late or uncertain high-risk ingestion.\nSafety Alert: Assess co-ingestants, liver tests, INR, renal function and mental status."
+  },
+  {
+    "id": 105,
+    "caseContext": "",
+    "question": "A patient with opioid overdose has RR 5/min and pinpoint pupils. Immediate medication?",
+    "type": "MCQ",
+    "options": {
+      "A": "N-acetylcysteine",
+      "B": "Flumazenil",
+      "C": "Physostigmine",
+      "D": "Naloxone titrated to restore ventilation",
+      "E": "Atropine"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Naloxone reverses opioid-induced respiratory depression.\nClinical/Prescribing Pearl: Ventilation support is as important as antidote administration.\nSafety Alert: Observe for recurrent toxicity because naloxone may wear off before the opioid."
+  },
+  {
+    "id": 106,
+    "caseContext": "",
+    "question": "A patient with tricyclic antidepressant overdose has hypotension and wide QRS. Treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "Vitamin K",
+      "B": "Insulin only",
+      "C": "Methylene blue",
+      "D": "IV sodium bicarbonate",
+      "E": "Calcium gluconate"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Sodium bicarbonate treats TCA sodium-channel blockade, QRS widening and hypotension.\nClinical/Prescribing Pearl: Serial ECG and pH guide therapy.\nSafety Alert: Avoid class IA/IC antiarrhythmics and manage in critical care."
+  },
+  {
+    "id": 107,
+    "caseContext": "",
+    "question": "A farmer has salivation, lacrimation, diarrhea, bronchorrhea and miosis after pesticide exposure. Antidotes?",
+    "type": "MCQ",
+    "options": {
+      "A": "Deferoxamine",
+      "B": "Naloxone plus flumazenil",
+      "C": "Vitamin K",
+      "D": "Atropine plus pralidoxime",
+      "E": "Bicarbonate only"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Organophosphate toxicity causes cholinergic excess; atropine treats muscarinic effects and pralidoxime reactivates\nacetylcholinesterase.\nClinical/Prescribing Pearl: Decontaminate safely while protecting staff.\nSafety Alert: Titrate atropine to drying of bronchial secretions, not pupil size."
+  },
+  {
+    "id": 108,
+    "caseContext": "",
+    "question": "A child ingests iron tablets and develops vomiting, shock and metabolic acidosis. Antidote?",
+    "type": "MCQ",
+    "options": {
+      "A": "Deferoxamine",
+      "B": "N-acetylcysteine",
+      "C": "Prussian blue",
+      "D": "Fomepizole",
+      "E": "Dimercaprol"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Deferoxamine chelates iron in severe poisoning.\nClinical/Prescribing Pearl: Serum iron, symptoms, acidosis and imaging help assess severity.\nSafety Alert: Early poison-centre/toxicology consultation is essential."
+  },
+  {
+    "id": 109,
+    "caseContext": "",
+    "question": "A patient drinks antifreeze and has high anion/osmolar gaps and calcium oxalate crystals. Antidote?",
+    "type": "MCQ",
+    "options": {
+      "A": "Atropine",
+      "B": "Vitamin K",
+      "C": "Naloxone",
+      "D": "Protamine",
+      "E": "Fomepizole"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Fomepizole blocks alcohol dehydrogenase and prevents toxic ethylene glycol metabolites.\nClinical/Prescribing Pearl: Hemodialysis is indicated in severe poisoning.\nSafety Alert: Treat immediately on strong suspicion; do not await late confirmatory results."
+  },
+  {
+    "id": 110,
+    "caseContext": "",
+    "question": "A 35-year-old with HIV has CD4 160 cells/mm3 and is starting ART. Which prophylaxis is indicated if no contraindication?",
+    "type": "MCQ",
+    "options": {
+      "A": "No prophylaxis at any CD4",
+      "B": "Acyclovir for all",
+      "C": "Fluconazole for all",
+      "D": "Azithromycin for all patients",
+      "E": "TMP-SMX for Pneumocystis jirovecii pneumonia"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "PJP prophylaxis is indicated below the relevant CD4 threshold, commonly 200.\nClinical/Prescribing Pearl: Effective ART and immune recovery allow later discontinuation by criteria.\nSafety Alert: Check sulfonamide allergy, renal function, potassium and interactions."
+  },
+  {
+    "id": 111,
+    "caseContext": "",
+    "question": "A patient newly diagnosed with HIV and cryptococcal meningitis asks when to start ART. Best principle?",
+    "type": "MCQ",
+    "options": {
+      "A": "Use TMP-SMX only",
+      "B": "Start ART and no antifungal",
+      "C": "Delay antifungal",
+      "D": "Never start ART",
+      "E": "Treat cryptococcal meningitis first and defer ART for a short guideline-directed interval to reduce IRIS risk"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "guideline-directed interval to reduce IRIS risk\nImmediate ART in cryptococcal meningitis can worsen outcomes through intracranial IRIS.\nClinical/Prescribing Pearl: Induction, consolidation and maintenance antifungal phases require specialist management.\nSafety Alert: Control raised intracranial pressure with serial therapeutic lumbar punctures when indicated."
+  },
+  {
+    "id": 112,
+    "caseContext": "",
+    "question": "A patient has active pulmonary TB susceptible to first-line drugs. Initial regimen concept?",
+    "type": "MCQ",
+    "options": {
+      "A": "Isoniazid for three days",
+      "B": "Rifampin, isoniazid, pyrazinamide and ethambutol, then continuation therapy",
+      "C": "No public-health involvement",
+      "D": "Azithromycin alone",
+      "E": "Rifampin alone"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "therapy\nFour-drug induction prevents resistance while susceptibilities are confirmed.\nClinical/Prescribing Pearl: Give pyridoxine with isoniazid in patients at neuropathy risk.\nSafety Alert: Check interactions, hepatic toxicity, vision with ethambutol and adherence/public-health requirements."
+  },
+  {
+    "id": 113,
+    "caseContext": "",
+    "question": "A patient taking rifampin uses a combined oral contraceptive. Advice?",
+    "type": "MCQ",
+    "options": {
+      "A": "Stop TB therapy",
+      "B": "Rifampin reduces hormonal contraceptive effectiveness; use a reliable alternative",
+      "C": "Use emergency contraception daily",
+      "D": "No interaction",
+      "E": "Double the contraceptive without advice"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "reliable alternative\nRifampin is a potent enzyme inducer and reduces systemic hormonal contraceptive levels.\nClinical/Prescribing Pearl: Long-acting methods unaffected by enzyme induction may be preferred.\nSafety Alert: Review interactions with anticoagulants, antiretrovirals and many other drugs."
+  },
+  {
+    "id": 114,
+    "caseContext": "",
+    "question": "A hospitalized patient develops candidemia. Initial treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "Topical nystatin",
+      "B": "Oral terbinafine",
+      "C": "No treatment after one negative repeat culture",
+      "D": "An echinocandin",
+      "E": "Metronidazole"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Echinocandins are preferred initial therapy for most candidemia.\nClinical/Prescribing Pearl: Remove infected intravascular catheters when appropriate and document bloodstream\nclearance.\nSafety Alert: Assess for metastatic complications and tailor duration/species-directed step-down."
+  },
+  {
+    "id": 115,
+    "caseContext": "",
+    "question": "A neutropenic patient has persistent fever after broad antibiotics and CT shows pulmonary nodules with halo signs. Best next step?",
+    "type": "MCQ",
+    "options": {
+      "A": "Wait two weeks",
+      "B": "Stop all antimicrobials",
+      "C": "Use topical azole",
+      "D": "Give oseltamivir only",
+      "E": "Start mold-active antifungal therapy and pursue fungal diagnostics"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Persistent neutropenic fever with compatible imaging suggests invasive mold infection.\nClinical/Prescribing Pearl: Early CT and fungal biomarkers/culture guide management.\nSafety Alert: Voriconazole interactions and organ toxicity require careful review; agent depends on scenario."
+  },
+  {
+    "id": 116,
+    "caseContext": "",
+    "question": "A 27-year-old has uncomplicated falciparum malaria after travel and can take oral medication. Treatment principle?",
+    "type": "MCQ",
+    "options": {
+      "A": "Doxycycline monotherapy",
+      "B": "Chloroquine regardless of resistance",
+      "C": "Use an effective artemisinin-based combination according to resistance/travel guidance",
+      "D": "Primaquine alone",
+      "E": "No treatment"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "resistance/travel guidance\nFalciparum malaria requires prompt effective combination therapy guided by geography and severity.\nClinical/Prescribing Pearl: Ask about travel region, prophylaxis and pregnancy.\nSafety Alert: Severe malaria requires IV artesunate and intensive monitoring."
+  },
+  {
+    "id": 117,
+    "caseContext": "",
+    "question": "A patient with malaria has impaired consciousness, acidosis and parasitemia. Treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "Primaquine alone",
+      "B": "Oral chloroquine at home",
+      "C": "IV artesunate urgently",
+      "D": "Supportive care only",
+      "E": "Delay for species confirmation"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Severe malaria is a medical emergency; IV artesunate lowers mortality.\nClinical/Prescribing Pearl: Monitor glucose, anemia, renal function and parasitemia.\nSafety Alert: Arrange follow-up for delayed hemolysis after artesunate."
+  },
+  {
+    "id": 118,
+    "caseContext": "",
+    "question": "A 50-year-old with obesity and metabolic-associated steatotic liver disease asks for treatment. Core plan?",
+    "type": "MCQ",
+    "options": {
+      "A": "Prednisone",
+      "B": "Alcohol to raise HDL",
+      "C": "No diabetes treatment",
+      "D": "Sustained weight loss through nutrition/activity and management of cardiometabolic risk",
+      "E": "Vitamin E for everyone"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "cardiometabolic risk\nWeight loss improves steatosis and can improve inflammation/fibrosis.\nClinical/Prescribing Pearl: Treat diabetes, lipids, BP and sleep apnea; selected anti-obesity drugs may help.\nSafety Alert: Assess fibrosis risk and refer advanced disease."
+  },
+  {
+    "id": 119,
+    "caseContext": "",
+    "question": "A patient with obesity, type 2 diabetes and no contraindication wants pharmacotherapy. Which option provides high average weight loss and glycemic benefit?",
+    "type": "MCQ",
+    "options": {
+      "A": "A GLP-1/GIP-based therapy such as tirzepatide",
+      "B": "Glyburide",
+      "C": "Pioglitazone",
+      "D": "Insulin solely for weight loss",
+      "E": "Prednisone"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Incretin-based anti-obesity therapy can produce substantial weight and glycemic benefit.\nClinical/Prescribing Pearl: Medication works best with longitudinal nutrition, activity and behavioral care.\nSafety Alert: Screen contraindications, GI effects, gallbladder/pancreatitis risk and pregnancy plans."
+  },
+  {
+    "id": 120,
+    "caseContext": "",
+    "question": "A patient using semaglutide has persistent severe abdominal pain radiating to the back with vomiting. Best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Take the next dose early",
+      "B": "Add alcohol",
+      "C": "Stop the drug and assess urgently for pancreatitis",
+      "D": "Double the dose",
+      "E": "Ignore"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Severe persistent abdominal pain warrants pancreatitis evaluation.\nClinical/Prescribing Pearl: Transient nausea is common, but red-flag symptoms differ from expected GI effects.\nSafety Alert: Dehydration can worsen kidney function; urgent assessment is needed."
+  },
+  {
+    "id": 121,
+    "caseContext": "",
+    "question": "A 66-year-old with HFpEF remains symptomatic and has diabetes. Which class reduces HF hospitalization?",
+    "type": "MCQ",
+    "options": {
+      "A": "Nonselective NSAID",
+      "B": "Long-term nitrate for mortality reduction",
+      "C": "SGLT2 inhibitor",
+      "D": "Verapamil for all",
+      "E": "Thiazolidinedione"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "SGLT2 inhibitors improve outcomes across the ejection-fraction spectrum.\nClinical/Prescribing Pearl: Treat congestion, hypertension, AF, ischemia and comorbidities alongside disease-modifying\ntherapy.\nSafety Alert: Monitor volume status and renal function; avoid pioglitazone in symptomatic HF."
+  },
+  {
+    "id": 122,
+    "caseContext": "",
+    "question": "A patient with acute decompensated heart failure has pulmonary edema and marked volume overload. First-line decongestive drug?",
+    "type": "MCQ",
+    "options": {
+      "A": "Pioglitazone",
+      "B": "NSAID",
+      "C": "IV loop diuretic",
+      "D": "Verapamil",
+      "E": "Routine IV fluid bolus"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "IV loop diuretics relieve congestion in acute HF.\nClinical/Prescribing Pearl: Track urine output, weight, renal function and electrolytes.\nSafety Alert: Persistent shock or respiratory failure requires critical-care escalation."
+  },
+  {
+    "id": 123,
+    "caseContext": "",
+    "question": "A patient with torsades de pointes and prolonged QT is unstable. Immediate medication plus resuscitation?",
+    "type": "MCQ",
+    "options": {
+      "A": "Adenosine",
+      "B": "IV magnesium sulfate and electrical therapy as indicated",
+      "C": "Flecainide",
+      "D": "Verapamil",
+      "E": "Digoxin"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "IV magnesium is first-line pharmacologic therapy for torsades even if magnesium level is normal.\nClinical/Prescribing Pearl: Stop QT-prolonging drugs and correct potassium.\nSafety Alert: Pulseless or unstable patients require immediate defibrillation/cardioversion per rhythm."
+  },
+  {
+    "id": 124,
+    "caseContext": "",
+    "question": "A stable patient has regular narrow-complex SVT unresponsive to vagal maneuvers. Next drug?",
+    "type": "MCQ",
+    "options": {
+      "A": "Rapid IV adenosine",
+      "B": "Oral amiodarone next week",
+      "C": "Digoxin loading",
+      "D": "Magnesium only",
+      "E": "Atropine"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Adenosine transiently blocks AV nodal conduction and terminates most AV-node-dependent SVT.\nClinical/Prescribing Pearl: Capture a rhythm strip during administration when possible.\nSafety Alert: Use caution in severe asthma and avoid in irregular/wide-complex rhythms without expert assessment."
+  },
+  {
+    "id": 125,
+    "caseContext": "",
+    "question": "A patient with atrial fibrillation and WPW has an irregular wide-complex tachycardia. Which drug should be avoided?",
+    "type": "MCQ",
+    "options": {
+      "A": "Ibutilide",
+      "B": "Verapamil",
+      "C": "Expert electrophysiology input",
+      "D": "Procainamide",
+      "E": "Urgent cardioversion if unstable"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "AV nodal blockers can accelerate conduction down an accessory pathway and provoke ventricular fibrillation.\nClinical/Prescribing Pearl: Pre-excited AF differs from ordinary narrow-complex AF.\nSafety Alert: Avoid adenosine, beta blockers, diltiazem/verapamil and digoxin in pre-excited AF."
+  },
+  {
+    "id": 126,
+    "caseContext": "",
+    "question": "A 54-year-old has hypertensive emergency with BP 230/130 and encephalopathy. Management?",
+    "type": "MCQ",
+    "options": {
+      "A": "Titrated IV antihypertensive with controlled reduction in monitored care",
+      "B": "Sublingual nifedipine",
+      "C": "Normalize BP immediately with oral drugs at home",
+      "D": "No treatment",
+      "E": "Diuretic only regardless of volume"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "care\nEnd-organ injury defines hypertensive emergency and requires controlled IV treatment.\nClinical/Prescribing Pearl: The goal is partial, not abrupt, initial pressure reduction.\nSafety Alert: Overly rapid lowering can cause cerebral, coronary or renal ischemia."
+  },
+  {
+    "id": 127,
+    "caseContext": "",
+    "question": "A 45-year-old has resistant hypertension on three drugs including a diuretic. Before adding more medication, what should be done?",
+    "type": "MCQ",
+    "options": {
+      "A": "Confirm adherence, accurate measurements, substances and secondary causes",
+      "B": "Use NSAIDs",
+      "C": "Add five drugs immediately",
+      "D": "Stop all therapy",
+      "E": "Ignore sleep apnea"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "secondary causes\nApparent resistance often reflects measurement, adherence, interactions or secondary hypertension.\nClinical/Prescribing Pearl: Home/ambulatory readings help exclude white-coat effect.\nSafety Alert: NSAIDs, stimulants, alcohol and untreated sleep apnea can contribute."
+  },
+  {
+    "id": 128,
+    "caseContext": "",
+    "question": "A 23-year-old has type 1 diabetes and wants to exercise. Which prevention strategy is appropriate?",
+    "type": "MCQ",
+    "options": {
+      "A": "Use alcohol to prevent lows",
+      "B": "Never monitor glucose",
+      "C": "Exercise during severe hypoglycemia",
+      "D": "Adjust insulin/carbohydrate based on glucose trend, intensity and duration, and carry rapid glucose",
+      "E": "Omit all basal insulin"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "duration, and carry rapid glucose\nExercise can cause immediate or delayed hypoglycemia requiring individualized planning.\nClinical/Prescribing Pearl: CGM trend arrows can guide carbohydrate and insulin decisions.\nSafety Alert: Avoid exercise with significant ketones/hyperglycemia until corrected."
+  },
+  {
+    "id": 129,
+    "caseContext": "",
+    "question": "A pregnant patient with gestational diabetes remains above glucose targets despite nutrition therapy. Preferred medication when pharmacotherapy is needed?",
+    "type": "MCQ",
+    "options": {
+      "A": "GLP-1 receptor agonist",
+      "B": "Insulin",
+      "C": "ACE inhibitor",
+      "D": "SGLT2 inhibitor",
+      "E": "Statin"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Insulin is the established pharmacologic standard when gestational diabetes requires treatment.\nClinical/Prescribing Pearl: Dose needs change across pregnancy and fall rapidly postpartum.\nSafety Alert: Avoid drugs without established pregnancy safety; arrange postpartum diabetes screening."
+  },
+  {
+    "id": 130,
+    "caseContext": "",
+    "question": "A patient with primary adrenal insufficiency has vomiting, hypotension, hyponatremia and hyperkalemia. Emergency treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "Spironolactone",
+      "B": "Insulin alone",
+      "C": "Oral levothyroxine only",
+      "D": "IV hydrocortisone plus isotonic saline, with dextrose as needed",
+      "E": "Fluid restriction"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Adrenal crisis requires immediate glucocorticoid and volume replacement.\nClinical/Prescribing Pearl: Treat on clinical suspicion before confirmatory results.\nSafety Alert: Patients need sick-day rules and emergency steroid identification."
+  },
+  {
+    "id": 131,
+    "caseContext": "",
+    "question": "A patient on chronic prednisone will undergo major surgery. What principle applies?",
+    "type": "MCQ",
+    "options": {
+      "A": "Take NSAID instead",
+      "B": "Assess HPA suppression risk and provide perioperative stress-dose steroid when indicated",
+      "C": "Give no steroid regardless of dose",
+      "D": "Stop prednisone abruptly",
+      "E": "Use mineralocorticoid only"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "steroid when indicated\nChronic glucocorticoids may suppress endogenous stress response.\nClinical/Prescribing Pearl: Use the lowest appropriate perioperative supplementation and resume/taper thoughtfully.\nSafety Alert: Abrupt cessation can precipitate adrenal crisis."
+  },
+  {
+    "id": 132,
+    "caseContext": "",
+    "question": "A 68-year-old has symptomatic euvolemic hyponatremia from SIADH, sodium 116 with confusion. Management?",
+    "type": "MCQ",
+    "options": {
+      "A": "Rapid normalization with unlimited saline",
+      "B": "Demeclocycline at home only",
+      "C": "Thiazide",
+      "D": "Urgent monitored hypertonic saline boluses with controlled correction",
+      "E": "Encourage free water"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "correction\nSevere symptomatic hyponatremia requires prompt small controlled sodium increase with hypertonic saline.\nClinical/Prescribing Pearl: Treat symptoms first, then address the underlying cause and water balance.\nSafety Alert: Overcorrection can cause osmotic demyelination; monitor sodium frequently."
+  },
+  {
+    "id": 133,
+    "caseContext": "",
+    "question": "A malnourished patient with chronic sodium 108 is being corrected. Maximum concern?",
+    "type": "MCQ",
+    "options": {
+      "A": "Add thiazide",
+      "B": "Give free water immediately regardless of trajectory",
+      "C": "No monitoring",
+      "D": "Avoid overly rapid correction because of osmotic demyelination risk",
+      "E": "Correct to 140 in six hours"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Chronic profound hyponatremia adapts in the brain and is vulnerable to osmotic demyelination.\nClinical/Prescribing Pearl: High-risk patients may need lower correction limits and desmopressin strategies.\nSafety Alert: Track urine output because sudden water diuresis can cause overshoot."
+  },
+  {
+    "id": 134,
+    "caseContext": "",
+    "question": "A patient with severe hypertriglyceridemia (18 mmol/L) has acute pancreatitis. Immediate management principle?",
+    "type": "MCQ",
+    "options": {
+      "A": "No fluids",
+      "B": "Use estrogen",
+      "C": "Start a statin only and discharge",
+      "D": "Hospital supportive care and rapid triglyceride-lowering strategy with specialist input",
+      "E": "Give alcohol"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "specialist input\nVery high triglycerides can cause pancreatitis and require acute management plus long-term prevention.\nClinical/Prescribing Pearl: After recovery, address diabetes, alcohol, diet and use fibrate/omega-3 therapy as appropriate.\nSafety Alert: Consider insulin infusion in selected cases; plasmapheresis is reserved for select severe scenarios."
+  },
+  {
+    "id": 135,
+    "caseContext": "",
+    "question": "A 57-year-old with acute pancreatitis has no cholangitis and no infected necrosis. Which drug is not routinely indicated?",
+    "type": "MCQ",
+    "options": {
+      "A": "Analgesia",
+      "B": "Early enteral nutrition",
+      "C": "Antiemetic",
+      "D": "IV crystalloid with reassessment",
+      "E": "Prophylactic antibiotics"
+    },
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "Sterile pancreatitis does not benefit from prophylactic antibiotics.\nClinical/Prescribing Pearl: Early oral/enteral feeding is preferred when tolerated.\nSafety Alert: ERCP is urgent when biliary obstruction with cholangitis is present."
+  },
+  {
+    "id": 136,
+    "caseContext": "",
+    "question": "A patient with H. pylori infection lives in an area with high clarithromycin resistance and no susceptibility results. Preferred concept?",
+    "type": "MCQ",
+    "options": {
+      "A": "Amoxicillin one dose",
+      "B": "PPI alone",
+      "C": "Metronidazole alone",
+      "D": "Bismuth quadruple therapy",
+      "E": "Clarithromycin triple therapy regardless of resistance"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Bismuth quadruple therapy avoids empiric clarithromycin failure in high-resistance settings.\nClinical/Prescribing Pearl: Confirm eradication after treatment using an appropriate test off interfering drugs.\nSafety Alert: Review tetracycline contraindications, adherence and bismuth effects."
+  },
+  {
+    "id": 137,
+    "caseContext": "",
+    "question": "A patient has recurrent C. difficile infection after vancomycin. Which option is appropriate?",
+    "type": "MCQ",
+    "options": {
+      "A": "No treatment",
+      "B": "IV vancomycin",
+      "C": "Fidaxomicin or a guideline-directed vancomycin taper; consider microbiota-based therapy for further recurrences",
+      "D": "Repeat clindamycin",
+      "E": "Loperamide monotherapy"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "microbiota-based therapy for further recurrences\nRecurrence requires a regimen that reduces further relapse, with escalation for multiple episodes.\nClinical/Prescribing Pearl: Bezlotoxumab may help selected high-risk patients.\nSafety Alert: Avoid unnecessary antibiotics and acid suppression."
+  },
+  {
+    "id": 138,
+    "caseContext": "",
+    "question": "A 25-year-old with celiac disease has iron deficiency. Core treatment?",
+    "type": "MCQ",
+    "options": {
+      "A": "Steroid indefinitely",
+      "B": "Avoid all carbohydrates",
+      "C": "Strict lifelong gluten-free diet with dietitian support and replacement of deficiencies",
+      "D": "Loperamide only",
+      "E": "Antibiotic"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "of deficiencies\nMucosal healing requires removal of dietary gluten.\nClinical/Prescribing Pearl: Check associated deficiencies, bone health and autoimmune disease as indicated.\nSafety Alert: Persistent symptoms require review for hidden gluten or alternate diagnoses."
+  },
+  {
+    "id": 139,
+    "caseContext": "",
+    "question": "A 64-year-old with constipation has weight loss, anemia and new symptoms. Best action?",
+    "type": "MCQ",
+    "options": {
+      "A": "Give opioid",
+      "B": "Investigate alarm features rather than starting chronic laxatives alone",
+      "C": "No colon assessment",
+      "D": "Use loperamide",
+      "E": "Reassure only"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "New constipation with anemia and weight loss requires evaluation for structural disease including malignancy.\nClinical/Prescribing Pearl: Symptom treatment can proceed while cause is investigated.\nSafety Alert: Obstruction symptoms require urgent assessment."
+  },
+  {
+    "id": 140,
+    "caseContext": "",
+    "question": "A 33-year-old has severe endometriosis pain despite NSAIDs and combined contraception. Next step?",
+    "type": "MCQ",
+    "options": {
+      "A": "No fertility discussion",
+      "B": "Hysterectomy automatically",
+      "C": "Chronic opioid alone",
+      "D": "Gynecology assessment for progestin/GnRH-based therapy or surgery based on goals",
+      "E": "Antibiotic"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Refractory endometriosis requires individualized escalation based on pain and fertility goals.\nClinical/Prescribing Pearl: Continuous hormonal suppression often reduces symptoms.\nSafety Alert: GnRH therapies affect bone density and require duration/add-back planning."
+  }
+]
