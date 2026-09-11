@@ -14,7 +14,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "fezolinetant after interaction review\nPrior hormone-sensitive cancer usually shifts treatment toward nonhormonal options.\nClinical/Prescribing Pearl: Choose based on sleep, mood, interactions and liver status.\nSafety Alert: Paroxetine/fluoxetine can interfere with tamoxifen via CYP2D6."
+    "explanation": "Prior hormone-sensitive cancer usually shifts treatment toward nonhormonal options.\nClinical/Prescribing Pearl: Choose based on sleep, mood, interactions and liver status.\nSafety Alert: Paroxetine/fluoxetine can interfere with tamoxifen via CYP2D6."
   },
   {
     "id": 2,
@@ -48,7 +48,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "backup contraception\nImmediate progestin can reduce ulipristal effectiveness.\nClinical/Prescribing Pearl: Give clear instructions for backup and pregnancy testing.\nSafety Alert: Enzyme inducers reduce oral emergency contraceptive efficacy."
+    "explanation": "Immediate progestin can reduce ulipristal effectiveness.\nClinical/Prescribing Pearl: Give clear instructions for backup and pregnancy testing.\nSafety Alert: Enzyme inducers reduce oral emergency contraceptive efficacy."
   },
   {
     "id": 4,
@@ -99,7 +99,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "assessment and restrict lethal means\nSpecific plan and access indicate acute risk requiring immediate protection and assessment.\nClinical/Prescribing Pearl: Involve caregivers while respecting privacy limits and safety.\nSafety Alert: Medication treatment never replaces urgent safety intervention."
+    "explanation": "Specific plan and access indicate acute risk requiring immediate protection and assessment.\nClinical/Prescribing Pearl: Involve caregivers while respecting privacy limits and safety.\nSafety Alert: Medication treatment never replaces urgent safety intervention."
   },
   {
     "id": 7,
@@ -133,7 +133,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "household hygiene\nRepeat dosing targets worms emerging after the first treatment.\nClinical/Prescribing Pearl: Short nails, handwashing and laundering reduce reinfection.\nSafety Alert: Treat household contacts according to local guidance and recurrence pattern."
+    "explanation": "Repeat dosing targets worms emerging after the first treatment.\nClinical/Prescribing Pearl: Short nails, handwashing and laundering reduce reinfection.\nSafety Alert: Treat household contacts according to local guidance and recurrence pattern."
   },
   {
     "id": 9,
@@ -167,7 +167,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "and renal impairment further limits use\nNitrofurantoin is for lower UTI, not renal parenchymal infection.\nClinical/Prescribing Pearl: Site of infection matters as much as organism susceptibility.\nSafety Alert: Choose a culture-guided systemic agent and assess need for admission."
+    "explanation": "Nitrofurantoin is for lower UTI, not renal parenchymal infection.\nClinical/Prescribing Pearl: Site of infection matters as much as organism susceptibility.\nSafety Alert: Choose a culture-guided systemic agent and assess need for admission."
   },
   {
     "id": 11,
@@ -201,7 +201,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "prostate massage\nAcute bacterial prostatitis needs systemic therapy with good tissue penetration.\nClinical/Prescribing Pearl: Culture urine and assess for sepsis or abscess.\nSafety Alert: Urinary retention may require urologic drainage; avoid forceful massage and bacteremia risk."
+    "explanation": "Acute bacterial prostatitis needs systemic therapy with good tissue penetration.\nClinical/Prescribing Pearl: Culture urine and assess for sepsis or abscess.\nSafety Alert: Urinary retention may require urologic drainage; avoid forceful massage and bacteremia risk."
   },
   {
     "id": 13,
@@ -218,7 +218,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "menopausal factors before prophylactic antibiotics\nPrevention begins with diagnostic confirmation and modifiable risk review.\nClinical/Prescribing Pearl: Vaginal estrogen helps postmenopausal patients without contraindication; targeted prophylaxis\nmay follow.\nSafety Alert: Repeated antibiotics increase resistance and C. difficile risk."
+    "explanation": "Prevention begins with diagnostic confirmation and modifiable risk review.\nClinical/Prescribing Pearl: Vaginal estrogen helps postmenopausal patients without contraindication; targeted prophylaxis\nmay follow.\nSafety Alert: Repeated antibiotics increase resistance and C. difficile risk."
   },
   {
     "id": 14,
@@ -235,7 +235,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "symptoms are present\nB12 replacement prevents irreversible neurologic injury.\nClinical/Prescribing Pearl: Folate can correct anemia while neurologic damage progresses if B12 deficiency is missed.\nSafety Alert: Investigate cause and monitor response; severe neurologic disease needs prompt therapy."
+    "explanation": "B12 replacement prevents irreversible neurologic injury.\nClinical/Prescribing Pearl: Folate can correct anemia while neurologic damage progresses if B12 deficiency is missed.\nSafety Alert: Investigate cause and monitor response; severe neurologic disease needs prompt therapy."
   },
   {
     "id": 15,
@@ -269,7 +269,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "local protocol\nMarkedly supratherapeutic INR without bleeding is managed differently from major bleeding.\nClinical/Prescribing Pearl: Identify cause and increase INR monitoring.\nSafety Alert: Major or intracranial bleeding requires rapid PCC plus IV vitamin K."
+    "explanation": "Markedly supratherapeutic INR without bleeding is managed differently from major bleeding.\nClinical/Prescribing Pearl: Identify cause and increase INR monitoring.\nSafety Alert: Major or intracranial bleeding requires rapid PCC plus IV vitamin K."
   },
   {
     "id": 17,
@@ -303,7 +303,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "high\nUnprovoked proximal VTE often warrants extended therapy when bleeding risk is acceptable.\nClinical/Prescribing Pearl: Reassess recurrence and bleeding risks periodically.\nSafety Alert: Age-appropriate cancer screening is sufficient unless symptoms suggest otherwise."
+    "explanation": "Unprovoked proximal VTE often warrants extended therapy when bleeding risk is acceptable.\nClinical/Prescribing Pearl: Reassess recurrence and bleeding risks periodically.\nSafety Alert: Age-appropriate cancer screening is sufficient unless symptoms suggest otherwise."
   },
   {
     "id": 19,
@@ -473,7 +473,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "duloxetine/pregabalin; avoid routine opioids\nFibromyalgia responds best to multimodal functional treatment.\nClinical/Prescribing Pearl: Set activity and sleep goals rather than chasing zero pain.\nSafety Alert: Opioids often worsen function and carry dependence risk."
+    "explanation": "Fibromyalgia responds best to multimodal functional treatment.\nClinical/Prescribing Pearl: Set activity and sleep goals rather than chasing zero pain.\nSafety Alert: Opioids often worsen function and carry dependence risk."
   },
   {
     "id": 29,
@@ -507,7 +507,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "rebound symptoms\nUnnecessary chronic PPI therapy should be stepped down when safe.\nClinical/Prescribing Pearl: Rebound acid symptoms are temporary and can be managed.\nSafety Alert: Continue PPIs when strong indications exist, such as high GI-bleed risk or severe erosive disease."
+    "explanation": "Unnecessary chronic PPI therapy should be stepped down when safe.\nClinical/Prescribing Pearl: Rebound acid symptoms are temporary and can be managed.\nSafety Alert: Continue PPIs when strong indications exist, such as high GI-bleed risk or severe erosive disease."
   },
   {
     "id": 31,
@@ -524,7 +524,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "pain/global symptoms persist\nOsmotic laxatives improve stool frequency; secretagogues can improve global IBS-C symptoms.\nClinical/Prescribing Pearl: Dietary strategies such as a guided low-FODMAP trial may help.\nSafety Alert: Alarm features require investigation rather than an IBS label."
+    "explanation": "Osmotic laxatives improve stool frequency; secretagogues can improve global IBS-C symptoms.\nClinical/Prescribing Pearl: Dietary strategies such as a guided low-FODMAP trial may help.\nSafety Alert: Alarm features require investigation rather than an IBS label."
   },
   {
     "id": 32,
@@ -575,7 +575,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "and infection\nNSAIDs reduce renal perfusion and are hazardous in cirrhosis with ascites.\nClinical/Prescribing Pearl: Albumin challenge and vasoconstrictor therapy may be indicated for HRS-AKI after evaluation.\nSafety Alert: Rule out SBP and shock promptly."
+    "explanation": "NSAIDs reduce renal perfusion and are hazardous in cirrhosis with ascites.\nClinical/Prescribing Pearl: Albumin challenge and vasoconstrictor therapy may be indicated for HRS-AKI after evaluation.\nSafety Alert: Rule out SBP and shock promptly."
   },
   {
     "id": 35,
@@ -609,7 +609,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "alternatives\nIsotretinoin must not be used without effective pregnancy prevention.\nClinical/Prescribing Pearl: Treatment choice should match acne severity, scarring risk and reproductive plans.\nSafety Alert: Spironolactone and tetracyclines also have pregnancy restrictions."
+    "explanation": "Isotretinoin must not be used without effective pregnancy prevention.\nClinical/Prescribing Pearl: Treatment choice should match acne severity, scarring risk and reproductive plans.\nSafety Alert: Spironolactone and tetracyclines also have pregnancy restrictions."
   },
   {
     "id": 37,
@@ -660,7 +660,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "therapy\nModerate-to-severe refractory disease may require targeted systemic treatment.\nClinical/Prescribing Pearl: Continue skin-barrier care and trigger management.\nSafety Alert: Screen infections/vaccines and monitor therapy-specific risks."
+    "explanation": "Moderate-to-severe refractory disease may require targeted systemic treatment.\nClinical/Prescribing Pearl: Continue skin-barrier care and trigger management.\nSafety Alert: Screen infections/vaccines and monitor therapy-specific risks."
   },
   {
     "id": 40,
@@ -694,7 +694,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "hypotension in beta-blocked patients\nBeta blockade may blunt epinephrine response but does not remove its first-line role.\nClinical/Prescribing Pearl: Glucagon bypasses beta receptors and may support refractory shock.\nSafety Alert: Prepare for vomiting and monitor closely with glucagon."
+    "explanation": "Beta blockade may blunt epinephrine response but does not remove its first-line role.\nClinical/Prescribing Pearl: Glucagon bypasses beta receptors and may support refractory shock.\nSafety Alert: Prepare for vomiting and monitor closely with glucagon."
   },
   {
     "id": 42,
@@ -728,7 +728,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "guidance\nChronic spontaneous urticaria is treated first with nonsedating antihistamines.\nClinical/Prescribing Pearl: Most cases do not require extensive allergy testing.\nSafety Alert: Escalate to omalizumab if refractory; avoid long-term corticosteroids."
+    "explanation": "Chronic spontaneous urticaria is treated first with nonsedating antihistamines.\nClinical/Prescribing Pearl: Most cases do not require extensive allergy testing.\nSafety Alert: Escalate to omalizumab if refractory; avoid long-term corticosteroids."
   },
   {
     "id": 44,
@@ -745,7 +745,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "burden and response\nBiologics are add-on maintenance therapies whose value is measured over time.\nClinical/Prescribing Pearl: A response review determines continuation.\nSafety Alert: Treat acute attacks with standard rescue therapy; biologics do not replace epinephrine for anaphylaxis."
+    "explanation": "Biologics are add-on maintenance therapies whose value is measured over time.\nClinical/Prescribing Pearl: A response review determines continuation.\nSafety Alert: Treat acute attacks with standard rescue therapy; biologics do not replace epinephrine for anaphylaxis."
   },
   {
     "id": 45,
@@ -762,7 +762,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "because pneumonia risk may outweigh benefit\nICS benefit is greatest with frequent exacerbations and higher eosinophils/asthma features.\nClinical/Prescribing Pearl: Dyspnea and exacerbations follow different treatment pathways.\nSafety Alert: ICS can increase pneumonia risk and should not be reflexive."
+    "explanation": "ICS benefit is greatest with frequent exacerbations and higher eosinophils/asthma features.\nClinical/Prescribing Pearl: Dyspnea and exacerbations follow different treatment pathways.\nSafety Alert: ICS can increase pneumonia risk and should not be reflexive."
   },
   {
     "id": 46,
@@ -813,7 +813,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "bleeding assessment\nSelected low-risk PE patients can be treated safely as outpatients.\nClinical/Prescribing Pearl: Assess comorbidity, oxygenation, social support, adherence and access.\nSafety Alert: Pregnancy, cancer, renal impairment or high bleeding risk may change drug/site choice."
+    "explanation": "Selected low-risk PE patients can be treated safely as outpatients.\nClinical/Prescribing Pearl: Assess comorbidity, oxygenation, social support, adherence and access.\nSafety Alert: Pregnancy, cancer, renal impairment or high bleeding risk may change drug/site choice."
   },
   {
     "id": 49,
@@ -830,7 +830,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "treatment and oxygen safety education\nCombustion risk is immediate and severe when smoking around oxygen.\nClinical/Prescribing Pearl: Combine behavioral support with pharmacotherapy for cessation.\nSafety Alert: Reassess oxygen eligibility and home safety according to local policy."
+    "explanation": "Combustion risk is immediate and severe when smoking around oxygen.\nClinical/Prescribing Pearl: Combine behavioral support with pharmacotherapy for cessation.\nSafety Alert: Reassess oxygen eligibility and home safety according to local policy."
   },
   {
     "id": 50,
@@ -864,7 +864,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "individualized risk-benefit discussion\nBehavioral intervention is first-line; supervised NRT may be safer than continued smoking for some patients.\nClinical/Prescribing Pearl: Use the lowest effective intermittent NRT when appropriate.\nSafety Alert: Avoid unsupported claims that vaping is harmless in pregnancy."
+    "explanation": "Behavioral intervention is first-line; supervised NRT may be safer than continued smoking for some patients.\nClinical/Prescribing Pearl: Use the lowest effective intermittent NRT when appropriate.\nSafety Alert: Avoid unsupported claims that vaping is harmless in pregnancy."
   },
   {
     "id": 52,
@@ -932,7 +932,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "alternative therapy such as high-dose daptomycin\nPersistent bacteremia signals uncontrolled source, endocarditis or inadequate therapy.\nClinical/Prescribing Pearl: Clearance cultures define treatment response.\nSafety Alert: Daptomycin is not used for pneumonia because surfactant inactivates it."
+    "explanation": "Persistent bacteremia signals uncontrolled source, endocarditis or inadequate therapy.\nClinical/Prescribing Pearl: Clearance cultures define treatment response.\nSafety Alert: Daptomycin is not used for pneumonia because surfactant inactivates it."
   },
   {
     "id": 56,
@@ -949,7 +949,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "ampicillin-sulbactam\nAbscess/empyema after aspiration warrants anaerobic coverage.\nClinical/Prescribing Pearl: Routine anaerobic coverage is not needed for every simple aspiration event.\nSafety Alert: Drain empyema and assess obstruction or malignancy when indicated."
+    "explanation": "Abscess/empyema after aspiration warrants anaerobic coverage.\nClinical/Prescribing Pearl: Routine anaerobic coverage is not needed for every simple aspiration event.\nSafety Alert: Drain empyema and assess obstruction or malignancy when indicated."
   },
   {
     "id": 57,
@@ -983,7 +983,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "urgent endoscopic/source control\nMajor GI bleeding requires stabilization and reversal based on drug/severity.\nClinical/Prescribing Pearl: Restart timing follows hemostasis, stroke risk and rebleeding risk.\nSafety Alert: Avoid unnecessary combination antithrombotic therapy."
+    "explanation": "Major GI bleeding requires stabilization and reversal based on drug/severity.\nClinical/Prescribing Pearl: Restart timing follows hemostasis, stroke risk and rebleeding risk.\nSafety Alert: Avoid unnecessary combination antithrombotic therapy."
   },
   {
     "id": 59,
@@ -1017,7 +1017,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "guideline\nB-cell-depleting therapy carries high HBV reactivation risk.\nClinical/Prescribing Pearl: Screen HBsAg and anti-HBc before significant immunosuppression.\nSafety Alert: Reactivation can cause fulminant hepatitis; coordinate hepatology/oncology care."
+    "explanation": "B-cell-depleting therapy carries high HBV reactivation risk.\nClinical/Prescribing Pearl: Screen HBsAg and anti-HBc before significant immunosuppression.\nSafety Alert: Reactivation can cause fulminant hepatitis; coordinate hepatology/oncology care."
   },
   {
     "id": 61,
@@ -1051,7 +1051,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "infection is present\nSteroids may help selected severe alcoholic hepatitis but contraindications must be addressed.\nClinical/Prescribing Pearl: Use a validated score and reassess response if treatment begins.\nSafety Alert: Nutrition, abstinence treatment and infection surveillance are essential."
+    "explanation": "Steroids may help selected severe alcoholic hepatitis but contraindications must be addressed.\nClinical/Prescribing Pearl: Use a validated score and reassess response if treatment begins.\nSafety Alert: Nutrition, abstinence treatment and infection surveillance are essential."
   },
   {
     "id": 63,
@@ -1102,7 +1102,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "corticosteroid/supportive care\nThionamide must precede iodine to block new hormone synthesis before release blockade.\nClinical/Prescribing Pearl: Treat precipitating infection and organ failure simultaneously.\nSafety Alert: Avoid aspirin because it can increase free thyroid hormone."
+    "explanation": "Thionamide must precede iodine to block new hormone synthesis before release blockade.\nClinical/Prescribing Pearl: Treat precipitating infection and organ failure simultaneously.\nSafety Alert: Avoid aspirin because it can increase free thyroid hormone."
   },
   {
     "id": 66,
@@ -1119,7 +1119,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "by antiresorptive therapy\nVery-high-risk osteoporosis may benefit from anabolic-first sequencing.\nClinical/Prescribing Pearl: Follow anabolic therapy with antiresorptive treatment to preserve gains.\nSafety Alert: Romosozumab requires cardiovascular risk review; teriparatide has specific contraindications."
+    "explanation": "Very-high-risk osteoporosis may benefit from anabolic-first sequencing.\nClinical/Prescribing Pearl: Follow anabolic therapy with antiresorptive treatment to preserve gains.\nSafety Alert: Romosozumab requires cardiovascular risk review; teriparatide has specific contraindications."
   },
   {
     "id": 67,
@@ -1136,7 +1136,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "met\nAromatase inhibitors accelerate bone loss; bisphosphonate or denosumab may be indicated.\nClinical/Prescribing Pearl: Baseline and follow-up BMD support timely prevention.\nSafety Alert: Coordinate with oncology and plan denosumab discontinuation carefully."
+    "explanation": "Aromatase inhibitors accelerate bone loss; bisphosphonate or denosumab may be indicated.\nClinical/Prescribing Pearl: Baseline and follow-up BMD support timely prevention.\nSafety Alert: Coordinate with oncology and plan denosumab discontinuation carefully."
   },
   {
     "id": 68,
@@ -1153,7 +1153,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "by fracture risk\nADT causes rapid bone loss and raises fracture risk.\nClinical/Prescribing Pearl: Assess BMD and clinical risk at baseline and follow-up.\nSafety Alert: Fall prevention and dental/renal review matter before antiresorptives."
+    "explanation": "ADT causes rapid bone loss and raises fracture risk.\nClinical/Prescribing Pearl: Assess BMD and clinical risk at baseline and follow-up.\nSafety Alert: Fall prevention and dental/renal review matter before antiresorptives."
   },
   {
     "id": 69,
@@ -1170,7 +1170,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "CKD-mineral bone disease alter choices\nAdvanced CKD requires distinction between osteoporosis and renal osteodystrophy.\nClinical/Prescribing Pearl: Review calcium, phosphate, PTH, vitamin D and turnover.\nSafety Alert: Avoid uncritical bisphosphonate use at very low eGFR."
+    "explanation": "Advanced CKD requires distinction between osteoporosis and renal osteodystrophy.\nClinical/Prescribing Pearl: Review calcium, phosphate, PTH, vitamin D and turnover.\nSafety Alert: Avoid uncritical bisphosphonate use at very low eGFR."
   },
   {
     "id": 70,
@@ -1187,7 +1187,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "continuation\nProdromal thigh/groin pain can precede atypical femoral fracture.\nClinical/Prescribing Pearl: Long-term bisphosphonate need should be reassessed by fracture risk.\nSafety Alert: Image the opposite femur if an atypical fracture is found."
+    "explanation": "Prodromal thigh/groin pain can precede atypical femoral fracture.\nClinical/Prescribing Pearl: Long-term bisphosphonate need should be reassessed by fracture risk.\nSafety Alert: Image the opposite femur if an atypical fracture is found."
   },
   {
     "id": 71,
@@ -1221,7 +1221,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "treatment; do not make an unplanned prolonged interruption\nMedication-related osteonecrosis of the jaw needs specialist assessment.\nClinical/Prescribing Pearl: Risk is low at osteoporosis doses but rises with dental disease and oncology dosing.\nSafety Alert: Balance jaw healing against rebound vertebral-fracture risk when planning dose timing."
+    "explanation": "Medication-related osteonecrosis of the jaw needs specialist assessment.\nClinical/Prescribing Pearl: Risk is low at osteoporosis doses but rises with dental disease and oncology dosing.\nSafety Alert: Balance jaw healing against rebound vertebral-fracture risk when planning dose timing."
   },
   {
     "id": 73,
@@ -1272,7 +1272,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "inhibitor\nActive axial spondyloarthritis refractory to NSAIDs may require biologic therapy.\nClinical/Prescribing Pearl: Exercise/physiotherapy remains essential.\nSafety Alert: Screen TB/hepatitis and avoid IL-17 inhibitors in relevant active IBD."
+    "explanation": "Active axial spondyloarthritis refractory to NSAIDs may require biologic therapy.\nClinical/Prescribing Pearl: Exercise/physiotherapy remains essential.\nSafety Alert: Screen TB/hepatitis and avoid IL-17 inhibitors in relevant active IBD."
   },
   {
     "id": 76,
@@ -1306,7 +1306,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "immunosuppression\nPossible lupus nephritis requires rapid classification and organ-preserving therapy.\nClinical/Prescribing Pearl: Hydroxychloroquine is generally continued unless contraindicated.\nSafety Alert: Avoid pregnancy-teratogenic immunosuppressants when relevant and control BP/proteinuria."
+    "explanation": "Possible lupus nephritis requires rapid classification and organ-preserving therapy.\nClinical/Prescribing Pearl: Hydroxychloroquine is generally continued unless contraindicated.\nSafety Alert: Avoid pregnancy-teratogenic immunosuppressants when relevant and control BP/proteinuria."
   },
   {
     "id": 78,
@@ -1340,7 +1340,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "thionamide and/or corticosteroid accordingly\nAmiodarone thyrotoxicosis has iodine-driven and destructive forms requiring different therapy.\nClinical/Prescribing Pearl: Amiodarone cessation is individualized because of long half-life and arrhythmia need.\nSafety Alert: Severe thyrotoxicosis can destabilize the heart and needs urgent care."
+    "explanation": "Amiodarone thyrotoxicosis has iodine-driven and destructive forms requiring different therapy.\nClinical/Prescribing Pearl: Amiodarone cessation is individualized because of long half-life and arrhythmia need.\nSafety Alert: Severe thyrotoxicosis can destabilize the heart and needs urgent care."
   },
   {
     "id": 80,
@@ -1357,7 +1357,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "urgent assessment\nAmiodarone can cause potentially fatal interstitial pneumonitis.\nClinical/Prescribing Pearl: Baseline and symptom-triggered lung, thyroid and liver monitoring are important.\nSafety Alert: Exclude infection and heart failure; corticosteroids may be required."
+    "explanation": "Amiodarone can cause potentially fatal interstitial pneumonitis.\nClinical/Prescribing Pearl: Baseline and symptom-triggered lung, thyroid and liver monitoring are important.\nSafety Alert: Exclude infection and heart failure; corticosteroids may be required."
   },
   {
     "id": 81,
@@ -1391,7 +1391,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "clearance falls\nDigoxin is predominantly renally cleared and has a narrow therapeutic index.\nClinical/Prescribing Pearl: Older age, low lean body mass and interacting drugs raise toxicity risk.\nSafety Alert: Check timing of levels and monitor potassium/magnesium."
+    "explanation": "Digoxin is predominantly renally cleared and has a narrow therapeutic index.\nClinical/Prescribing Pearl: Older age, low lean body mass and interacting drugs raise toxicity risk.\nSafety Alert: Check timing of levels and monitor potassium/magnesium."
   },
   {
     "id": 83,
@@ -1459,7 +1459,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "emergency\nACE-inhibitor angioedema can rapidly threaten the airway.\nClinical/Prescribing Pearl: The reaction can occur even after years of treatment.\nSafety Alert: Epinephrine/antihistamines may be used when diagnosis overlaps, but airway management is paramount."
+    "explanation": "ACE-inhibitor angioedema can rapidly threaten the airway.\nClinical/Prescribing Pearl: The reaction can occur even after years of treatment.\nSafety Alert: Epinephrine/antihistamines may be used when diagnosis overlaps, but airway management is paramount."
   },
   {
     "id": 87,
@@ -1510,7 +1510,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "inhibitor if eligible\nARBs may be considered after ACE angioedema only with careful counselling; SGLT2 inhibitors provide independent renal\nbenefit.\nClinical/Prescribing Pearl: Optimize BP and glycemia and quantify albuminuria.\nSafety Alert: Recurrent angioedema requires emergency care; avoid ACE inhibitors permanently."
+    "explanation": "ARBs may be considered after ACE angioedema only with careful counselling; SGLT2 inhibitors provide independent renal\nbenefit.\nClinical/Prescribing Pearl: Optimize BP and glycemia and quantify albuminuria.\nSafety Alert: Recurrent angioedema requires emergency care; avoid ACE inhibitors permanently."
   },
   {
     "id": 90,
@@ -1561,7 +1561,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "option rather than over-basalizing\nWhen fasting glucose is controlled, more basal insulin increases nocturnal hypoglycemia without fixing postprandial\nexcursions.\nClinical/Prescribing Pearl: Review meal pattern, adherence and injection technique.\nSafety Alert: Watch for the over-basalization pattern: large basal dose, nocturnal lows and daytime highs."
+    "explanation": "When fasting glucose is controlled, more basal insulin increases nocturnal hypoglycemia without fixing postprandial\nexcursions.\nClinical/Prescribing Pearl: Review meal pattern, adherence and injection technique.\nSafety Alert: Watch for the over-basalization pattern: large basal dose, nocturnal lows and daytime highs."
   },
   {
     "id": 93,
@@ -1595,7 +1595,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "stopping infusion\nOverlap prevents a gap in insulin action and recurrent ketoacidosis.\nClinical/Prescribing Pearl: Resolution requires closure of acidosis, not glucose normalization alone.\nSafety Alert: Ensure the patient can eat or adapt prandial dosing and address the trigger."
+    "explanation": "Overlap prevents a gap in insulin action and recurrent ketoacidosis.\nClinical/Prescribing Pearl: Resolution requires closure of acidosis, not glucose normalization alone.\nSafety Alert: Ensure the patient can eat or adapt prandial dosing and address the trigger."
   },
   {
     "id": 95,
@@ -1663,7 +1663,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "reliable contraception if needed\nCombined contraception suppresses ovarian androgen and protects the endometrium.\nClinical/Prescribing Pearl: Cosmetic methods and patience are important because response takes months.\nSafety Alert: Spironolactone is antiandrogenic and can harm a male fetus."
+    "explanation": "Combined contraception suppresses ovarian androgen and protects the endometrium.\nClinical/Prescribing Pearl: Cosmetic methods and patience are important because response takes months.\nSafety Alert: Spironolactone is antiandrogenic and can harm a male fetus."
   },
   {
     "id": 99,
@@ -1697,7 +1697,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "or adjunct aripiprazole\nD2 blockade raises prolactin; aripiprazole can lower it in selected patients.\nClinical/Prescribing Pearl: Balance psychiatric stability against endocrine effects.\nSafety Alert: Headache/visual change or extreme elevation requires pituitary evaluation."
+    "explanation": "D2 blockade raises prolactin; aripiprazole can lower it in selected patients.\nClinical/Prescribing Pearl: Balance psychiatric stability against endocrine effects.\nSafety Alert: Headache/visual change or extreme elevation requires pituitary evaluation."
   },
   {
     "id": 101,
@@ -1714,7 +1714,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "acid; do not stop abruptly\nValproate carries major teratogenic and neurodevelopmental risk.\nClinical/Prescribing Pearl: Plan medication changes before conception while maintaining seizure/mood stability.\nSafety Alert: Abrupt withdrawal can cause seizures or relapse."
+    "explanation": "Valproate carries major teratogenic and neurodevelopmental risk.\nClinical/Prescribing Pearl: Plan medication changes before conception while maintaining seizure/mood stability.\nSafety Alert: Abrupt withdrawal can cause seizures or relapse."
   },
   {
     "id": 102,
@@ -1731,7 +1731,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "may require dose adjustment and postpartum reduction\nPregnancy increases lamotrigine clearance and levels fall, then rebound after delivery.\nClinical/Prescribing Pearl: A pre-pregnancy baseline level helps guide individualized monitoring.\nSafety Alert: Failure to reduce an increased dose postpartum can cause toxicity."
+    "explanation": "Pregnancy increases lamotrigine clearance and levels fall, then rebound after delivery.\nClinical/Prescribing Pearl: A pre-pregnancy baseline level helps guide individualized monitoring.\nSafety Alert: Failure to reduce an increased dose postpartum can cause toxicity."
   },
   {
     "id": 103,
@@ -1765,7 +1765,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "anticoagulation failure\nStrong enzyme/P-gp induction can markedly reduce DOAC levels.\nClinical/Prescribing Pearl: Choose a compatible antiseizure drug or anticoagulation strategy with specialists.\nSafety Alert: Do not rely on routine INR to assess apixaban effect."
+    "explanation": "Strong enzyme/P-gp induction can markedly reduce DOAC levels.\nClinical/Prescribing Pearl: Choose a compatible antiseizure drug or anticoagulation strategy with specialists.\nSafety Alert: Do not rely on routine INR to assess apixaban effect."
   },
   {
     "id": 105,
@@ -1782,7 +1782,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "schedule\nAdjuncts can prolong levodopa effect and reduce off time.\nClinical/Prescribing Pearl: Track timing of symptoms and meals before adjustment.\nSafety Alert: Monitor dyskinesia, hallucinations, orthostasis and impulse-control effects."
+    "explanation": "Adjuncts can prolong levodopa effect and reduce off time.\nClinical/Prescribing Pearl: Track timing of symptoms and meals before adjustment.\nSafety Alert: Monitor dyskinesia, hallucinations, orthostasis and impulse-control effects."
   },
   {
     "id": 106,
@@ -1833,7 +1833,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "syndrome urgently\nLewy body disease has marked neuroleptic sensitivity; rigidity/fever may indicate NMS.\nClinical/Prescribing Pearl: If antipsychotic is unavoidable, choose the least motor-toxic agent at low dose.\nSafety Alert: NMS requires emergency supportive care and complication monitoring."
+    "explanation": "Lewy body disease has marked neuroleptic sensitivity; rigidity/fever may indicate NMS.\nClinical/Prescribing Pearl: If antipsychotic is unavoidable, choose the least motor-toxic agent at low dose.\nSafety Alert: NMS requires emergency supportive care and complication monitoring."
   },
   {
     "id": 109,
@@ -1850,7 +1850,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "gradual taper\nContinuation after remission reduces relapse.\nClinical/Prescribing Pearl: Combine with CBT and taper gradually when stable.\nSafety Alert: Abrupt discontinuation can cause withdrawal symptoms."
+    "explanation": "Continuation after remission reduces relapse.\nClinical/Prescribing Pearl: Combine with CBT and taper gradually when stable.\nSafety Alert: Abrupt discontinuation can cause withdrawal symptoms."
   },
   {
     "id": 110,
@@ -1901,7 +1901,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "augmentation or switch, with specialty input\nTrue resistance requires adequate dose, duration, adherence and diagnostic review.\nClinical/Prescribing Pearl: Lithium or atypical-antipsychotic augmentation and neuromodulation are options.\nSafety Alert: Reassess suicide risk and bipolar/substance/medical contributors."
+    "explanation": "True resistance requires adequate dose, duration, adherence and diagnostic review.\nClinical/Prescribing Pearl: Lithium or atypical-antipsychotic augmentation and neuromodulation are options.\nSafety Alert: Reassess suicide risk and bipolar/substance/medical contributors."
   },
   {
     "id": 113,
@@ -1952,7 +1952,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "obstetric/mental-health care\nBoth untreated illness and benzodiazepine exposure/withdrawal carry risks.\nClinical/Prescribing Pearl: Shared planning before delivery reduces neonatal and maternal complications.\nSafety Alert: Avoid abrupt withdrawal and multiple sedatives."
+    "explanation": "Both untreated illness and benzodiazepine exposure/withdrawal carry risks.\nClinical/Prescribing Pearl: Shared planning before delivery reduces neonatal and maternal complications.\nSafety Alert: Avoid abrupt withdrawal and multiple sedatives."
   },
   {
     "id": 116,
@@ -1969,7 +1969,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "lower-metabolic-risk antipsychotic if psychiatric stability permits\nMetabolic harm requires active management without sacrificing psychiatric safety.\nClinical/Prescribing Pearl: Monitor weight, waist, BP, glucose and lipids from baseline.\nSafety Alert: Switch gradually with relapse monitoring; metformin may mitigate antipsychotic weight gain in selected\npatients."
+    "explanation": "Metabolic harm requires active management without sacrificing psychiatric safety.\nClinical/Prescribing Pearl: Monitor weight, waist, BP, glucose and lipids from baseline.\nSafety Alert: Switch gradually with relapse monitoring; metformin may mitigate antipsychotic weight gain in selected\npatients."
   },
   {
     "id": 117,
@@ -2037,7 +2037,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "dantrolene/bromocriptine in severe cases\nThis is neuroleptic malignant syndrome.\nClinical/Prescribing Pearl: Hydration, cooling and complication management are central.\nSafety Alert: Reintroduce antipsychotics only after recovery with specialist planning."
+    "explanation": "This is neuroleptic malignant syndrome.\nClinical/Prescribing Pearl: Hydration, cooling and complication management are central.\nSafety Alert: Reintroduce antipsychotics only after recovery with specialist planning."
   },
   {
     "id": 121,
@@ -2054,7 +2054,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "consider clomipramine/antipsychotic augmentation if refractory\nOCD often requires higher SSRI doses and longer trials plus ERP.\nClinical/Prescribing Pearl: Measure symptoms and functional response.\nSafety Alert: Clomipramine has anticholinergic and cardiac toxicity; avoid casual combination."
+    "explanation": "OCD often requires higher SSRI doses and longer trials plus ERP.\nClinical/Prescribing Pearl: Measure symptoms and functional response.\nSafety Alert: Clomipramine has anticholinergic and cardiac toxicity; avoid casual combination."
   },
   {
     "id": 122,
@@ -2071,7 +2071,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "therapy and evidence-based AUD medication\nConcurrent integrated treatment improves engagement and outcomes.\nClinical/Prescribing Pearl: Naltrexone or acamprosate may be appropriate depending on liver/renal status and goals.\nSafety Alert: Benzodiazepines worsen dependence risk and are not core PTSD treatment."
+    "explanation": "Concurrent integrated treatment improves engagement and outcomes.\nClinical/Prescribing Pearl: Naltrexone or acamprosate may be appropriate depending on liver/renal status and goals.\nSafety Alert: Benzodiazepines worsen dependence risk and are not core PTSD treatment."
   },
   {
     "id": 123,
@@ -2156,7 +2156,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "analgesia with anesthesia/addiction planning\nContinuing buprenorphine often lowers relapse risk and still permits effective multimodal pain control.\nClinical/Prescribing Pearl: Plan early with the surgical team and use regional/nonopioid techniques.\nSafety Alert: Abrupt discontinuation increases withdrawal and relapse risk."
+    "explanation": "Continuing buprenorphine often lowers relapse risk and still permits effective multimodal pain control.\nClinical/Prescribing Pearl: Plan early with the surgical team and use regional/nonopioid techniques.\nSafety Alert: Abrupt discontinuation increases withdrawal and relapse risk."
   },
   {
     "id": 128,
@@ -2173,7 +2173,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "and take-home naloxone\nLong-acting or potent opioids can outlast naloxone.\nClinical/Prescribing Pearl: A nonfatal overdose is a high-yield moment to start buprenorphine and harm-reduction care.\nSafety Alert: Recurrent sedation or hypoventilation requires repeat naloxone and airway support."
+    "explanation": "Long-acting or potent opioids can outlast naloxone.\nClinical/Prescribing Pearl: A nonfatal overdose is a high-yield moment to start buprenorphine and harm-reduction care.\nSafety Alert: Recurrent sedation or hypoventilation requires repeat naloxone and airway support."
   },
   {
     "id": 129,
@@ -2224,7 +2224,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "haloperidol may help\nAbstinence is the definitive treatment for cannabinoid hyperemesis.\nClinical/Prescribing Pearl: Ask nonjudgmentally about use pattern and prior episodes.\nSafety Alert: Correct electrolytes and monitor QT when using haloperidol."
+    "explanation": "Abstinence is the definitive treatment for cannabinoid hyperemesis.\nClinical/Prescribing Pearl: Ask nonjudgmentally about use pattern and prior episodes.\nSafety Alert: Correct electrolytes and monitor QT when using haloperidol."
   },
   {
     "id": 132,
@@ -2309,7 +2309,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "gradual plan\nMedication reduction can lower falls and cognitive burden.\nClinical/Prescribing Pearl: Also assess vision, feet, orthostasis, strength and home hazards.\nSafety Alert: Avoid abrupt benzodiazepine withdrawal."
+    "explanation": "Medication reduction can lower falls and cognitive burden.\nClinical/Prescribing Pearl: Also assess vision, feet, orthostasis, strength and home hazards.\nSafety Alert: Avoid abrupt benzodiazepine withdrawal."
   },
   {
     "id": 137,
@@ -2326,7 +2326,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "in advanced dementia; offer careful hand feeding aligned with goals\nEvidence does not show routine feeding tubes improve key outcomes in advanced dementia.\nClinical/Prescribing Pearl: Careful hand feeding supports comfort and human interaction.\nSafety Alert: Discuss goals, reversible contributors and aspiration precautions without coercion."
+    "explanation": "Evidence does not show routine feeding tubes improve key outcomes in advanced dementia.\nClinical/Prescribing Pearl: Careful hand feeding supports comfort and human interaction.\nSafety Alert: Discuss goals, reversible contributors and aspiration precautions without coercion."
   },
   {
     "id": 138,
@@ -2343,7 +2343,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "collaboratively taper if harms exceed benefits\nOpioid continuation should depend on meaningful benefit relative to harm.\nClinical/Prescribing Pearl: Use a slow patient-centered taper and treat withdrawal/pain alternatives.\nSafety Alert: Rapid forced tapering can cause harm and destabilization."
+    "explanation": "Opioid continuation should depend on meaningful benefit relative to harm.\nClinical/Prescribing Pearl: Use a slow patient-centered taper and treat withdrawal/pain alternatives.\nSafety Alert: Rapid forced tapering can cause harm and destabilization."
   },
   {
     "id": 139,
@@ -2360,7 +2360,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "apnea\nOpioid-benzodiazepine combinations markedly increase respiratory-depression risk, amplified by sleep apnea.\nClinical/Prescribing Pearl: Prioritize the highest-risk combination while avoiding abrupt withdrawal.\nSafety Alert: Educate household members on naloxone and emergency response."
+    "explanation": "Opioid-benzodiazepine combinations markedly increase respiratory-depression risk, amplified by sleep apnea.\nClinical/Prescribing Pearl: Prioritize the highest-risk combination while avoiding abrupt withdrawal.\nSafety Alert: Educate household members on naloxone and emergency response."
   },
   {
     "id": 140,
@@ -2377,6 +2377,6 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "while counselling family\nAnticholinergics may reduce new secretion production; reassurance is central because the sound often distresses family\nmore than the patient.\nClinical/Prescribing Pearl: Glycopyrrolate has less CNS penetration than scopolamine.\nSafety Alert: Avoid burdensome suctioning that causes discomfort."
+    "explanation": "Anticholinergics may reduce new secretion production; reassurance is central because the sound often distresses family\nmore than the patient.\nClinical/Prescribing Pearl: Glycopyrrolate has less CNS penetration than scopolamine.\nSafety Alert: Avoid burdensome suctioning that causes discomfort."
   }
 ]

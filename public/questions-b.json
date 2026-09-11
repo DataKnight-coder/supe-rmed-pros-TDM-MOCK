@@ -235,7 +235,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "the protocol threshold\nInsulin drives potassium intracellularly and can precipitate fatal arrhythmia when potassium is very low.\nClinical/Prescribing Pearl: Potassium management is central to DKA treatment, not an optional add-on.\nSafety Alert: Use frequent ECG and electrolyte monitoring in severe abnormalities."
+    "explanation": "Insulin drives potassium intracellularly and can precipitate fatal arrhythmia when potassium is very low.\nClinical/Prescribing Pearl: Potassium management is central to DKA treatment, not an optional add-on.\nSafety Alert: Use frequent ECG and electrolyte monitoring in severe abnormalities."
   },
   {
     "id": 15,
@@ -269,7 +269,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "calcium/iron by several hours\nFood, coffee, calcium and iron can reduce levothyroxine absorption.\nClinical/Prescribing Pearl: Consistency matters; recheck TSH after an appropriate interval following a dose or\nadministration change.\nSafety Alert: Avoid rapid dose escalation before correcting adherence and interactions."
+    "explanation": "Food, coffee, calcium and iron can reduce levothyroxine absorption.\nClinical/Prescribing Pearl: Consistency matters; recheck TSH after an appropriate interval following a dose or\nadministration change.\nSafety Alert: Avoid rapid dose escalation before correcting adherence and interactions."
   },
   {
     "id": 17,
@@ -303,7 +303,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "indicated\nVolume restoration improves renal calcium clearance; antiresorptive therapy gives sustained control.\nClinical/Prescribing Pearl: Calcitonin may give faster short-term reduction while awaiting bisphosphonate effect.\nSafety Alert: Assess cardiac/renal status and avoid routine thiazides in hypercalcemia."
+    "explanation": "Volume restoration improves renal calcium clearance; antiresorptive therapy gives sustained control.\nClinical/Prescribing Pearl: Calcitonin may give faster short-term reduction while awaiting bisphosphonate effect.\nSafety Alert: Assess cardiac/renal status and avoid routine thiazides in hypercalcemia."
   },
   {
     "id": 19,
@@ -354,7 +354,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "bronchodilators, systemic steroid and airway planning\nSilent chest and rising CO2 signal impending respiratory failure.\nClinical/Prescribing Pearl: In life-threatening asthma, treatment and escalation occur simultaneously.\nSafety Alert: Avoid sedatives; prepare for expert airway management."
+    "explanation": "Silent chest and rising CO2 signal impending respiratory failure.\nClinical/Prescribing Pearl: In life-threatening asthma, treatment and escalation occur simultaneously.\nSafety Alert: Avoid sedatives; prepare for expert airway management."
   },
   {
     "id": 22,
@@ -371,7 +371,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "reassessing gases\nControlled oxygen corrects dangerous hypoxemia while limiting oxygen-induced hypercapnia risk.\nClinical/Prescribing Pearl: The target should be individualized using blood gases and clinical response.\nSafety Alert: Never withhold oxygen from severe hypoxemia."
+    "explanation": "Controlled oxygen corrects dangerous hypoxemia while limiting oxygen-induced hypercapnia risk.\nClinical/Prescribing Pearl: The target should be individualized using blood gases and clinical response.\nSafety Alert: Never withhold oxygen from severe hypoxemia."
   },
   {
     "id": 23,
@@ -405,7 +405,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "delay for CT or lumbar puncture\nEmpiric therapy must not be delayed when imaging or LP will take time.\nClinical/Prescribing Pearl: Dexamethasone should be given before or with the first antibiotic dose when indicated.\nSafety Alert: Use age/risk-appropriate coverage including Listeria coverage when required."
+    "explanation": "Empiric therapy must not be delayed when imaging or LP will take time.\nClinical/Prescribing Pearl: Dexamethasone should be given before or with the first antibiotic dose when indicated.\nSafety Alert: Use age/risk-appropriate coverage including Listeria coverage when required."
   },
   {
     "id": 25,
@@ -422,7 +422,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "CAP/sepsis\nShock physiology and severe CAP require immediate hospital care.\nClinical/Prescribing Pearl: Cultures should not cause meaningful antibiotic delay in sepsis.\nSafety Alert: Use cautious reassessment of fluids and early vasopressors if hypotension persists."
+    "explanation": "Shock physiology and severe CAP require immediate hospital care.\nClinical/Prescribing Pearl: Cultures should not cause meaningful antibiotic delay in sepsis.\nSafety Alert: Use cautious reassessment of fluids and early vasopressors if hypotension persists."
   },
   {
     "id": 26,
@@ -473,7 +473,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "test-of-cure where indicated\nSevere beta-lactam allergy requires an evidence-based alternative selected with current guidance/expert input.\nClinical/Prescribing Pearl: Obtain cultures and susceptibility when possible in complex cases.\nSafety Alert: Resistance is common; avoid improvised regimens."
+    "explanation": "Severe beta-lactam allergy requires an evidence-based alternative selected with current guidance/expert input.\nClinical/Prescribing Pearl: Obtain cultures and susceptibility when possible in complex cases.\nSafety Alert: Resistance is common; avoid improvised regimens."
   },
   {
     "id": 29,
@@ -507,7 +507,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "criteria\nPMN count at least 250 cells/mm3 establishes presumptive spontaneous bacterial peritonitis.\nClinical/Prescribing Pearl: Albumin lowers renal failure risk in selected SBP patients.\nSafety Alert: Avoid nephrotoxins and assess for secondary peritonitis when features are atypical."
+    "explanation": "PMN count at least 250 cells/mm3 establishes presumptive spontaneous bacterial peritonitis.\nClinical/Prescribing Pearl: Albumin lowers renal failure risk in selected SBP patients.\nSafety Alert: Avoid nephrotoxins and assess for secondary peritonitis when features are atypical."
   },
   {
     "id": 31,
@@ -558,7 +558,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "specialist care\nAcute severe UC requires admission and IV corticosteroids with early rescue/surgical planning.\nClinical/Prescribing Pearl: Assess response within days, not weeks.\nSafety Alert: Avoid antimotility drugs in severe colitis due to toxic megacolon risk."
+    "explanation": "Acute severe UC requires admission and IV corticosteroids with early rescue/surgical planning.\nClinical/Prescribing Pearl: Assess response within days, not weeks.\nSafety Alert: Avoid antimotility drugs in severe colitis due to toxic megacolon risk."
   },
   {
     "id": 34,
@@ -575,7 +575,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "biologic therapy after controlling sepsis\nFistulizing Crohn disease often needs drainage/seton management and effective biologic therapy.\nClinical/Prescribing Pearl: Control abscess/sepsis before immunosuppression.\nSafety Alert: Screen for TB/hepatitis and update vaccines before biologic therapy."
+    "explanation": "Fistulizing Crohn disease often needs drainage/seton management and effective biologic therapy.\nClinical/Prescribing Pearl: Control abscess/sepsis before immunosuppression.\nSafety Alert: Screen for TB/hepatitis and update vaccines before biologic therapy."
   },
   {
     "id": 35,
@@ -677,7 +677,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "hypersensitivity\nThis pattern suggests allopurinol hypersensitivity/DRESS, a potentially fatal reaction.\nClinical/Prescribing Pearl: Start allopurinol low and titrate, especially in CKD; consider HLA testing in high-risk ancestry.\nSafety Alert: Never rechallenge after severe allopurinol hypersensitivity."
+    "explanation": "This pattern suggests allopurinol hypersensitivity/DRESS, a potentially fatal reaction.\nClinical/Prescribing Pearl: Start allopurinol low and titrate, especially in CKD; consider HLA testing in high-risk ancestry.\nSafety Alert: Never rechallenge after severe allopurinol hypersensitivity."
   },
   {
     "id": 41,
@@ -694,7 +694,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "bisphosphonate when indicated\nHigh-risk glucocorticoid users need prompt fracture prevention, commonly including a bisphosphonate.\nClinical/Prescribing Pearl: Risk assessment should occur when prolonged glucocorticoid therapy starts.\nSafety Alert: Review renal function, dental issues and administration technique."
+    "explanation": "High-risk glucocorticoid users need prompt fracture prevention, commonly including a bisphosphonate.\nClinical/Prescribing Pearl: Risk assessment should occur when prolonged glucocorticoid therapy starts.\nSafety Alert: Review renal function, dental issues and administration technique."
   },
   {
     "id": 42,
@@ -711,7 +711,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "transition plan\nDenosumab cessation can cause rebound bone turnover and vertebral fractures.\nClinical/Prescribing Pearl: Unlike bisphosphonates, denosumab has no routine drug holiday.\nSafety Alert: Keep injections on schedule and plan transition with an osteoporosis clinician."
+    "explanation": "Denosumab cessation can cause rebound bone turnover and vertebral fractures.\nClinical/Prescribing Pearl: Unlike bisphosphonates, denosumab has no routine drug holiday.\nSafety Alert: Keep injections on schedule and plan transition with an osteoporosis clinician."
   },
   {
     "id": 43,
@@ -762,7 +762,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "sampling\nSeptic arthritis can rapidly destroy cartilage and requires drainage plus antibiotics.\nClinical/Prescribing Pearl: Crystals do not exclude concomitant infection.\nSafety Alert: Do not delay treatment in a toxic patient if aspiration is not immediately possible."
+    "explanation": "Septic arthritis can rapidly destroy cartilage and requires drainage plus antibiotics.\nClinical/Prescribing Pearl: Crystals do not exclude concomitant infection.\nSafety Alert: Do not delay treatment in a toxic patient if aspiration is not immediately possible."
   },
   {
     "id": 46,
@@ -779,7 +779,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "arteritis\nVisual symptoms with GCA features require immediate steroids to prevent blindness.\nClinical/Prescribing Pearl: Diagnostic testing should follow quickly but not delay treatment.\nSafety Alert: Arrange urgent ophthalmology/rheumatology assessment."
+    "explanation": "Visual symptoms with GCA features require immediate steroids to prevent blindness.\nClinical/Prescribing Pearl: Diagnostic testing should follow quickly but not delay treatment.\nSafety Alert: Arrange urgent ophthalmology/rheumatology assessment."
   },
   {
     "id": 47,
@@ -796,7 +796,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "management\nAcute severe mania usually requires an antipsychotic and a mood stabilizer.\nClinical/Prescribing Pearl: Hospital care may be needed when safety or judgment is impaired.\nSafety Alert: Avoid antidepressant monotherapy in bipolar I mania."
+    "explanation": "Acute severe mania usually requires an antipsychotic and a mood stabilizer.\nClinical/Prescribing Pearl: Hospital care may be needed when safety or judgment is impaired.\nSafety Alert: Avoid antidepressant monotherapy in bipolar I mania."
   },
   {
     "id": 48,
@@ -813,7 +813,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "assessment and toxicity care\nThiazides reduce lithium clearance and can precipitate toxicity.\nClinical/Prescribing Pearl: ACE inhibitors, ARBs, NSAIDs, dehydration and renal decline also increase lithium levels.\nSafety Alert: Neurologic symptoms require urgent evaluation; severe toxicity may need dialysis."
+    "explanation": "Thiazides reduce lithium clearance and can precipitate toxicity.\nClinical/Prescribing Pearl: ACE inhibitors, ARBs, NSAIDs, dehydration and renal decline also increase lithium levels.\nSafety Alert: Neurologic symptoms require urgent evaluation; severe toxicity may need dialysis."
   },
   {
     "id": 49,
@@ -864,7 +864,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "pending specialist direction\nTyramine with an irreversible MAOI can provoke catecholamine-mediated hypertensive crisis.\nClinical/Prescribing Pearl: Provide written food and interaction counselling with MAOIs.\nSafety Alert: Combining MAOIs with serotonergic drugs can cause serotonin syndrome."
+    "explanation": "Tyramine with an irreversible MAOI can provoke catecholamine-mediated hypertensive crisis.\nClinical/Prescribing Pearl: Provide written food and interaction counselling with MAOIs.\nSafety Alert: Combining MAOIs with serotonergic drugs can cause serotonin syndrome."
   },
   {
     "id": 52,
@@ -881,7 +881,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "benzodiazepines; escalate severe cases\nClonus and hyperreflexia support serotonin toxicity; withdrawal and supportive care are central.\nClinical/Prescribing Pearl: Cyproheptadine may be used in selected moderate/severe cases.\nSafety Alert: Severe hyperthermia requires aggressive critical care; antipyretics alone do not work."
+    "explanation": "Clonus and hyperreflexia support serotonin toxicity; withdrawal and supportive care are central.\nClinical/Prescribing Pearl: Cyproheptadine may be used in selected moderate/severe cases.\nSafety Alert: Severe hyperthermia requires aggressive critical care; antipyretics alone do not work."
   },
   {
     "id": 53,
@@ -932,7 +932,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "correction of electrolytes\nMarked QT prolongation with syncope creates torsades risk.\nClinical/Prescribing Pearl: Consider dose reduction or transition under addiction/cardiology guidance.\nSafety Alert: Correct potassium and magnesium and avoid interacting QT-prolonging drugs."
+    "explanation": "Marked QT prolongation with syncope creates torsades risk.\nClinical/Prescribing Pearl: Consider dose reduction or transition under addiction/cardiology guidance.\nSafety Alert: Correct potassium and magnesium and avoid interacting QT-prolonging drugs."
   },
   {
     "id": 56,
@@ -1000,7 +1000,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "reaction\nMucosal involvement and painful rash suggest SJS/TEN risk.\nClinical/Prescribing Pearl: Slow titration reduces rash risk, especially with valproate coadministration.\nSafety Alert: Do not rechallenge after a serious lamotrigine rash."
+    "explanation": "Mucosal involvement and painful rash suggest SJS/TEN risk.\nClinical/Prescribing Pearl: Slow titration reduces rash risk, especially with valproate coadministration.\nSafety Alert: Do not rechallenge after a serious lamotrigine rash."
   },
   {
     "id": 60,
@@ -1051,7 +1051,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "anti-staphylococcal antibiotic\nLactational mastitis improves with effective milk drainage and suitable antibiotics when bacterial disease is likely.\nClinical/Prescribing Pearl: Correct latch and avoid aggressive breast massage.\nSafety Alert: Ultrasound and drainage are needed if abscess is suspected or response is poor."
+    "explanation": "Lactational mastitis improves with effective milk drainage and suitable antibiotics when bacterial disease is likely.\nClinical/Prescribing Pearl: Correct latch and avoid aggressive breast massage.\nSafety Alert: Ultrasound and drainage are needed if abscess is suspected or response is poor."
   },
   {
     "id": 63,
@@ -1068,7 +1068,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "seizure prophylaxis\nSevere preeclampsia features require urgent maternal stabilization and delivery planning.\nClinical/Prescribing Pearl: Proteinuria is not required when severe end-organ features are present.\nSafety Alert: Avoid ACE inhibitors and monitor for magnesium toxicity."
+    "explanation": "Severe preeclampsia features require urgent maternal stabilization and delivery planning.\nClinical/Prescribing Pearl: Proteinuria is not required when severe end-organ features are present.\nSafety Alert: Avoid ACE inhibitors and monitor for magnesium toxicity."
   },
   {
     "id": 64,
@@ -1119,7 +1119,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "based on criteria\nSelected children with mild AOM can undergo watchful waiting with good follow-up.\nClinical/Prescribing Pearl: Pain control is important whether or not antibiotics are used.\nSafety Alert: Treat promptly when severe, bilateral in younger children, perforated, or follow-up is unreliable."
+    "explanation": "Selected children with mild AOM can undergo watchful waiting with good follow-up.\nClinical/Prescribing Pearl: Pain control is important whether or not antibiotics are used.\nSafety Alert: Treat promptly when severe, bilateral in younger children, perforated, or follow-up is unreliable."
   },
   {
     "id": 67,
@@ -1170,7 +1170,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "urgently\nAgitation or pharyngeal manipulation can precipitate complete obstruction.\nClinical/Prescribing Pearl: Airway control by an experienced team precedes nonessential testing.\nSafety Alert: Start IV antibiotics after airway priorities are addressed."
+    "explanation": "Agitation or pharyngeal manipulation can precipitate complete obstruction.\nClinical/Prescribing Pearl: Airway control by an experienced team precedes nonessential testing.\nSafety Alert: Start IV antibiotics after airway priorities are addressed."
   },
   {
     "id": 70,
@@ -1289,7 +1289,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "tamsulosin in selected cases\nSmall distal stones often pass; NSAIDs are effective for renal colic and medical expulsive therapy may help selected\npatients.\nClinical/Prescribing Pearl: Stone size/location and patient factors guide passage likelihood.\nSafety Alert: Fever, solitary kidney, AKI or uncontrolled pain requires urgent urologic assessment."
+    "explanation": "Small distal stones often pass; NSAIDs are effective for renal colic and medical expulsive therapy may help selected\npatients.\nClinical/Prescribing Pearl: Stone size/location and patient factors guide passage likelihood.\nSafety Alert: Fever, solitary kidney, AKI or uncontrolled pain requires urgent urologic assessment."
   },
   {
     "id": 77,
@@ -1306,7 +1306,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "allergy referral\nEpinephrine remains first-line; follow-up reduces harm from future episodes.\nClinical/Prescribing Pearl: Teach device technique and avoidance, and provide a written action plan.\nSafety Alert: Biphasic reactions can occur; observation duration depends on severity and risk."
+    "explanation": "Epinephrine remains first-line; follow-up reduces harm from future episodes.\nClinical/Prescribing Pearl: Teach device technique and avoidance, and provide a written action plan.\nSafety Alert: Biphasic reactions can occur; observation duration depends on severity and risk."
   },
   {
     "id": 78,
@@ -1323,7 +1323,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "monitoring/dose adjustment\nTMP-SMX inhibits warfarin metabolism and alters gut vitamin K, increasing bleeding risk.\nClinical/Prescribing Pearl: New antibiotics should trigger an interaction check and INR plan.\nSafety Alert: Educate about bleeding and avoid empiric co-prescribing when safer alternatives exist."
+    "explanation": "TMP-SMX inhibits warfarin metabolism and alters gut vitamin K, increasing bleeding risk.\nClinical/Prescribing Pearl: New antibiotics should trigger an interaction check and INR plan.\nSafety Alert: Educate about bleeding and avoid empiric co-prescribing when safer alternatives exist."
   },
   {
     "id": 79,
@@ -1357,7 +1357,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "HIT\nThe timing, platelet fall and thrombosis strongly suggest heparin-induced thrombocytopenia.\nClinical/Prescribing Pearl: Clinical probability should guide testing and immediate management.\nSafety Alert: Avoid initial warfarin monotherapy in acute HIT due to limb-gangrene risk."
+    "explanation": "The timing, platelet fall and thrombosis strongly suggest heparin-induced thrombocytopenia.\nClinical/Prescribing Pearl: Clinical probability should guide testing and immediate management.\nSafety Alert: Avoid initial warfarin monotherapy in acute HIT due to limb-gangrene risk."
   },
   {
     "id": 81,
@@ -1374,7 +1374,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "appropriate\nAdult iron deficiency requires etiologic evaluation as well as replacement.\nClinical/Prescribing Pearl: Oral iron can often be given once daily or on alternate days to improve tolerance.\nSafety Alert: Do not miss GI malignancy or ongoing blood loss."
+    "explanation": "Adult iron deficiency requires etiologic evaluation as well as replacement.\nClinical/Prescribing Pearl: Oral iron can often be given once daily or on alternate days to improve tolerance.\nSafety Alert: Do not miss GI malignancy or ongoing blood loss."
   },
   {
     "id": 82,
@@ -1391,7 +1391,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "spirometry and transfusion assessment\nAcute chest syndrome is a life-threatening sickle complication requiring multimodal inpatient care.\nClinical/Prescribing Pearl: Early incentive spirometry during pain admissions may reduce risk.\nSafety Alert: Escalate rapidly for worsening hypoxemia; exchange transfusion may be required."
+    "explanation": "Acute chest syndrome is a life-threatening sickle complication requiring multimodal inpatient care.\nClinical/Prescribing Pearl: Early incentive spirometry during pain admissions may reduce risk.\nSafety Alert: Escalate rapidly for worsening hypoxemia; exchange transfusion may be required."
   },
   {
     "id": 83,
@@ -1408,7 +1408,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "cultures if this causes no delay\nHigh-risk febrile neutropenia is an emergency requiring prompt broad-spectrum treatment.\nClinical/Prescribing Pearl: Add gram-positive coverage only for defined indications, not automatically.\nSafety Alert: Sepsis resuscitation and antibiotic administration should occur together."
+    "explanation": "High-risk febrile neutropenia is an emergency requiring prompt broad-spectrum treatment.\nClinical/Prescribing Pearl: Add gram-positive coverage only for defined indications, not automatically.\nSafety Alert: Sepsis resuscitation and antibiotic administration should occur together."
   },
   {
     "id": 84,
@@ -1442,7 +1442,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "after treatment per local protocol\nIsotretinoin is highly teratogenic and requires rigorous pregnancy prevention.\nClinical/Prescribing Pearl: Monitor lipids, liver enzymes and mood symptoms as clinically indicated.\nSafety Alert: Avoid vitamin A supplements and blood donation; never share medication."
+    "explanation": "Isotretinoin is highly teratogenic and requires rigorous pregnancy prevention.\nClinical/Prescribing Pearl: Monitor lipids, liver enzymes and mood symptoms as clinically indicated.\nSafety Alert: Avoid vitamin A supplements and blood donation; never share medication."
   },
   {
     "id": 86,
@@ -1459,7 +1459,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "necrotizing infection\nNecrotizing soft-tissue infection requires urgent operative source control.\nClinical/Prescribing Pearl: Imaging must not delay surgery when clinical suspicion is high.\nSafety Alert: Use broad coverage including toxin-suppressing therapy according to protocol."
+    "explanation": "Necrotizing soft-tissue infection requires urgent operative source control.\nClinical/Prescribing Pearl: Imaging must not delay surgery when clinical suspicion is high.\nSafety Alert: Use broad coverage including toxin-suppressing therapy according to protocol."
   },
   {
     "id": 87,
@@ -1476,7 +1476,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "multidisciplinary foot care\nProbe-to-bone raises concern for diabetic foot osteomyelitis.\nClinical/Prescribing Pearl: Off-loading, vascular assessment and glycemic optimization accompany infection care.\nSafety Alert: Deep cultures are preferred; avoid treating uninfected ulcers with antibiotics."
+    "explanation": "Probe-to-bone raises concern for diabetic foot osteomyelitis.\nClinical/Prescribing Pearl: Off-loading, vascular assessment and glycemic optimization accompany infection care.\nSafety Alert: Deep cultures are preferred; avoid treating uninfected ulcers with antibiotics."
   },
   {
     "id": 88,
@@ -1493,7 +1493,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "assessment\nTrigeminal distribution with ocular symptoms suggests herpes zoster ophthalmicus.\nClinical/Prescribing Pearl: Early antiviral therapy lowers complications.\nSafety Alert: Vision symptoms or Hutchinson sign requires urgent specialist care."
+    "explanation": "Trigeminal distribution with ocular symptoms suggests herpes zoster ophthalmicus.\nClinical/Prescribing Pearl: Early antiviral therapy lowers complications.\nSafety Alert: Vision symptoms or Hutchinson sign requires urgent specialist care."
   },
   {
     "id": 89,
@@ -1544,7 +1544,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "assessment\nActivity, exercise and education are first-line; NSAIDs may offer modest short-term relief.\nClinical/Prescribing Pearl: Imaging is not routinely needed without red flags.\nSafety Alert: Avoid chronic opioids and prolonged bed rest."
+    "explanation": "Activity, exercise and education are first-line; NSAIDs may offer modest short-term relief.\nClinical/Prescribing Pearl: Imaging is not routinely needed without red flags.\nSafety Alert: Avoid chronic opioids and prolonged bed rest."
   },
   {
     "id": 92,
@@ -1680,7 +1680,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "planned breaks when appropriate\nGrowth and appetite require longitudinal monitoring and individualized adjustment.\nClinical/Prescribing Pearl: Dose after breakfast and optimize calorie timing when clinically appropriate.\nSafety Alert: Do not institute medication holidays without considering symptom and safety impact."
+    "explanation": "Growth and appetite require longitudinal monitoring and individualized adjustment.\nClinical/Prescribing Pearl: Dose after breakfast and optimize calorie timing when clinically appropriate.\nSafety Alert: Do not institute medication holidays without considering symptom and safety impact."
   },
   {
     "id": 100,
@@ -1714,7 +1714,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "measures\nBehavioral symptoms often reflect an unmet need or acute illness.\nClinical/Prescribing Pearl: Identify triggers and use caregiver-centered strategies.\nSafety Alert: Antipsychotics increase stroke and mortality risk and are reserved for severe danger/distress after careful\ndiscussion."
+    "explanation": "Behavioral symptoms often reflect an unmet need or acute illness.\nClinical/Prescribing Pearl: Identify triggers and use caregiver-centered strategies.\nSafety Alert: Antipsychotics increase stroke and mortality risk and are reserved for severe danger/distress after careful\ndiscussion."
   },
   {
     "id": 102,
@@ -1748,7 +1748,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "diuretics and sedatives where feasible\nMedication review and volume assessment are central in orthostatic hypotension.\nClinical/Prescribing Pearl: Non-drug measures include slow position changes and compression in selected patients.\nSafety Alert: Falls, syncope or neurologic/cardiac symptoms require broader urgent evaluation."
+    "explanation": "Medication review and volume assessment are central in orthostatic hypotension.\nClinical/Prescribing Pearl: Non-drug measures include slow position changes and compression in selected patients.\nSafety Alert: Falls, syncope or neurologic/cardiac symptoms require broader urgent evaluation."
   },
   {
     "id": 104,
@@ -1884,7 +1884,7 @@
     "correctAnswers": [
       "E"
     ],
-    "explanation": "guideline-directed interval to reduce IRIS risk\nImmediate ART in cryptococcal meningitis can worsen outcomes through intracranial IRIS.\nClinical/Prescribing Pearl: Induction, consolidation and maintenance antifungal phases require specialist management.\nSafety Alert: Control raised intracranial pressure with serial therapeutic lumbar punctures when indicated."
+    "explanation": "Immediate ART in cryptococcal meningitis can worsen outcomes through intracranial IRIS.\nClinical/Prescribing Pearl: Induction, consolidation and maintenance antifungal phases require specialist management.\nSafety Alert: Control raised intracranial pressure with serial therapeutic lumbar punctures when indicated."
   },
   {
     "id": 112,
@@ -1901,7 +1901,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "therapy\nFour-drug induction prevents resistance while susceptibilities are confirmed.\nClinical/Prescribing Pearl: Give pyridoxine with isoniazid in patients at neuropathy risk.\nSafety Alert: Check interactions, hepatic toxicity, vision with ethambutol and adherence/public-health requirements."
+    "explanation": "Four-drug induction prevents resistance while susceptibilities are confirmed.\nClinical/Prescribing Pearl: Give pyridoxine with isoniazid in patients at neuropathy risk.\nSafety Alert: Check interactions, hepatic toxicity, vision with ethambutol and adherence/public-health requirements."
   },
   {
     "id": 113,
@@ -1918,7 +1918,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "reliable alternative\nRifampin is a potent enzyme inducer and reduces systemic hormonal contraceptive levels.\nClinical/Prescribing Pearl: Long-acting methods unaffected by enzyme induction may be preferred.\nSafety Alert: Review interactions with anticoagulants, antiretrovirals and many other drugs."
+    "explanation": "Rifampin is a potent enzyme inducer and reduces systemic hormonal contraceptive levels.\nClinical/Prescribing Pearl: Long-acting methods unaffected by enzyme induction may be preferred.\nSafety Alert: Review interactions with anticoagulants, antiretrovirals and many other drugs."
   },
   {
     "id": 114,
@@ -1969,7 +1969,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "resistance/travel guidance\nFalciparum malaria requires prompt effective combination therapy guided by geography and severity.\nClinical/Prescribing Pearl: Ask about travel region, prophylaxis and pregnancy.\nSafety Alert: Severe malaria requires IV artesunate and intensive monitoring."
+    "explanation": "Falciparum malaria requires prompt effective combination therapy guided by geography and severity.\nClinical/Prescribing Pearl: Ask about travel region, prophylaxis and pregnancy.\nSafety Alert: Severe malaria requires IV artesunate and intensive monitoring."
   },
   {
     "id": 117,
@@ -2003,7 +2003,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "cardiometabolic risk\nWeight loss improves steatosis and can improve inflammation/fibrosis.\nClinical/Prescribing Pearl: Treat diabetes, lipids, BP and sleep apnea; selected anti-obesity drugs may help.\nSafety Alert: Assess fibrosis risk and refer advanced disease."
+    "explanation": "Weight loss improves steatosis and can improve inflammation/fibrosis.\nClinical/Prescribing Pearl: Treat diabetes, lipids, BP and sleep apnea; selected anti-obesity drugs may help.\nSafety Alert: Assess fibrosis risk and refer advanced disease."
   },
   {
     "id": 119,
@@ -2139,7 +2139,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "care\nEnd-organ injury defines hypertensive emergency and requires controlled IV treatment.\nClinical/Prescribing Pearl: The goal is partial, not abrupt, initial pressure reduction.\nSafety Alert: Overly rapid lowering can cause cerebral, coronary or renal ischemia."
+    "explanation": "End-organ injury defines hypertensive emergency and requires controlled IV treatment.\nClinical/Prescribing Pearl: The goal is partial, not abrupt, initial pressure reduction.\nSafety Alert: Overly rapid lowering can cause cerebral, coronary or renal ischemia."
   },
   {
     "id": 127,
@@ -2156,7 +2156,7 @@
     "correctAnswers": [
       "A"
     ],
-    "explanation": "secondary causes\nApparent resistance often reflects measurement, adherence, interactions or secondary hypertension.\nClinical/Prescribing Pearl: Home/ambulatory readings help exclude white-coat effect.\nSafety Alert: NSAIDs, stimulants, alcohol and untreated sleep apnea can contribute."
+    "explanation": "Apparent resistance often reflects measurement, adherence, interactions or secondary hypertension.\nClinical/Prescribing Pearl: Home/ambulatory readings help exclude white-coat effect.\nSafety Alert: NSAIDs, stimulants, alcohol and untreated sleep apnea can contribute."
   },
   {
     "id": 128,
@@ -2173,7 +2173,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "duration, and carry rapid glucose\nExercise can cause immediate or delayed hypoglycemia requiring individualized planning.\nClinical/Prescribing Pearl: CGM trend arrows can guide carbohydrate and insulin decisions.\nSafety Alert: Avoid exercise with significant ketones/hyperglycemia until corrected."
+    "explanation": "Exercise can cause immediate or delayed hypoglycemia requiring individualized planning.\nClinical/Prescribing Pearl: CGM trend arrows can guide carbohydrate and insulin decisions.\nSafety Alert: Avoid exercise with significant ketones/hyperglycemia until corrected."
   },
   {
     "id": 129,
@@ -2224,7 +2224,7 @@
     "correctAnswers": [
       "B"
     ],
-    "explanation": "steroid when indicated\nChronic glucocorticoids may suppress endogenous stress response.\nClinical/Prescribing Pearl: Use the lowest appropriate perioperative supplementation and resume/taper thoughtfully.\nSafety Alert: Abrupt cessation can precipitate adrenal crisis."
+    "explanation": "Chronic glucocorticoids may suppress endogenous stress response.\nClinical/Prescribing Pearl: Use the lowest appropriate perioperative supplementation and resume/taper thoughtfully.\nSafety Alert: Abrupt cessation can precipitate adrenal crisis."
   },
   {
     "id": 132,
@@ -2241,7 +2241,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "correction\nSevere symptomatic hyponatremia requires prompt small controlled sodium increase with hypertonic saline.\nClinical/Prescribing Pearl: Treat symptoms first, then address the underlying cause and water balance.\nSafety Alert: Overcorrection can cause osmotic demyelination; monitor sodium frequently."
+    "explanation": "Severe symptomatic hyponatremia requires prompt small controlled sodium increase with hypertonic saline.\nClinical/Prescribing Pearl: Treat symptoms first, then address the underlying cause and water balance.\nSafety Alert: Overcorrection can cause osmotic demyelination; monitor sodium frequently."
   },
   {
     "id": 133,
@@ -2275,7 +2275,7 @@
     "correctAnswers": [
       "D"
     ],
-    "explanation": "specialist input\nVery high triglycerides can cause pancreatitis and require acute management plus long-term prevention.\nClinical/Prescribing Pearl: After recovery, address diabetes, alcohol, diet and use fibrate/omega-3 therapy as appropriate.\nSafety Alert: Consider insulin infusion in selected cases; plasmapheresis is reserved for select severe scenarios."
+    "explanation": "Very high triglycerides can cause pancreatitis and require acute management plus long-term prevention.\nClinical/Prescribing Pearl: After recovery, address diabetes, alcohol, diet and use fibrate/omega-3 therapy as appropriate.\nSafety Alert: Consider insulin infusion in selected cases; plasmapheresis is reserved for select severe scenarios."
   },
   {
     "id": 135,
@@ -2326,7 +2326,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "microbiota-based therapy for further recurrences\nRecurrence requires a regimen that reduces further relapse, with escalation for multiple episodes.\nClinical/Prescribing Pearl: Bezlotoxumab may help selected high-risk patients.\nSafety Alert: Avoid unnecessary antibiotics and acid suppression."
+    "explanation": "Recurrence requires a regimen that reduces further relapse, with escalation for multiple episodes.\nClinical/Prescribing Pearl: Bezlotoxumab may help selected high-risk patients.\nSafety Alert: Avoid unnecessary antibiotics and acid suppression."
   },
   {
     "id": 138,
@@ -2343,7 +2343,7 @@
     "correctAnswers": [
       "C"
     ],
-    "explanation": "of deficiencies\nMucosal healing requires removal of dietary gluten.\nClinical/Prescribing Pearl: Check associated deficiencies, bone health and autoimmune disease as indicated.\nSafety Alert: Persistent symptoms require review for hidden gluten or alternate diagnoses."
+    "explanation": "Mucosal healing requires removal of dietary gluten.\nClinical/Prescribing Pearl: Check associated deficiencies, bone health and autoimmune disease as indicated.\nSafety Alert: Persistent symptoms require review for hidden gluten or alternate diagnoses."
   },
   {
     "id": 139,
