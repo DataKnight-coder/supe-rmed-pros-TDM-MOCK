@@ -28,8 +28,8 @@ export default function Home() {
   const [hasSavedSessionE, setHasSavedSessionE] = useState(false);
 
   // Premium Unlock State
-  const [unlockedMocks, setUnlockedMocks] = useState({ B: false, C: false, D: false, E: false });
-  const [unlockModalExam, setUnlockModalExam] = useState<"B" | "C" | "D" | "E" | null>(null);
+  const [unlockedMocks, setUnlockedMocks] = useState({ C: false, D: false, E: false });
+  const [unlockModalExam, setUnlockModalExam] = useState<"C" | "D" | "E" | null>(null);
   const [accessCodeInput, setAccessCodeInput] = useState("");
   const [unlockError, setUnlockError] = useState(false);
 
@@ -51,12 +51,10 @@ export default function Home() {
     if (localStorage.getItem("supermedpros_active_exam_D")) setHasSavedSessionD(true);
     if (localStorage.getItem("supermedpros_active_exam_E")) setHasSavedSessionE(true);
 
-    const uB = localStorage.getItem("supermedpros_unlocked_B");
     const uC = localStorage.getItem("supermedpros_unlocked_C");
     const uD = localStorage.getItem("supermedpros_unlocked_D");
     const uE = localStorage.getItem("supermedpros_unlocked_E");
     setUnlockedMocks({
-      B: uB === "true",
       C: uC === "true",
       D: uD === "true",
       E: uE === "true",
@@ -65,7 +63,6 @@ export default function Home() {
 
   const handleStartExam = (examId: "A" | "B" | "C" | "D" | "E", resume: boolean = false) => {
     // Check Premium Access
-    if (examId === "B" && !unlockedMocks.B) { setUnlockModalExam("B"); return; }
     if (examId === "C" && !unlockedMocks.C) { setUnlockModalExam("C"); return; }
     if (examId === "D" && !unlockedMocks.D) { setUnlockModalExam("D"); return; }
     if (examId === "E" && !unlockedMocks.E) { setUnlockModalExam("E"); return; }
@@ -81,11 +78,7 @@ export default function Home() {
 
   const handleUnlock = () => {
     const code = accessCodeInput.trim().toUpperCase();
-    if (unlockModalExam === "B" && code === "SUPERMED2") {
-      setUnlockedMocks(prev => ({...prev, B: true}));
-      localStorage.setItem("supermedpros_unlocked_B", "true");
-      setUnlockModalExam(null); setAccessCodeInput(""); setUnlockError(false);
-    } else if (unlockModalExam === "C" && code === "SUPERMED3") {
+    if (unlockModalExam === "C" && code === "SUPERMED3") {
       setUnlockedMocks(prev => ({...prev, C: true}));
       localStorage.setItem("supermedpros_unlocked_C", "true");
       setUnlockModalExam(null); setAccessCodeInput(""); setUnlockError(false);
@@ -141,7 +134,7 @@ export default function Home() {
               <div className="mx-auto w-16 h-16 bg-red-100 text-red-600 rounded-full flex items-center justify-center mb-4">
                 <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd"></path></svg>
               </div>
-              <h2 className="text-2xl font-bold text-gray-800">Unlock Mock Exam {unlockModalExam === "B" ? "2" : unlockModalExam === "C" ? "3" : unlockModalExam === "D" ? "4" : "5"}</h2>
+              <h2 className="text-2xl font-bold text-gray-800">Unlock Mock Exam {unlockModalExam === "C" ? "3" : unlockModalExam === "D" ? "4" : "5"}</h2>
               <p className="text-gray-600 mt-2">This is a premium exam.</p>
             </div>
             
@@ -211,16 +204,14 @@ export default function Home() {
 
               {/* Exam B */}
               <div className="border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow bg-gray-50 flex flex-col relative">
-                {!unlockedMocks.B && <div className="absolute top-0 right-0 bg-gray-800 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg rounded-tr-xl flex items-center gap-1 shadow-sm"><svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd"></path></svg> PREMIUM</div>}
-                {unlockedMocks.B && <div className="absolute top-0 right-0 bg-blue-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg rounded-tr-xl shadow-sm">UNLOCKED</div>}
+                <div className="absolute top-0 right-0 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-xl shadow-sm">FREE</div>
                 <h3 className="text-xl font-bold text-red-700 mb-2">Mock Exam 2</h3>
                 <p className="text-gray-600 text-sm mb-6 flex-grow">140 Questions (MCQ & SMQ) | 180 Minutes</p>
                 <div className="flex flex-col gap-3">
-                  <button onClick={() => handleStartExam("B", false)} className={`w-full text-white text-sm font-bold py-3 px-4 rounded-full hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5 ${unlockedMocks.B ? 'bg-red-600 hover:bg-red-700' : 'bg-gray-800 hover:bg-gray-900 flex items-center justify-center gap-2'}`}>
-                    {!unlockedMocks.B && <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>}
-                    {unlockedMocks.B ? 'Start New' : 'Unlock Exam'}
+                  <button onClick={() => handleStartExam("B", false)} className="w-full bg-red-600 text-white font-bold py-3 px-4 rounded-full hover:bg-red-700 hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5 text-sm">
+                    Start New
                   </button>
-                  {hasSavedSessionB && unlockedMocks.B && (
+                  {hasSavedSessionB && (
                     <button onClick={() => handleStartExam("B", true)} className="w-full bg-white text-red-600 border border-red-600 font-bold py-3 px-4 rounded-full hover:bg-red-50 hover:shadow-md transition-all duration-200 text-sm">
                       Resume Saved
                     </button>
