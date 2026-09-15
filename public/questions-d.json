@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "caseContext": "",
+    "question": "Mock Exam 4 is currently in development. Please check back later.",
+    "type": "MCQ",
+    "options": {
+      "A": "Okay",
+      "B": "Cancel"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Content coming soon."
+  }
+]
