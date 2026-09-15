@@ -78,15 +78,15 @@ export default function Home() {
 
   const handleUnlock = () => {
     const code = accessCodeInput.trim().toUpperCase();
-    if (unlockModalExam === "C" && code === "SUPERMED3") {
+    if (unlockModalExam === "C" && code === "SMP-8A2F-MOCK3") {
       setUnlockedMocks(prev => ({...prev, C: true}));
       localStorage.setItem("supermedpros_unlocked_C", "true");
       setUnlockModalExam(null); setAccessCodeInput(""); setUnlockError(false);
-    } else if (unlockModalExam === "D" && code === "SUPERMED4") {
+    } else if (unlockModalExam === "D" && code === "SMP-3B7D-MOCK4") {
       setUnlockedMocks(prev => ({...prev, D: true}));
       localStorage.setItem("supermedpros_unlocked_D", "true");
       setUnlockModalExam(null); setAccessCodeInput(""); setUnlockError(false);
-    } else if (unlockModalExam === "E" && code === "SUPERMED5") {
+    } else if (unlockModalExam === "E" && code === "SMP-9C1E-MOCK5") {
       setUnlockedMocks(prev => ({...prev, E: true}));
       localStorage.setItem("supermedpros_unlocked_E", "true");
       setUnlockModalExam(null); setAccessCodeInput(""); setUnlockError(false);
