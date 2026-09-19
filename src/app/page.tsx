@@ -14,12 +14,14 @@ export default function Home() {
   const [currentExamId, setCurrentExamId] = useState<"A" | "B" | "C" | "D" | "E">("A");
   const [userAnswers, setUserAnswers] = useState<Record<number, { answers: string[], flagged: boolean }>>({});
   const [timeRemaining, setTimeRemaining] = useState(180 * 60);
+  const [isReviewMode, setIsReviewMode] = useState(false);
 
-  const [historicalScoresA, setHistoricalScoresA] = useState<{date: string, score: number, total: number, percentage: number}[]>([]);
-  const [historicalScoresB, setHistoricalScoresB] = useState<{date: string, score: number, total: number, percentage: number}[]>([]);
-  const [historicalScoresC, setHistoricalScoresC] = useState<{date: string, score: number, total: number, percentage: number}[]>([]);
-  const [historicalScoresD, setHistoricalScoresD] = useState<{date: string, score: number, total: number, percentage: number}[]>([]);
-  const [historicalScoresE, setHistoricalScoresE] = useState<{date: string, score: number, total: number, percentage: number}[]>([]);
+  type ScoreRecord = {date: string, score: number, total: number, percentage: number, answers?: Record<number, { answers: string[], flagged: boolean }>};
+  const [historicalScoresA, setHistoricalScoresA] = useState<ScoreRecord[]>([]);
+  const [historicalScoresB, setHistoricalScoresB] = useState<ScoreRecord[]>([]);
+  const [historicalScoresC, setHistoricalScoresC] = useState<ScoreRecord[]>([]);
+  const [historicalScoresD, setHistoricalScoresD] = useState<ScoreRecord[]>([]);
+  const [historicalScoresE, setHistoricalScoresE] = useState<ScoreRecord[]>([]);
   
   const [hasSavedSessionA, setHasSavedSessionA] = useState(false);
   const [hasSavedSessionB, setHasSavedSessionB] = useState(false);
@@ -71,12 +73,20 @@ export default function Home() {
     if (examId === "E" && !unlockedMocks.E) { setUnlockModalExam("E"); return; }
 
     setCurrentExamId(examId);
+    setIsReviewMode(false);
     if (!resume) {
       localStorage.removeItem("supermedpros_active_exam_" + examId);
       setUserAnswers({});
       setTimeRemaining(180 * 60);
     }
     setAppState("exam");
+  };
+
+  const handleReviewExam = (examId: "A" | "B" | "C" | "D" | "E", answers: Record<number, { answers: string[], flagged: boolean }>) => {
+    setCurrentExamId(examId);
+    setUserAnswers(answers);
+    setIsReviewMode(true);
+    setAppState("results");
   };
 
   const handleUnlock = () => {
@@ -104,6 +114,7 @@ export default function Home() {
 
   const handleSubmitExam = (answers: Record<number, { answers: string[], flagged: boolean }>) => {
     setUserAnswers(answers);
+    setIsReviewMode(false); // They just finished, so this is a fresh submission
     setAppState("results");
     localStorage.removeItem("supermedpros_active_exam_" + currentExamId);
     if (currentExamId === "A") setHasSavedSessionA(false);
@@ -297,8 +308,11 @@ export default function Home() {
                     <div className="space-y-3">
                       {historicalScoresA.slice().reverse().map((score, i) => (
                         <div key={i} className="flex justify-between items-center bg-white p-3 rounded-lg border border-gray-200 shadow-sm">
-                          <span className="text-gray-600 text-sm">{new Date(score.date).toLocaleDateString()}</span>
-                          <span className="font-bold text-gray-900">{score.score}/{score.total} <span className={`ml-1 px-1.5 py-0.5 rounded text-[10px] text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                          <div>
+                            <span className="block text-gray-600 text-xs mb-0.5">{new Date(score.date).toLocaleDateString()}</span>
+                            <span className="font-bold text-gray-900 text-sm">{score.score}/{score.total} <span className={`ml-1 px-1.5 py-0.5 rounded text-[10px] text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                          </div>
+                          {score.answers && <button onClick={() => handleReviewExam("A", score.answers!)} className="text-[10px] bg-gray-100 border border-gray-300 text-gray-700 px-2 py-1 rounded hover:bg-gray-200 font-bold uppercase transition-colors">Review</button>}
                         </div>
                       ))}
                     </div>
@@ -310,8 +324,11 @@ export default function Home() {
                     <div className="space-y-3">
                       {historicalScoresB.slice().reverse().map((score, i) => (
                         <div key={i} className="flex justify-between items-center bg-white p-3 rounded-lg border border-gray-200 shadow-sm">
-                          <span className="text-gray-600 text-sm">{new Date(score.date).toLocaleDateString()}</span>
-                          <span className="font-bold text-gray-900">{score.score}/{score.total} <span className={`ml-1 px-1.5 py-0.5 rounded text-[10px] text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                          <div>
+                            <span className="block text-gray-600 text-xs mb-0.5">{new Date(score.date).toLocaleDateString()}</span>
+                            <span className="font-bold text-gray-900 text-sm">{score.score}/{score.total} <span className={`ml-1 px-1.5 py-0.5 rounded text-[10px] text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                          </div>
+                          {score.answers && <button onClick={() => handleReviewExam("B", score.answers!)} className="text-[10px] bg-gray-100 border border-gray-300 text-gray-700 px-2 py-1 rounded hover:bg-gray-200 font-bold uppercase transition-colors">Review</button>}
                         </div>
                       ))}
                     </div>
@@ -323,8 +340,11 @@ export default function Home() {
                     <div className="space-y-3">
                       {historicalScoresC.slice().reverse().map((score, i) => (
                         <div key={i} className="flex justify-between items-center bg-white p-3 rounded-lg border border-gray-200 shadow-sm">
-                          <span className="text-gray-600 text-sm">{new Date(score.date).toLocaleDateString()}</span>
-                          <span className="font-bold text-gray-900">{score.score}/{score.total} <span className={`ml-1 px-1.5 py-0.5 rounded text-[10px] text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                          <div>
+                            <span className="block text-gray-600 text-xs mb-0.5">{new Date(score.date).toLocaleDateString()}</span>
+                            <span className="font-bold text-gray-900 text-sm">{score.score}/{score.total} <span className={`ml-1 px-1.5 py-0.5 rounded text-[10px] text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                          </div>
+                          {score.answers && <button onClick={() => handleReviewExam("C", score.answers!)} className="text-[10px] bg-gray-100 border border-gray-300 text-gray-700 px-2 py-1 rounded hover:bg-gray-200 font-bold uppercase transition-colors">Review</button>}
                         </div>
                       ))}
                     </div>
@@ -336,8 +356,11 @@ export default function Home() {
                     <div className="space-y-3">
                       {historicalScoresD.slice().reverse().map((score, i) => (
                         <div key={i} className="flex justify-between items-center bg-white p-3 rounded-lg border border-gray-200 shadow-sm">
-                          <span className="text-gray-600 text-sm">{new Date(score.date).toLocaleDateString()}</span>
-                          <span className="font-bold text-gray-900">{score.score}/{score.total} <span className={`ml-1 px-1.5 py-0.5 rounded text-[10px] text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                          <div>
+                            <span className="block text-gray-600 text-xs mb-0.5">{new Date(score.date).toLocaleDateString()}</span>
+                            <span className="font-bold text-gray-900 text-sm">{score.score}/{score.total} <span className={`ml-1 px-1.5 py-0.5 rounded text-[10px] text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                          </div>
+                          {score.answers && <button onClick={() => handleReviewExam("D", score.answers!)} className="text-[10px] bg-gray-100 border border-gray-300 text-gray-700 px-2 py-1 rounded hover:bg-gray-200 font-bold uppercase transition-colors">Review</button>}
                         </div>
                       ))}
                     </div>
@@ -349,8 +372,11 @@ export default function Home() {
                     <div className="space-y-3">
                       {historicalScoresE.slice().reverse().map((score, i) => (
                         <div key={i} className="flex justify-between items-center bg-white p-3 rounded-lg border border-gray-200 shadow-sm">
-                          <span className="text-gray-600 text-sm">{new Date(score.date).toLocaleDateString()}</span>
-                          <span className="font-bold text-gray-900">{score.score}/{score.total} <span className={`ml-1 px-1.5 py-0.5 rounded text-[10px] text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                          <div>
+                            <span className="block text-gray-600 text-xs mb-0.5">{new Date(score.date).toLocaleDateString()}</span>
+                            <span className="font-bold text-gray-900 text-sm">{score.score}/{score.total} <span className={`ml-1 px-1.5 py-0.5 rounded text-[10px] text-white ${score.percentage >= 70 ? 'bg-green-500' : 'bg-red-500'}`}>{score.percentage}%</span></span>
+                          </div>
+                          {score.answers && <button onClick={() => handleReviewExam("E", score.answers!)} className="text-[10px] bg-gray-100 border border-gray-300 text-gray-700 px-2 py-1 rounded hover:bg-gray-200 font-bold uppercase transition-colors">Review</button>}
                         </div>
                       ))}
                     </div>
@@ -379,6 +405,8 @@ export default function Home() {
           questions={questions} 
           userAnswers={userAnswers} 
           onRetake={() => handleStartExam(currentExamId, false)} 
+          onBackToHome={() => setAppState("landing")}
+          isReviewMode={isReviewMode}
         />
       )}
     </main>

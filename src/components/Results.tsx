@@ -17,11 +17,14 @@ interface ResultsProps {
   questions: Question[];
   userAnswers: Record<number, { answers: string[], flagged: boolean }>;
   onRetake: () => void;
+  onBackToHome: () => void;
+  isReviewMode?: boolean;
 }
 
-export default function Results({ examId, questions, userAnswers, onRetake }: ResultsProps) {
-  const [filter, setFilter] = useState<"all" | "incorrect" | "flagged">("all");
+export default function Results({ examId, questions, userAnswers, onRetake, onBackToHome, isReviewMode = false }: ResultsProps) {
+  const [filter, setFilter] = useState<"all" | "incorrect" | "correct">("all");
   const [scoreSaved, setScoreSaved] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const calculateScore = () => {
     let correctCount = 0;
@@ -39,143 +42,212 @@ export default function Results({ examId, questions, userAnswers, onRetake }: Re
   const percentage = Math.round((score / questions.length) * 100);
 
   useEffect(() => {
-    if (!scoreSaved) {
+    if (!scoreSaved && !isReviewMode && questions.length > 0) {
       const savedScores = JSON.parse(localStorage.getItem("supermedpros_scores_" + examId) || "[]");
       savedScores.push({
         date: new Date().toISOString(),
         score,
         total: questions.length,
-        percentage
+        percentage,
+        answers: userAnswers
       });
       localStorage.setItem("supermedpros_scores_" + examId, JSON.stringify(savedScores));
       setScoreSaved(true);
     }
-  }, [score, questions.length, percentage, scoreSaved]);
+  }, [score, questions.length, percentage, scoreSaved, examId, isReviewMode, userAnswers]);
+
+  const isQuestionCorrect = (q: Question) => {
+    const uAns = userAnswers[q.id]?.answers || [];
+    return uAns.length === q.correctAnswers.length && uAns.every((val: string) => q.correctAnswers.includes(val));
+  };
+
+  const filteredQuestions = questions.filter(q => {
+    if (filter === "incorrect") return !isQuestionCorrect(q);
+    if (filter === "correct") return isQuestionCorrect(q);
+    return true;
+  });
+
+  // Reset index when filter changes
+  useEffect(() => {
+    setCurrentIndex(0);
+  }, [filter]);
+
+  const q = filteredQuestions[currentIndex];
+
+  const handleNext = () => {
+    if (currentIndex < filteredQuestions.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+
+  const handlePrev = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+    }
+  };
 
   return (
-    <div className="w-full max-w-5xl bg-white shadow-2xl rounded-3xl overflow-hidden flex flex-col my-8 sm:my-12 font-sans border border-gray-100">
-      {/* Header */}
-      <div className="bg-gray-900 text-white p-10 sm:p-16 text-center border-b-8 border-red-600 relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full opacity-5 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
-        <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-300 uppercase tracking-widest relative z-10">Simulation Results</h1>
-        <div className="text-7xl sm:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-red-700 my-6 drop-shadow-lg relative z-10">
-          {percentage}%
+    <div className="w-full max-w-6xl flex flex-col md:flex-row gap-6 my-8 font-sans h-[90vh]">
+      
+      {/* Left Sidebar - Grid */}
+      <div className="w-full md:w-1/4 flex flex-col bg-white shadow-xl rounded-2xl overflow-hidden border border-gray-100 flex-shrink-0 h-full">
+        <div className="bg-gray-900 text-white p-6 text-center border-b-4 border-red-600 flex-shrink-0">
+          <h2 className="text-xl font-bold uppercase tracking-widest text-gray-300">Score</h2>
+          <div className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-red-700 my-2">
+            {percentage}%
+          </div>
+          <p className="text-sm text-gray-400">
+            {score} / {questions.length} Correct
+          </p>
         </div>
-        <p className="text-2xl text-gray-300 relative z-10">
-          You scored <strong className="text-white">{score}</strong> out of <strong className="text-white">{questions.length}</strong>
-        </p>
+        
+        <div className="p-4 bg-gray-50 border-b border-gray-200 flex flex-col gap-2 flex-shrink-0">
+          <select 
+            className="w-full p-2 border border-gray-300 rounded font-bold text-sm bg-white"
+            value={filter}
+            onChange={(e) => setFilter(e.target.value as any)}
+          >
+            <option value="all">Review All Questions ({questions.length})</option>
+            <option value="incorrect">Incorrect Only ({questions.length - score})</option>
+            <option value="correct">Correct Only ({score})</option>
+          </select>
+        </div>
+
+        <div className="flex-1 overflow-y-auto p-4 bg-gray-50">
+          <div className="grid grid-cols-5 gap-2">
+            {filteredQuestions.map((fq, i) => {
+              const correct = isQuestionCorrect(fq);
+              const isActive = i === currentIndex;
+              return (
+                <button
+                  key={fq.id}
+                  onClick={() => setCurrentIndex(i)}
+                  className={`
+                    h-10 rounded font-bold text-xs flex items-center justify-center transition-all border
+                    ${isActive ? 'ring-2 ring-blue-500 transform scale-110 shadow-md' : 'hover:bg-gray-100 opacity-80'}
+                    ${correct ? 'bg-green-100 text-green-800 border-green-300' : 'bg-red-100 text-red-800 border-red-300'}
+                  `}
+                  title={correct ? "Correct" : "Incorrect"}
+                >
+                  {fq.id}
+                </button>
+              );
+            })}
+          </div>
+          {filteredQuestions.length === 0 && (
+            <p className="text-center text-gray-500 mt-10 text-sm">No questions match this filter.</p>
+          )}
+        </div>
+
+        <div className="p-4 bg-white border-t border-gray-200 flex-shrink-0 flex flex-col gap-2">
+          {!isReviewMode && (
+            <button 
+              onClick={onRetake}
+              className="w-full py-2 bg-red-600 text-white font-bold rounded hover:bg-red-700 text-sm"
+            >
+              Retake Exam
+            </button>
+          )}
+          <button 
+            onClick={onBackToHome}
+            className="w-full py-2 bg-gray-800 text-white font-bold rounded hover:bg-gray-900 text-sm"
+          >
+            Back to Dashboard
+          </button>
+        </div>
       </div>
 
-      <div className="p-6 bg-gray-50 flex flex-col sm:flex-row justify-center items-center gap-4 border-b border-gray-200">
-        <button 
-          onClick={() => setFilter("all")}
-          className={`px-8 py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-200 w-full sm:w-auto ${filter === 'all' ? 'bg-gray-900 text-white shadow-lg transform -translate-y-0.5' : 'bg-white text-gray-600 hover:bg-gray-200 border border-gray-300 shadow-sm'}`}
-        >
-          Review All
-        </button>
-        <button 
-          onClick={() => setFilter("incorrect")}
-          className={`px-8 py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-200 w-full sm:w-auto flex items-center justify-center ${filter === 'incorrect' ? 'bg-red-600 text-white shadow-lg transform -translate-y-0.5' : 'bg-white text-red-600 hover:bg-red-50 border border-red-200 shadow-sm'}`}
-        >
-          <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-          Incorrect Only
-        </button>
-        <button 
-          onClick={() => setFilter("flagged")}
-          className={`px-8 py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-200 w-full sm:w-auto flex items-center justify-center ${filter === 'flagged' ? 'bg-yellow-500 text-white shadow-lg transform -translate-y-0.5' : 'bg-white text-yellow-600 hover:bg-yellow-50 border border-yellow-300 shadow-sm'}`}
-        >
-          <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path></svg>
-          Flagged Only
-        </button>
-      </div>
-
-      {/* Review Section */}
-      <div className="p-6 sm:p-12 space-y-12 bg-gray-50">
-        {questions.map((q, index) => {
-          const uState = userAnswers[q.id] || { answers: [], flagged: false };
-          const uAns = uState.answers;
-          const isFlagged = uState.flagged;
-          const isCorrect = 
-            uAns.length === q.correctAnswers.length && 
-            uAns.every(val => q.correctAnswers.includes(val));
-
-          if (filter === "incorrect" && isCorrect) return null;
-          if (filter === "flagged" && !isFlagged) return null;
-
-          return (
-            <div key={q.id} className={`p-8 rounded-2xl border border-gray-200 shadow-lg bg-white relative overflow-hidden`}>
-              <div className={`absolute top-0 left-0 w-2 h-full ${isCorrect ? 'bg-green-500' : 'bg-red-500'}`}></div>
-              
-              <div className="flex justify-between items-center mb-6 pl-4">
-                <div className="flex items-center space-x-3">
-                  <h3 className="font-extrabold text-xl text-gray-400 tracking-wider">QUESTION {index + 1}</h3>
-                  {isFlagged && (
-                    <span className="bg-yellow-100 text-yellow-800 border border-yellow-300 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest flex items-center">
-                      <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path></svg>
-                      Flagged
-                    </span>
-                  )}
-                </div>
-                <span className={`px-4 py-1.5 rounded-lg text-sm font-bold uppercase tracking-widest shadow-sm ${isCorrect ? 'bg-green-100 text-green-800 border border-green-200' : 'bg-red-100 text-red-800 border border-red-200'}`}>
-                  {isCorrect ? "Correct" : "Incorrect"}
+      {/* Right Content - Question Viewer */}
+      <div className="w-full md:w-3/4 flex flex-col bg-white shadow-xl rounded-2xl overflow-hidden border border-gray-100 h-full">
+        {q ? (
+          <>
+            <div className="flex-1 overflow-y-auto p-6 md:p-10">
+              <div className="flex items-center justify-between mb-6 pb-4 border-b border-gray-200">
+                <span className={`px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wider ${isQuestionCorrect(q) ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
+                  {isQuestionCorrect(q) ? '✓ Correct' : '✗ Incorrect'}
                 </span>
+                <span className="text-gray-500 font-medium">Question {q.id}</span>
               </div>
-              
-              <p className="text-2xl font-bold text-gray-900 mb-8 pl-4 leading-relaxed">{q.question}</p>
-              
-              <div className="space-y-3 mb-8 pl-4">
-                {Object.entries(q.options).map(([key, text]) => {
-                  const isUserSelected = uAns.includes(key);
-                  const isActuallyCorrect = q.correctAnswers.includes(key);
-                  
-                  let bgClass = "bg-gray-50 border-gray-100 opacity-60";
-                  let textClass = "text-gray-600";
-                  let badge = null;
 
-                  if (isActuallyCorrect) {
-                    bgClass = "bg-green-50 border-green-400 shadow-sm ring-1 ring-green-400 opacity-100";
-                    textClass = "text-green-900 font-bold";
-                    badge = <span className="ml-auto bg-green-500 text-white text-xs px-3 py-1 rounded-full font-bold uppercase tracking-wider shadow-sm flex items-center"><svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg> Correct</span>;
-                  } else if (isUserSelected && !isActuallyCorrect) {
-                    bgClass = "bg-red-50 border-red-300 ring-1 ring-red-300 opacity-100";
-                    textClass = "text-red-900 font-bold";
-                    badge = <span className="ml-auto bg-red-500 text-white text-xs px-3 py-1 rounded-full font-bold uppercase tracking-wider shadow-sm flex items-center"><svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M6 18L18 6M6 6l12 12"></path></svg> You Picked</span>;
+              {q.caseContext && q.caseContext.trim() !== "" && (
+                <div className="mb-8 p-6 bg-blue-50/50 border border-blue-100 rounded-xl">
+                  <h4 className="text-blue-800 font-bold mb-3 uppercase text-sm tracking-wide">Clinical Case Context</h4>
+                  <p className="text-gray-700 leading-relaxed whitespace-pre-wrap">{q.caseContext}</p>
+                </div>
+              )}
+              
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-900 leading-snug">{q.question}</h3>
+              </div>
+
+              <div className="space-y-3 mb-10">
+                {Object.entries(q.options).map(([key, value]) => {
+                  const uAns = userAnswers[q.id]?.answers || [];
+                  const isUserSelected = uAns.includes(key);
+                  const isCorrectOption = q.correctAnswers.includes(key);
+                  
+                  let borderClass = "border-gray-200 bg-white text-gray-700";
+                  let icon = null;
+
+                  if (isCorrectOption) {
+                    borderClass = "border-green-500 bg-green-50 text-green-900 shadow-sm ring-1 ring-green-500";
+                    icon = <span className="text-green-600 font-bold ml-auto flex items-center gap-1"><svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg> Correct</span>;
+                  } else if (isUserSelected && !isCorrectOption) {
+                    borderClass = "border-red-400 bg-red-50 text-red-900 shadow-sm";
+                    icon = <span className="text-red-500 font-bold ml-auto flex items-center gap-1"><svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg> You Picked</span>;
+                  } else if (isUserSelected && isCorrectOption) {
+                     icon = <span className="text-green-600 font-bold ml-auto flex items-center gap-1"><svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg> You Picked (Correct)</span>;
                   }
 
                   return (
-                    <div key={key} className={`flex items-center p-4 border-2 rounded-xl transition-all ${bgClass}`}>
-                      <span className={`w-8 h-8 flex items-center justify-center rounded-lg mr-4 text-sm ${isActuallyCorrect ? 'bg-green-200 text-green-800' : isUserSelected ? 'bg-red-200 text-red-800' : 'bg-gray-200 text-gray-500'}`}>
-                        {key}
-                      </span>
-                      <span className={`text-lg ${textClass}`}>{text}</span>
-                      {badge}
+                    <div key={key} className={`flex p-4 rounded-xl border-2 transition-all ${borderClass}`}>
+                      <span className="font-bold mr-4 w-6">{key}.</span>
+                      <span className="flex-1 leading-relaxed">{value}</span>
+                      {icon}
                     </div>
                   );
                 })}
               </div>
 
-              {q.explanation && (
-                <div className="mt-8 ml-4 bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-100 rounded-xl p-6 sm:p-8 shadow-inner">
-                  <h4 className="flex items-center text-indigo-900 font-extrabold mb-4 uppercase tracking-widest text-sm">
-                    <svg className="w-6 h-6 mr-3 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    Clinical Pearl & Feedback
-                  </h4>
-                  <p className="text-indigo-900/90 leading-relaxed text-lg font-medium">{q.explanation}</p>
+              <div className="bg-gray-50 border-l-4 border-blue-500 p-6 rounded-r-xl mt-6">
+                <h4 className="font-bold text-gray-900 mb-3 uppercase tracking-wide text-sm flex items-center gap-2">
+                  <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  Explanation
+                </h4>
+                <div className="text-gray-700 text-base leading-relaxed whitespace-pre-wrap">
+                  {q.explanation}
                 </div>
-              )}
+              </div>
             </div>
-          );
-        })}
+            
+            {/* Bottom Navigation */}
+            <div className="bg-gray-50 border-t border-gray-200 p-4 flex justify-between items-center flex-shrink-0">
+              <button 
+                onClick={handlePrev}
+                disabled={currentIndex === 0}
+                className="px-6 py-2 bg-white border border-gray-300 rounded font-bold text-gray-700 hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                &larr; Previous
+              </button>
+              <span className="text-gray-500 font-medium text-sm">
+                {currentIndex + 1} of {filteredQuestions.length}
+              </span>
+              <button 
+                onClick={handleNext}
+                disabled={currentIndex === filteredQuestions.length - 1}
+                className="px-6 py-2 bg-white border border-gray-300 rounded font-bold text-gray-700 hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                Next &rarr;
+              </button>
+            </div>
+          </>
+        ) : (
+          <div className="flex-1 flex items-center justify-center p-10">
+            <p className="text-gray-500">No questions to display.</p>
+          </div>
+        )}
       </div>
 
-      <div className="bg-white p-10 text-center border-t border-gray-200">
-        <button 
-          onClick={onRetake}
-          className="bg-red-600 hover:bg-red-700 text-white font-extrabold text-lg py-4 px-12 rounded-full shadow-xl transition transform hover:-translate-y-1 focus:ring-4 focus:ring-red-500 focus:ring-opacity-50"
-        >
-          Return to Dashboard
-        </button>
-      </div>
     </div>
   );
 }
